@@ -177,6 +177,7 @@
         0.25,
         0.5,
         0.6,
+        1.0,
         1.25
       ],
       "via_dimensions": [
@@ -529,6 +530,34 @@
     [
       "5afe29f8-580d-41ca-9e85-d55138e0d5c1",
       "Motor Expansion 1x"
+    ],
+    [
+      "f5e39faf-2f25-4717-af7c-47e561e2f9f4",
+      "Fans 2, 3"
+    ],
+    [
+      "76a8aadd-7115-49ef-911d-56410e1150e5",
+      "Raspberry Pi Zero"
+    ],
+    [
+      "5b5467a5-d659-4bb4-8b42-429961292a36",
+      "Fans 0, 1"
+    ],
+    [
+      "f6029360-b194-4407-baec-f68f6b0b2c33",
+      "Fans 4, 5"
+    ],
+    [
+      "956ffa88-460c-45ff-bb37-d040d3cbedfe",
+      "Heater 1"
+    ],
+    [
+      "28340924-2d90-4a87-bb0b-10ef0633a541",
+      "Heater 0"
+    ],
+    [
+      "f514cf63-1394-4014-821a-69b4627909f9",
+      "Heater 2"
     ]
   ],
   "text_variables": {}
