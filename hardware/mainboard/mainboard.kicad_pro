@@ -178,7 +178,8 @@
         0.5,
         0.6,
         1.0,
-        1.25
+        1.25,
+        1.5
       ],
       "via_dimensions": [
         {
@@ -558,6 +559,14 @@
     [
       "f514cf63-1394-4014-821a-69b4627909f9",
       "Heater 2"
+    ],
+    [
+      "226ad11a-fb4e-4632-9106-fccee4c96d67",
+      "Motor Expansion 2x"
+    ],
+    [
+      "6adaba86-2614-4e1b-b3d6-74260a2c85fe",
+      "Heater 3"
     ]
   ],
   "text_variables": {}

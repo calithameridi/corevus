@@ -718,14 +718,14 @@
     (property "Datasheet" "~" (at 82.55 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e8da09f1-2920-4977-8fc9-0d0ad4a4586d))
-    (pin "2" (uuid 4734c0e5-4c17-473f-99ff-7a0a157b567c))
-    (pin "7" (uuid de341085-444e-4ecf-b94f-a07161585090))
-    (pin "8" (uuid f067bfdd-2deb-473b-aa28-11e69b6a6794))
-    (pin "3" (uuid d32934df-2482-41cc-b5a3-9ca2d2458d63))
-    (pin "4" (uuid 35aa3d75-fabd-4851-9bd0-08ae6bbbf219))
-    (pin "5" (uuid 8059a4d5-eaf9-4d98-b769-8ca3f37a1212))
-    (pin "6" (uuid d3892521-07f6-4700-af65-80b6a9358c8b))
+    (pin "1" (uuid d9b2f5c4-49dc-4e6b-854a-7756f4797b26))
+    (pin "2" (uuid b3d02c92-1791-42b5-be85-ef76651cb4bc))
+    (pin "7" (uuid 90d4877b-98ec-45b3-9097-e1082666f4d5))
+    (pin "8" (uuid 8552e655-11a7-4339-987a-95a001166313))
+    (pin "3" (uuid f9cd63a0-57e7-4583-a381-d7fe04f4eef7))
+    (pin "4" (uuid 067055fa-0cd6-4d10-b849-614928bcc329))
+    (pin "5" (uuid 9e20b266-acab-4999-a13f-c43b98eacc1c))
+    (pin "6" (uuid d5432a93-2f68-457f-bd1a-2ac0199eb033))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5b5467a5-d659-4bb4-8b42-429961292a36"
@@ -756,7 +756,7 @@
     (property "Datasheet" "" (at 80.01 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2c63dac8-6932-4e4f-91ec-1d8d49272778))
+    (pin "1" (uuid 5128646e-0071-49cc-8243-024c1acf5034))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53"
@@ -790,7 +790,7 @@
     (property "Datasheet" "" (at 64.77 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7d17e35f-17b3-4c04-bc0c-ab94f3e92023))
+    (pin "1" (uuid ad4d9582-227d-4ab3-bedc-b800a9a9cee2))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53"
@@ -824,8 +824,8 @@
     (property "Datasheet" "~" (at 67.31 102.87 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8f91c0e2-7f34-4b03-9e31-c3c90be69dd2))
-    (pin "2" (uuid e863887c-630a-4740-bf7d-e8bd82aa9668))
+    (pin "1" (uuid 21c65c55-a397-4ec7-b6dd-2a826a4e9ff4))
+    (pin "2" (uuid 6f0b10ed-5869-4dd7-ad32-87528cffaacf))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -864,8 +864,8 @@
     (property "Datasheet" "~" (at 71.12 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d112fb5b-982f-4f33-9c82-75d4eed00b51))
-    (pin "2" (uuid 129e3849-6e3f-4fd2-9326-a11e55e36542))
+    (pin "1" (uuid 8024b1b6-7de8-4596-aed9-f6720e90e0f8))
+    (pin "2" (uuid 29066b9d-7135-4600-bda5-e565c5aaaaf1))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -904,7 +904,7 @@
     (property "Datasheet" "" (at 64.77 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f99c5b39-6e53-4908-9196-14384c481a3d))
+    (pin "1" (uuid 4a3e87c9-aca9-4cd3-90fe-b5b5b21b0de1))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53"
@@ -938,7 +938,7 @@
     (property "Datasheet" "" (at 67.31 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 22098d16-bbad-4ef1-91e4-b01330c68c9d))
+    (pin "1" (uuid 5052c04c-2ffa-4fec-bbfa-77623f89d02a))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53"
@@ -972,7 +972,7 @@
     (property "Datasheet" "" (at 71.12 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 094f33d9-7f9e-4775-ac43-51e5d0b77f4f))
+    (pin "1" (uuid 6f0a87b7-6e82-457d-8591-3a1f4ae55ca2))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53"
@@ -1006,7 +1006,7 @@
     (property "Datasheet" "" (at 64.77 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 15dc5e97-ef3f-4c27-8ba9-7f62802dc6fd))
+    (pin "1" (uuid fb082e7a-1382-4067-9cb2-caa60fe0332d))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53"
@@ -1040,7 +1040,7 @@
     (property "Datasheet" "" (at 71.12 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 773fb197-e26e-4637-8e2d-38813e00457e))
+    (pin "1" (uuid ab038c3f-902e-4c13-9d32-38838e832388))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53"
@@ -1074,7 +1074,7 @@
     (property "Datasheet" "" (at 67.31 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3d55c116-6a91-4361-b16f-49fb51faaeb4))
+    (pin "1" (uuid 65c943b4-cc5f-4a01-8c91-2f5d1cd4e785))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53"
@@ -1108,8 +1108,8 @@
     (property "Datasheet" "~" (at 67.31 59.69 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5dbeeeb4-cd31-4f4c-b1f5-90b48293f565))
-    (pin "2" (uuid 36b2ab6f-8f5a-4e05-bdae-304060db12ba))
+    (pin "1" (uuid 98727962-4100-4aa4-8d9b-71eb09396c37))
+    (pin "2" (uuid f046a86e-d3c7-4c8f-a1ac-ace9ad3b225e))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -1148,8 +1148,8 @@
     (property "Datasheet" "~" (at 87.63 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 98045872-9837-4b63-aaac-d067edc64a20))
-    (pin "2" (uuid b6cf70b5-0c53-4a7e-92f3-5df41b6d14fb))
+    (pin "1" (uuid f39e3f79-2f6b-4b79-a1ff-2fe6deeec97e))
+    (pin "2" (uuid 1054bc9c-9832-4161-8ecb-42bce6aa5872))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53"
@@ -1183,8 +1183,8 @@
     (property "Datasheet" "~" (at 71.12 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33e150cc-4ace-4403-8c9b-4910b62eb7a8))
-    (pin "2" (uuid bd5bb7dd-b828-4115-9be7-aa042f9518b4))
+    (pin "1" (uuid 80700048-0186-4054-a0ad-f412b897c77c))
+    (pin "2" (uuid c0ccc7e6-2e14-4d23-aa11-3bc18dfdc0a6))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -1223,7 +1223,7 @@
     (property "Datasheet" "" (at 64.77 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd6baf32-1ef2-4741-ad32-752b6186d5f0))
+    (pin "1" (uuid a49982c1-7a72-472b-8d35-aadd1b53302f))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53"
@@ -1257,9 +1257,9 @@
     (property "Datasheet" "~" (at 69.85 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c018e7f1-5227-403a-ba59-b8e0e62a5481))
-    (pin "2" (uuid ec76dd90-95d3-4b15-9977-1f456ae2685d))
-    (pin "3" (uuid a0b09c9b-f8de-454d-bb72-e866ec0b736e))
+    (pin "1" (uuid a907210e-c5c1-40d8-b89d-632f65a4f5b6))
+    (pin "2" (uuid b4b6bd2d-0796-477e-a529-ddf542fcfcda))
+    (pin "3" (uuid 210946c0-a1c3-4948-91da-ccd304165d8c))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53"
@@ -1293,9 +1293,9 @@
     (property "Datasheet" "~" (at 69.85 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 667fdc89-1bfa-4401-97d8-9ac2fededd8a))
-    (pin "2" (uuid 2718262a-96c1-472d-bc8d-6f077aa6e77a))
-    (pin "3" (uuid 3c0b57b4-6958-4cc2-b712-1a54c1aec681))
+    (pin "1" (uuid 07f8ac2a-765d-4c36-a745-8b64211066b8))
+    (pin "2" (uuid 7c8aae5f-f528-4d5c-8da1-acc275db51a1))
+    (pin "3" (uuid 504c7a9f-ddfa-4365-a38b-b2e344549046))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53"
@@ -1329,8 +1329,8 @@
     (property "Datasheet" "~" (at 67.31 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2c82ef26-5332-4cfa-afdb-d934a8774265))
-    (pin "2" (uuid 5ecbc61f-9a0f-4eec-83d0-e3288b2e2574))
+    (pin "1" (uuid 04309881-4e9e-47e0-9478-c352ca114446))
+    (pin "2" (uuid e1d07fa1-b7dd-4ccc-9c0c-1e8d75cb4130))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -1369,8 +1369,8 @@
     (property "Datasheet" "~" (at 87.63 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d5002bff-8f10-49a8-8c94-d2b500a8957f))
-    (pin "2" (uuid e129b561-8dd1-42a9-9e24-52317205a4b3))
+    (pin "1" (uuid 3fa84625-fda6-4637-9d0b-cd7c7b67b1d2))
+    (pin "2" (uuid 9407d8b7-653c-42b6-abd3-7ae31277307a))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53"
@@ -1404,14 +1404,14 @@
     (property "Datasheet" "~" (at 82.55 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 30cb3337-1a84-4037-8f1d-820d95a6116d))
-    (pin "2" (uuid 4b99b494-d5f0-49b5-84d2-b3fae5862d58))
-    (pin "7" (uuid f5ff9210-72e2-4d0c-842f-2277f0d53886))
-    (pin "8" (uuid 381f5e00-32d5-4aed-a4c0-394da853a1d1))
-    (pin "3" (uuid ab1e8611-a37a-4f95-a128-704577b9c682))
-    (pin "4" (uuid 881e7919-640d-4f3c-8ab1-fc6242d7f580))
-    (pin "5" (uuid eef1cc30-065e-4203-8557-d6511c9f6739))
-    (pin "6" (uuid 9332bc23-c044-4227-88fe-b2a7ab83160f))
+    (pin "1" (uuid e716a6cf-f451-40c3-93f5-16ef62c7c874))
+    (pin "2" (uuid e333d6a7-7760-4282-94c6-f1c73f064d06))
+    (pin "7" (uuid 1a1a96ec-48f0-4560-a26b-04b95f94393d))
+    (pin "8" (uuid 36883361-bd6b-453b-aa90-959e2157b9a5))
+    (pin "3" (uuid b9ff8bcb-e179-462b-91a2-30c1d12de1f0))
+    (pin "4" (uuid 23366108-bcab-4152-9849-d30d585b02c5))
+    (pin "5" (uuid 21a342f4-be6e-468c-a9ac-355bd2d42fd9))
+    (pin "6" (uuid c70e112d-3355-4689-8627-bb31014c3482))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5b5467a5-d659-4bb4-8b42-429961292a36"
@@ -1442,8 +1442,8 @@
     (property "Datasheet" "~" (at 67.31 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b17c9af2-2269-493e-b4f9-849e9b790827))
-    (pin "2" (uuid a38020d9-260c-4083-b7f0-aa17bc8ab1e0))
+    (pin "1" (uuid d8cfc4ad-7b0c-47a3-a8bc-cc648e2ca7b1))
+    (pin "2" (uuid 36287393-6285-448f-af02-ecdd6fd63635))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -1482,7 +1482,7 @@
     (property "Datasheet" "" (at 80.01 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6205e779-0473-4af3-9410-24f3f80d35fb))
+    (pin "1" (uuid 6929a477-28c2-4119-8e06-3547d41c66c0))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53"
