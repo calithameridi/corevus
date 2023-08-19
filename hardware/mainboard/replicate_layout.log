@@ -1,83 +1,79 @@
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'linux'
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.10.6 (main, May 29 2023, 11:10:38) [GCC 11.3.0]'
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.6-7.0.6~ubuntu22.04.1
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x7f0fb4cc2e60>
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with J19 as a reference
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'J19'
-Located on: ['Heater 2']
-With filenames: ['driver_heater.kicad_sch']
-With sheet_id:['Heater 2']
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
-[('J20', ['Heater 3']), ('J18', ['Heater 0']), ('J17', ['Heater 1']), ('J19', ['Heater 2'])]
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'Heater 2', file:'driver_heater.kicad_sch'
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['Heater 0'], ['Heater 1'], ['Heater 3']]
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['Heater 2']
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(2222, 123)
-07-29 01:08:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(1860, 123)
-07-29 01:08:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'Heater 2', file:'driver_heater.kicad_sch'
-07-29 01:08:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['Heater 0'], ['Heater 1'], ['Heater 3']]
-07-29 01:08:43 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
-07-29 01:08:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['Heater 0'], ['Heater 1'], ['Heater 3']]
-on level: ['Heater 2']
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'linux'
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]'
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.6-7.0.6~ubuntu22.04.1
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x7f5f8ad51900>
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with J8 as a reference
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'J8'
+Located on: ['Fans 0, 1']
+With filenames: ['driver-fan-2pin-dual.kicad_sch']
+With sheet_id:['Fans 0, 1']
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
+[('J8', ['Fans 0, 1']), ('J7', ['Fans 2, 3']), ('J12', ['Fans 4, 5'])]
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'Fans 0, 1', file:'driver-fan-2pin-dual.kicad_sch'
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['Fans 2, 3'], ['Fans 4, 5']]
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['Fans 0, 1']
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(2028, 165)
+08-17 16:05:50 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(1666, 165)
+08-17 16:05:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'Fans 0, 1', file:'driver-fan-2pin-dual.kicad_sch'
+08-17 16:05:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['Fans 2, 3'], ['Fans 4, 5']]
+08-17 16:05:53 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+08-17 16:05:53 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['Fans 2, 3'], ['Fans 4, 5']]
+on level: ['Fans 0, 1']
 with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=True, locked footprints=False, group_only=False
-07-29 01:08:43 root 340:updating GUI message: 'Preparing for replication'
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
-07-29 01:08:44 root 345:updating GUI with: 0
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
-07-29 01:08:44 root 345:updating GUI with: 66
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 271:Removing tracks and zones, before footprint placement
-07-29 01:08:44 root 340:updating GUI message: 'Removing zones and tracks'
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:130275000, bottom:149660000, Left:98130000, Right:105870000
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:130275000, bottom:149660000, Left:90510000, Right:98250000
-07-29 01:08:44 root 345:updating GUI with: 66
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:157650000, bottom:170920000, Left:58610000, Right:74850000
-07-29 01:08:44 root 340:updating GUI message: 'Replicating footprints'
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['Heater 0']
-07-29 01:08:44 root 345:updating GUI with: 24
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['Heater 1']
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['Heater 3']
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 279:Removing tracks and zones, after footprint placement
-07-29 01:08:44 root 340:updating GUI message: 'Removing zones and tracks'
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:130275000, bottom:149660000, Left:98130000, Right:105870000
-07-29 01:08:44 root 345:updating GUI with: 33
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:130275000, bottom:149660000, Left:90510000, Right:98250000
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:151535000, bottom:170920000, Left:62460000, Right:70200000
-07-29 01:08:44 root 340:updating GUI message: 'Replicating tracks'
-07-29 01:08:44 root 345:updating GUI with: 0
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 924:Replicating tracks
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['Heater 0']
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Heater 0'] :[('Net-(D10-K)', 'Net-(D9-K)'), ('', ''), ('/HE2_Gate', '/HE0_Gate'), ('Net-(D15-K)', 'Net-(D14-K)'), ('Net-(D10-A)', 'Net-(D9-A)'), ('Net-(J19-Pin_2)', 'Net-(J18-Pin_2)'), ('+24V', '+24V'), ('GND', 'GND')]
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['Heater 1']
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Heater 1'] :[('Net-(D10-K)', 'Net-(D8-K)'), ('', ''), ('Net-(D15-K)', 'Net-(D13-K)'), ('/HE2_Gate', '/HE1_Gate'), ('Net-(J19-Pin_2)', 'Net-(J17-Pin_2)'), ('+24V', '+24V'), ('GND', 'GND'), ('Net-(D10-A)', 'Net-(D8-A)')]
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['Heater 3']
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Heater 3'] :[('', ''), ('+24V', '+24V'), ('Net-(D10-A)', 'Net-(D16-A)'), ('Net-(J19-Pin_2)', 'Net-(J20-Pin_2)'), ('Net-(D10-K)', 'Net-(D16-K)'), ('Net-(D15-K)', 'Net-(D11-K)'), ('/HE2_Gate', '/HE3_Gate'), ('GND', 'GND')]
-07-29 01:08:44 root 340:updating GUI message: 'Replicating zones'
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 994:Replicating zones
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['Heater 0']
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Heater 0'] :[('Net-(D10-K)', 'Net-(D9-K)'), ('', ''), ('/HE2_Gate', '/HE0_Gate'), ('Net-(D15-K)', 'Net-(D14-K)'), ('Net-(D10-A)', 'Net-(D9-A)'), ('Net-(J19-Pin_2)', 'Net-(J18-Pin_2)'), ('+24V', '+24V'), ('GND', 'GND')]
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['Heater 1']
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Heater 1'] :[('Net-(D10-K)', 'Net-(D8-K)'), ('', ''), ('Net-(D15-K)', 'Net-(D13-K)'), ('/HE2_Gate', '/HE1_Gate'), ('Net-(J19-Pin_2)', 'Net-(J17-Pin_2)'), ('+24V', '+24V'), ('GND', 'GND'), ('Net-(D10-A)', 'Net-(D8-A)')]
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['Heater 3']
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Heater 3'] :[('', ''), ('+24V', '+24V'), ('Net-(D10-A)', 'Net-(D16-A)'), ('Net-(J19-Pin_2)', 'Net-(J20-Pin_2)'), ('Net-(D10-K)', 'Net-(D16-K)'), ('Net-(D15-K)', 'Net-(D11-K)'), ('/HE2_Gate', '/HE3_Gate'), ('GND', 'GND')]
-07-29 01:08:44 root 340:updating GUI message: 'Replicating text'
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1083:Replicating text
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['Heater 0']
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['Heater 1']
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['Heater 3']
-07-29 01:08:44 root 340:updating GUI message: 'Replicating drawings'
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1134:Replicating drawings
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['Heater 0']
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['Heater 1']
-07-29 01:08:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['Heater 3']
-07-29 01:08:44 root 340:updating GUI message: 'Removing duplicates'
-07-29 01:08:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete
+08-17 16:05:53 root 340:updating GUI message: 'Preparing for replication'
+08-17 16:05:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
+08-17 16:05:55 root 345:updating GUI with: 0
+08-17 16:05:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
+08-17 16:05:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
+08-17 16:05:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+08-17 16:05:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
+08-17 16:05:55 root 345:updating GUI with: 50
+08-17 16:05:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
+08-17 16:05:55 root 345:updating GUI with: 66
+08-17 16:05:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
+08-17 16:05:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 271:Removing tracks and zones, before footprint placement
+08-17 16:05:55 root 340:updating GUI message: 'Removing zones and tracks'
+08-17 16:05:55 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:120775000, bottom:140225000, Left:140824999, Right:155174998
+08-17 16:05:55 root 345:updating GUI with: 50
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:120775000, bottom:140225000, Left:154824998, Right:169174997
+08-17 16:05:56 root 340:updating GUI message: 'Replicating footprints'
+08-17 16:05:56 root 345:updating GUI with: 0
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
+08-17 16:05:56 root 345:updating GUI with: 0
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['Fans 2, 3']
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['Fans 4, 5']
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 279:Removing tracks and zones, after footprint placement
+08-17 16:05:56 root 340:updating GUI message: 'Removing zones and tracks'
+08-17 16:05:56 root 345:updating GUI with: 0
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:120775000, bottom:140225000, Left:140824999, Right:155174998
+08-17 16:05:56 root 345:updating GUI with: 50
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:120775000, bottom:140225000, Left:154824998, Right:169174997
+08-17 16:05:56 root 340:updating GUI message: 'Replicating tracks'
+08-17 16:05:56 root 345:updating GUI with: 0
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 924:Replicating tracks
+08-17 16:05:56 root 345:updating GUI with: 0
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['Fans 2, 3']
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Fans 2, 3'] :[('/Fan0_Gate', '/Fan2_Gate'), ('', ''), ('+24V', '+24V'), ('GND', 'GND'), ('Net-(J15-Pin_1)', 'Net-(J14-Pin_1)'), ('Net-(J8-Pin_1)', 'Net-(J7-Pin_1)'), ('Net-(D6-K)', 'Net-(D5-K)'), ('Net-(J15-Pin_2)', 'Net-(J14-Pin_2)'), ('Net-(D3-K)', 'Net-(D2-K)'), ('/Fan1_Gate', '/Fan3_Gate'), ('+12V', '+12V'), ('Net-(J8-Pin_2)', 'Net-(J7-Pin_2)')]
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['Fans 4, 5']
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Fans 4, 5'] :[('Net-(J8-Pin_1)', 'Net-(J12-Pin_1)'), ('Net-(J8-Pin_2)', 'Net-(J12-Pin_2)'), ('', ''), ('+24V', '+24V'), ('Net-(D3-K)', 'Net-(D4-K)'), ('GND', 'GND'), ('/Fan0_Gate', '/Fan4_Gate'), ('Net-(J15-Pin_1)', 'Net-(J16-Pin_1)'), ('Net-(J15-Pin_2)', 'Net-(J16-Pin_2)'), ('+12V', '+12V'), ('Net-(D6-K)', 'Net-(D7-K)'), ('/Fan1_Gate', '/Fan5_Gate')]
+08-17 16:05:56 root 340:updating GUI message: 'Replicating zones'
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 994:Replicating zones
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['Fans 2, 3']
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Fans 2, 3'] :[('/Fan0_Gate', '/Fan2_Gate'), ('', ''), ('+24V', '+24V'), ('GND', 'GND'), ('Net-(J15-Pin_1)', 'Net-(J14-Pin_1)'), ('Net-(J8-Pin_1)', 'Net-(J7-Pin_1)'), ('Net-(D6-K)', 'Net-(D5-K)'), ('Net-(J15-Pin_2)', 'Net-(J14-Pin_2)'), ('Net-(D3-K)', 'Net-(D2-K)'), ('/Fan1_Gate', '/Fan3_Gate'), ('+12V', '+12V'), ('Net-(J8-Pin_2)', 'Net-(J7-Pin_2)')]
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['Fans 4, 5']
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Fans 4, 5'] :[('Net-(J8-Pin_1)', 'Net-(J12-Pin_1)'), ('Net-(J8-Pin_2)', 'Net-(J12-Pin_2)'), ('', ''), ('+24V', '+24V'), ('Net-(D3-K)', 'Net-(D4-K)'), ('GND', 'GND'), ('/Fan0_Gate', '/Fan4_Gate'), ('Net-(J15-Pin_1)', 'Net-(J16-Pin_1)'), ('Net-(J15-Pin_2)', 'Net-(J16-Pin_2)'), ('+12V', '+12V'), ('Net-(D6-K)', 'Net-(D7-K)'), ('/Fan1_Gate', '/Fan5_Gate')]
+08-17 16:05:56 root 340:updating GUI message: 'Replicating text'
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1083:Replicating text
+08-17 16:05:56 root 345:updating GUI with: 0
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['Fans 2, 3']
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['Fans 4, 5']
+08-17 16:05:56 root 340:updating GUI message: 'Replicating drawings'
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1134:Replicating drawings
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['Fans 2, 3']
+08-17 16:05:56 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['Fans 4, 5']
+08-17 16:05:56 root 340:updating GUI message: 'Removing duplicates'
+08-17 16:06:00 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete

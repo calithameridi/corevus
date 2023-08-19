@@ -648,7 +648,7 @@
     (property "Datasheet" "" (at 85.09 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0d3389be-00e6-4b56-ba43-4fd4dd58fe88))
+    (pin "1" (uuid 13f0bfc1-2ee6-4716-80f3-5ece01c620c5))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -690,8 +690,8 @@
     (property "LCSC" "C382279" (at 82.55 67.31 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e7e5eb34-b1b6-4b31-a37b-280942e25aa4))
-    (pin "2" (uuid d40cced5-2bbe-4b06-bef0-f4d1c9279349))
+    (pin "1" (uuid 595471ee-f9aa-4565-8990-dda2e659773d))
+    (pin "2" (uuid ec2f42ec-7845-482c-a135-efdddf369dd3))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -733,35 +733,35 @@
     (property "LCSC" "C115944" (at 59.69 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4fd7e328-38be-4305-965e-db530b2676e8))
-    (pin "10" (uuid ecaa4eb4-7172-42e7-a8a9-ce51ded3cf0f))
-    (pin "11" (uuid 4f0c4776-da74-41f8-90dd-b6b78941c41b))
-    (pin "12" (uuid 5627dbf6-44f6-4ea5-91f1-a2b900549914))
-    (pin "13" (uuid 0a311f59-0ea7-49b4-b482-fe3f057bff1a))
-    (pin "15" (uuid 5438009b-90ad-4405-b7b3-e6f948a580c4))
-    (pin "16" (uuid a06f778d-6010-4996-8ab2-79c6f8353504))
-    (pin "17" (uuid 5c54d4a0-33bb-487a-8317-eaf8ba8886d4))
-    (pin "19" (uuid 101736eb-2f08-4dcd-8a47-d6f3fc82b64a))
-    (pin "20" (uuid 9c927789-2a2d-49d3-8d8b-e863e9d73b7f))
-    (pin "21" (uuid 39da381d-0a5e-42cd-aeaf-635fee6cb946))
-    (pin "22" (uuid 7d5128d4-fa06-4478-9dc9-a6446f6050a5))
-    (pin "23" (uuid 76c484d3-6dd4-4d7c-bf4e-69f88fee7029))
-    (pin "24" (uuid bad41f77-722a-4e8c-8ed5-f8c64df79fd7))
-    (pin "26" (uuid 3551847d-a7d4-4c06-8642-4ac41e4303e2))
-    (pin "27" (uuid 08537361-7a4d-4d70-860a-ab1fb9f82d34))
-    (pin "3" (uuid f6b4d3d0-f987-4866-a69d-53e76ff528f7))
-    (pin "4" (uuid 4af5be9a-cbed-4666-84ff-ac5be9087a00))
-    (pin "5" (uuid dad8834c-4335-40d1-ae3f-c835ffdaa203))
-    (pin "6" (uuid 369a046a-3ea8-4d48-a58e-6a51be1ff5a3))
-    (pin "7" (uuid c310a660-46f3-4bb5-bab9-2cff4f0d8063))
-    (pin "8" (uuid 3934d5cc-212e-4e92-b4ed-774ea3b81058))
-    (pin "9" (uuid a6abf571-069e-4b97-a673-243011bc8c8b))
-    (pin "14" (uuid 3e328ed7-62a2-45df-b060-a23d3098ff76))
-    (pin "18" (uuid f9445648-35a9-4477-bdb7-a32bfae14531))
-    (pin "2" (uuid 04020305-a69d-4cc8-87c3-4ec0c939b10d))
-    (pin "25" (uuid b0cb00c4-865b-432d-8540-cdf327a74090))
-    (pin "28" (uuid beb2b09a-73cb-4b82-a997-11bf2aefbe7e))
-    (pin "29" (uuid 25876871-cc3a-47fc-bc0e-04d483e44254))
+    (pin "1" (uuid e8e9f1fc-260c-40a1-9c18-5c33eb466c4e))
+    (pin "10" (uuid 373f3f75-333e-4bf7-87fe-1a5636bd33c8))
+    (pin "11" (uuid 73e13a71-d3df-40b2-90ee-2cddd368e4bb))
+    (pin "12" (uuid 4e5e0f63-3489-4f6f-bb60-544371af70cb))
+    (pin "13" (uuid 7396868e-ce48-4baf-ba63-62b1609099bb))
+    (pin "15" (uuid 3f2c5b0c-952d-480c-8cc3-1d181d8ae58c))
+    (pin "16" (uuid 58704b1d-abf9-4a5f-85a5-276383e0edee))
+    (pin "17" (uuid 11b2c94d-d903-4d9e-9d7b-ad802590ed31))
+    (pin "19" (uuid 95e5eaad-2dcf-4301-b9dd-5c101f4e7edb))
+    (pin "20" (uuid 13f9dcde-9d33-4689-bceb-32851049fd17))
+    (pin "21" (uuid 3a0b3fc7-bbdc-478f-8374-23381bb4e748))
+    (pin "22" (uuid 93135ef1-9ad8-4e8c-91a8-2c5b9df0c75f))
+    (pin "23" (uuid f010cf69-9f9f-460e-942d-1e2ab54d1033))
+    (pin "24" (uuid b38c95e8-36bf-4107-ad05-fa8dfcb6346e))
+    (pin "26" (uuid 6d41311e-10d9-463d-ac70-3f7728387feb))
+    (pin "27" (uuid 676a99b7-4d3f-4b20-94c6-6f842e56422a))
+    (pin "3" (uuid 945d3d0f-2b53-4e0f-bdfc-e8c4c3a9decd))
+    (pin "4" (uuid 4d701f18-8ca5-49ab-80df-c315538178a2))
+    (pin "5" (uuid e6b63a11-be0d-4320-958f-8cfe177b8289))
+    (pin "6" (uuid d7817b6c-cb2a-4fac-a4b8-9e7ac5e68f59))
+    (pin "7" (uuid ab032b25-9988-49ca-957f-538a4df4918c))
+    (pin "8" (uuid dbc0e90a-5f5c-45f1-a948-8861bb88e0df))
+    (pin "9" (uuid 768e5c12-2844-4d42-948a-2ad6d113e9e2))
+    (pin "14" (uuid 9d80ae7c-46bb-4bc6-bea8-05bbe8e444e4))
+    (pin "18" (uuid a876726b-46be-436c-aec9-d1ab40df8a6f))
+    (pin "2" (uuid 159b5c4e-660a-4bb8-b422-e8726a930fa9))
+    (pin "25" (uuid b097865d-139f-4452-80b6-cd8d818947ee))
+    (pin "28" (uuid a7310e51-bb6a-4e0a-89fb-182c85d20c6a))
+    (pin "29" (uuid 48c78c18-4863-4eef-a57e-f7b8c7124aa1))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/972ca71f-1c40-4278-8cb4-2b520c3e8975"
@@ -786,10 +786,10 @@
     (property "Reference" "C10" (at 40.91 83.55 90)
       (effects (font (size 0.8 0.8)) (justify left))
     )
-    (property "Value" "2.2μF" (at 42.91 83.55 90)
+    (property "Value" "1μF" (at 42.91 83.55 90)
       (effects (font (size 0.8 0.8)) (justify right))
     )
-    (property "Footprint" "AlphaLib:0603C" (at 41.91 82.55 0)
+    (property "Footprint" "AlphaLib:0402C" (at 41.91 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.91 82.55 0)
@@ -798,8 +798,8 @@
     (property "LCSC" "C19666" (at 41.91 82.55 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a4060e05-022b-4e8c-abb7-a01e65d50f7a))
-    (pin "2" (uuid debadaa5-f5d9-42f1-ab9b-239de181df42))
+    (pin "1" (uuid dea5f9ba-24b9-4597-b65e-716604cf4baa))
+    (pin "2" (uuid 8a2987d0-aea7-4981-ac74-f332c30779c7))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -838,7 +838,7 @@
     (property "Datasheet" "" (at 36.83 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c383345c-8fdf-40e5-a015-b74b67d13d74))
+    (pin "1" (uuid b9e11dc2-6c26-48ef-8f4c-de82caa63959))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -877,7 +877,7 @@
     (property "Datasheet" "" (at 88.9 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d27cd1fb-aed9-4d21-8c75-d84632ab03a5))
+    (pin "1" (uuid 32061347-c25b-4f50-8305-5708e8642b49))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -919,8 +919,8 @@
     (property "LCSC" "C1525" (at 77.47 44.45 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6c40166c-0c59-4795-9635-478e3dc160fd))
-    (pin "2" (uuid 2b28b79c-df40-4252-9f4a-3cf9dfd43b02))
+    (pin "1" (uuid d5cd9770-8154-4faa-81ef-b02b09df7b10))
+    (pin "2" (uuid 36290d75-5cf0-4a21-b09b-c9196078be0c))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -959,7 +959,7 @@
     (property "Datasheet" "" (at 85.09 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ccfddbce-612c-4740-9c0f-0f504cf1e2bc))
+    (pin "1" (uuid c3352b39-07fb-4cdb-b153-2775ff66904f))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -998,10 +998,10 @@
     (property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" (at 99.314 65.024 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 58fc8c67-136f-4067-995a-a162acbdd5ab))
-    (pin "2" (uuid 2e94d308-4628-47ca-92fb-20eb397e4669))
-    (pin "3" (uuid c6bdcbe7-acbb-453d-aa63-905a65433b6f))
-    (pin "4" (uuid 603b82d9-1b9d-4892-b61e-1f20c7c4f777))
+    (pin "1" (uuid 8a1f7ac6-5e60-4797-9567-eaf86284fbff))
+    (pin "2" (uuid 8529c999-9f6b-4ce9-9cfa-2719dae30e9e))
+    (pin "3" (uuid 7bac7a78-3a3e-4c00-9a5b-6428e1bfc4d9))
+    (pin "4" (uuid 286d7d0c-c510-4b69-a98e-dd45362a32f6))
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/972ca71f-1c40-4278-8cb4-2b520c3e8975"
@@ -1035,7 +1035,7 @@
     (property "Datasheet" "" (at 39.37 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 710f2605-3eae-4cae-b329-612593b0f144))
+    (pin "1" (uuid 06cf7d53-0a67-46ba-b0f5-60e3cecc0e7e))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -1077,8 +1077,8 @@
     (property "LCSC" "C382279" (at 82.55 69.85 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 48510d2a-6de7-487e-b9e4-ddbd35e9256b))
-    (pin "2" (uuid 6223def8-5f23-4dfb-90dd-25adfb8ffe04))
+    (pin "1" (uuid cd476e92-78d1-44e5-b910-c4322c6f784b))
+    (pin "2" (uuid f071bf4e-f86a-40ce-b6a7-0aedcec857c1))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -1117,7 +1117,7 @@
     (property "Datasheet" "" (at 74.93 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 39c16786-0339-4df2-8a58-10a70691498c))
+    (pin "1" (uuid 07cafcd6-72a5-4d93-a899-8b08bf710e48))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -1159,8 +1159,8 @@
     (property "LCSC" "C1532" (at 77.47 49.53 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d269a7e5-b09c-4add-a548-936466043300))
-    (pin "2" (uuid ab754e3e-7320-4c5b-a94b-1a381c1b984e))
+    (pin "1" (uuid f4d29ea3-01ed-4611-aa85-c9c0f5e2f39c))
+    (pin "2" (uuid dd88cbaa-897d-4783-aa85-9b86641c576e))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -1202,8 +1202,8 @@
     (property "LCSC" "C1525" (at 39.37 44.45 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4ee1b4e-89e0-4c70-bed3-e3d87588c165))
-    (pin "2" (uuid f657bb46-99ff-460d-997e-ae43fc6cc3f0))
+    (pin "1" (uuid c4180380-0e48-4353-8581-5be727a5a3bc))
+    (pin "2" (uuid c79f3aa6-4491-4736-a778-82efe10e3508))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"
@@ -1245,8 +1245,8 @@
     (property "LCSC" "C15849" (at 88.9 44.45 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7bfb813c-a7d2-4b9a-ba4c-25f41575d405))
-    (pin "2" (uuid 288e2903-a696-436e-9137-90a45d8f4ecf))
+    (pin "1" (uuid 18994616-2dce-4fcd-9eea-b06eabfd7438))
+    (pin "2" (uuid d1f889ed-2c6e-47af-9d6f-77c502632883))
     (instances
       (project "driver-tmc5160"
         (path "/03364e55-5655-494a-997e-0cd456c2d9b5"

@@ -13,7 +13,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 78372e2d-dd13-4d11-9a16-1c55b1f5229c)
   )
-  (pad "1" thru_hole circle (at 0 0) (size 4.8 4.8) (drill 4.2) (layers "*.Cu" "*.Mask") (tstamp e00d7ec9-cd35-4301-bd27-d7f877b2404a))
+  (pad "1" thru_hole circle (at 0 0) (size 4.5 4.5) (drill 4.2) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers) (tstamp e00d7ec9-cd35-4301-bd27-d7f877b2404a))
   (pad "1" smd circle (at 0 0) (size 6.4 6.4) (layers "F.Cu" "F.Mask")
     (solder_mask_margin -0.1) (tstamp bafce43b-b5b9-4515-9e5a-96c43754b350))
 )
