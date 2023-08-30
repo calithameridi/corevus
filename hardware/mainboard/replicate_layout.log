@@ -1,87 +1,71 @@
-08-22 21:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'linux'
-08-22 21:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]'
-08-22 21:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.6-7.0.6~ubuntu22.04.1
-08-22 21:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
-08-22 21:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x7fbac7578790>
-08-22 21:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with M4 as a reference
-08-22 21:20:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
-08-22 21:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'M4'
-Located on: ['Motor 3 (TMC2208)']
-With filenames: ['driver-tmc2208-integrated.kicad_sch']
-With sheet_id:['Motor 3 (TMC2208)']
-08-22 21:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
-[('M3', ['Motor 2 (TMC2208)']), ('M2', ['Motor 1 (TMC2208)']), ('M1', ['Motor 0 (TMC2208)']), ('M4', ['Motor 3 (TMC2208)'])]
-08-22 21:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
-08-22 21:20:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'Motor 3 (TMC2208)', file:'driver-tmc2208-integrated.kicad_sch'
-08-22 21:20:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['Motor 0 (TMC2208)'], ['Motor 1 (TMC2208)'], ['Motor 2 (TMC2208)']]
-08-22 21:20:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['Motor 3 (TMC2208)']
-08-22 21:20:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
-08-22 21:20:29 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(2027, 165)
-08-22 21:20:29 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(1665, 165)
-08-22 21:20:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'Motor 3 (TMC2208)', file:'driver-tmc2208-integrated.kicad_sch'
-08-22 21:20:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['Motor 0 (TMC2208)'], ['Motor 1 (TMC2208)'], ['Motor 2 (TMC2208)']]
-08-22 21:20:32 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
-08-22 21:20:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['Motor 0 (TMC2208)'], ['Motor 1 (TMC2208)'], ['Motor 2 (TMC2208)']]
-on level: ['Motor 3 (TMC2208)']
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 400:Plugin executed on: 'linux'
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 401:Plugin executed with python version: '3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]'
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:KiCad build version: 7.0.7-7.0.7~ubuntu22.04.1
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 403:Plugin version: 2.1.0
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 404:Frame repr: <wx._core.Frame object at 0x7f17704fd000>
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 428:Preparing replicator with M5 as a reference
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 116:getting a list of all footprints on board
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 476:source anchor footprint is 'M5'
+Located on: ['Motor 4 (TMCx160)']
+With filenames: ['driver-tmc5160-integrated.kicad_sch']
+With sheet_id:['Motor 4 (TMCx160)']
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 483:Corresponding footprints are 
+[('M6', ['Motor 5 (TMCx160)']), ('M5', ['Motor 4 (TMCx160)'])]
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 495:Showing dialog
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'Motor 4 (TMCx160)', file:'driver-tmc5160-integrated.kicad_sch'
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['Motor 5 (TMCx160)']]
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1411:Level selected: ['Motor 4 (TMCx160)']
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 501:Toolbar position: wx.Point(2028, 169)
+08-29 15:39:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 506:Dialog position: wx.Point(1666, 169)
+08-29 15:39:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 403:constructing a list of sheets suitable for replication on level:'Motor 4 (TMCx160)', file:'driver-tmc5160-integrated.kicad_sch'
+08-29 15:39:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 440:suitable sheets are:[['Motor 5 (TMCx160)']]
+08-29 15:39:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 248:Replicating layout
+08-29 15:39:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Starting replication of sheets: [['Motor 5 (TMCx160)']]
+on level: ['Motor 4 (TMCx160)']
 with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=True, locked footprints=False, group_only=False
-08-22 21:20:32 root 340:updating GUI message: 'Preparing for replication'
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
-08-22 21:20:34 root 345:updating GUI with: 0
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
-08-22 21:20:34 root 345:updating GUI with: 50
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 271:Removing tracks and zones, before footprint placement
-08-22 21:20:34 root 340:updating GUI message: 'Removing zones and tracks'
-08-22 21:20:34 root 345:updating GUI with: 0
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:18585000, bottom:35505000, Left:221675000, Right:235225000
-08-22 21:20:34 root 345:updating GUI with: 33
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:18585000, bottom:35505000, Left:238225000, Right:251775000
-08-22 21:20:34 root 345:updating GUI with: 66
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:38505000, bottom:55425000, Left:221675000, Right:235225000
-08-22 21:20:34 root 340:updating GUI message: 'Replicating footprints'
-08-22 21:20:34 root 345:updating GUI with: 0
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['Motor 0 (TMC2208)']
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['Motor 1 (TMC2208)']
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['Motor 2 (TMC2208)']
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 279:Removing tracks and zones, after footprint placement
-08-22 21:20:34 root 340:updating GUI message: 'Removing zones and tracks'
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:18585000, bottom:33715000, Left:221675000, Right:235690000
-08-22 21:20:34 root 345:updating GUI with: 33
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:18585000, bottom:33715000, Left:238225000, Right:252240000
-08-22 21:20:34 root 345:updating GUI with: 66
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:38505000, bottom:53635000, Left:221675000, Right:235690000
-08-22 21:20:34 root 340:updating GUI message: 'Replicating tracks'
-08-22 21:20:34 root 345:updating GUI with: 0
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 924:Replicating tracks
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['Motor 0 (TMC2208)']
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Motor 0 (TMC2208)'] :[('/M3_~{EN}', '/M0_~{EN}'), ('/Motor 3 (TMC2208)/UART', '/Motor 0 (TMC2208)/UART'), ('Net-(U5-CPO)', 'Net-(U2-CPO)'), ('/Motor 3 (TMC2208)/Index', '/Motor 0 (TMC2208)/Index'), ('+3.3V', '+3.3V'), ('/Motor 3 (TMC2208)/BRB', '/Motor 0 (TMC2208)/BRB'), ('/Motor 3 (TMC2208)/Diag', '/Motor 0 (TMC2208)/Diag'), ('Net-(U5-VCP)', 'Net-(U2-CPI)'), ('Net-(U5-CPO)', 'GND'), ('/Motor 3 (TMC2208)/BRA', '/Motor 0 (TMC2208)/BRA'), ('/Motor 3 (TMC2208)/Step', '/Motor 0 (TMC2208)/Step'), ('/Motor 3 (TMC2208)/A1', '/Motor 0 (TMC2208)/A1'), ('+3.3V', 'Net-(U2-5VOut)'), ('GND', 'GND'), ('Net-(U5-CPI)', 'Net-(U2-CPO)'), ('GND', 'Net-(U2-VCP)'), ('/Motor 3 (TMC2208)/Clk', '/Motor 0 (TMC2208)/Clk'), ('Net-(U5-5VOut)', 'GND'), ('+24V', '+24V'), ('/Motor 3 (TMC2208)/B1', '/Motor 0 (TMC2208)/B1'), ('Net-(U5-5VOut)', 'Net-(U2-5VOut)'), ('/Motor 3 (TMC2208)/VRef', '/Motor 0 (TMC2208)/VRef'), ('/Motor 3 (TMC2208)/A2', '/Motor 0 (TMC2208)/A2'), ('Net-(U5-CPI)', 'Net-(U2-CPI)'), ('/Motor 3 (TMC2208)/B2', '/Motor 0 (TMC2208)/B2'), ('', ''), ('/Motor 3 (TMC2208)/Dir', '/Motor 0 (TMC2208)/Dir'), ('Net-(U5-VCP)', 'Net-(U2-VCP)')]
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['Motor 1 (TMC2208)']
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Motor 1 (TMC2208)'] :[('+3.3V', 'Net-(U3-5VOut)'), ('/Motor 3 (TMC2208)/Dir', '/Motor 1 (TMC2208)/Dir'), ('GND', 'Net-(U3-VCP)'), ('+3.3V', '+3.3V'), ('/Motor 3 (TMC2208)/VRef', '/Motor 1 (TMC2208)/VRef'), ('Net-(U5-CPO)', 'GND'), ('/Motor 3 (TMC2208)/A1', '/Motor 1 (TMC2208)/A1'), ('/Motor 3 (TMC2208)/UART', '/Motor 1 (TMC2208)/UART'), ('GND', 'GND'), ('Net-(U5-CPO)', 'Net-(U3-CPO)'), ('Net-(U5-5VOut)', 'Net-(U3-5VOut)'), ('/Motor 3 (TMC2208)/Clk', '/Motor 1 (TMC2208)/Clk'), ('Net-(U5-CPI)', 'Net-(U3-CPI)'), ('Net-(U5-5VOut)', 'GND'), ('/M3_~{EN}', '/M1_~{EN}'), ('/Motor 3 (TMC2208)/Step', '/Motor 1 (TMC2208)/Step'), ('+24V', '+24V'), ('Net-(U5-CPI)', 'Net-(U3-CPO)'), ('/Motor 3 (TMC2208)/B2', '/Motor 1 (TMC2208)/B2'), ('Net-(U5-VCP)', 'Net-(U3-VCP)'), ('/Motor 3 (TMC2208)/A2', '/Motor 1 (TMC2208)/A2'), ('', ''), ('/Motor 3 (TMC2208)/BRA', '/Motor 1 (TMC2208)/BRA'), ('/Motor 3 (TMC2208)/Index', '/Motor 1 (TMC2208)/Index'), ('/Motor 3 (TMC2208)/BRB', '/Motor 1 (TMC2208)/BRB'), ('/Motor 3 (TMC2208)/Diag', '/Motor 1 (TMC2208)/Diag'), ('/Motor 3 (TMC2208)/B1', '/Motor 1 (TMC2208)/B1'), ('Net-(U5-VCP)', 'Net-(U3-CPI)')]
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['Motor 2 (TMC2208)']
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Motor 2 (TMC2208)'] :[('/Motor 3 (TMC2208)/BRA', '/Motor 2 (TMC2208)/BRA'), ('Net-(U5-5VOut)', 'Net-(U4-5VOut)'), ('+3.3V', '+3.3V'), ('/Motor 3 (TMC2208)/UART', '/Motor 2 (TMC2208)/UART'), ('/Motor 3 (TMC2208)/Clk', '/Motor 2 (TMC2208)/Clk'), ('/Motor 3 (TMC2208)/Diag', '/Motor 2 (TMC2208)/Diag'), ('GND', 'Net-(U4-VCP)'), ('Net-(U5-VCP)', 'Net-(U4-CPI)'), ('/Motor 3 (TMC2208)/B2', '/Motor 2 (TMC2208)/B2'), ('Net-(U5-CPO)', 'GND'), ('GND', 'GND'), ('/M3_~{EN}', '/M2_~{EN}'), ('Net-(U5-CPO)', 'Net-(U4-CPO)'), ('/Motor 3 (TMC2208)/Index', '/Motor 2 (TMC2208)/Index'), ('Net-(U5-5VOut)', 'GND'), ('/Motor 3 (TMC2208)/VRef', '/Motor 2 (TMC2208)/VRef'), ('+24V', '+24V'), ('/Motor 3 (TMC2208)/A2', '/Motor 2 (TMC2208)/A2'), ('Net-(U5-CPI)', 'Net-(U4-CPO)'), ('/Motor 3 (TMC2208)/Dir', '/Motor 2 (TMC2208)/Dir'), ('+3.3V', 'Net-(U4-5VOut)'), ('/Motor 3 (TMC2208)/BRB', '/Motor 2 (TMC2208)/BRB'), ('/Motor 3 (TMC2208)/Step', '/Motor 2 (TMC2208)/Step'), ('Net-(U5-CPI)', 'Net-(U4-CPI)'), ('', ''), ('Net-(U5-VCP)', 'Net-(U4-VCP)'), ('/Motor 3 (TMC2208)/A1', '/Motor 2 (TMC2208)/A1'), ('/Motor 3 (TMC2208)/B1', '/Motor 2 (TMC2208)/B1')]
-08-22 21:20:34 root 340:updating GUI message: 'Replicating zones'
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 994:Replicating zones
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['Motor 0 (TMC2208)']
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Motor 0 (TMC2208)'] :[('/M3_~{EN}', '/M0_~{EN}'), ('/Motor 3 (TMC2208)/UART', '/Motor 0 (TMC2208)/UART'), ('Net-(U5-CPO)', 'Net-(U2-CPO)'), ('/Motor 3 (TMC2208)/Index', '/Motor 0 (TMC2208)/Index'), ('+3.3V', '+3.3V'), ('/Motor 3 (TMC2208)/BRB', '/Motor 0 (TMC2208)/BRB'), ('/Motor 3 (TMC2208)/Diag', '/Motor 0 (TMC2208)/Diag'), ('Net-(U5-VCP)', 'Net-(U2-CPI)'), ('Net-(U5-CPO)', 'GND'), ('/Motor 3 (TMC2208)/BRA', '/Motor 0 (TMC2208)/BRA'), ('/Motor 3 (TMC2208)/Step', '/Motor 0 (TMC2208)/Step'), ('/Motor 3 (TMC2208)/A1', '/Motor 0 (TMC2208)/A1'), ('+3.3V', 'Net-(U2-5VOut)'), ('GND', 'GND'), ('Net-(U5-CPI)', 'Net-(U2-CPO)'), ('GND', 'Net-(U2-VCP)'), ('/Motor 3 (TMC2208)/Clk', '/Motor 0 (TMC2208)/Clk'), ('Net-(U5-5VOut)', 'GND'), ('+24V', '+24V'), ('/Motor 3 (TMC2208)/B1', '/Motor 0 (TMC2208)/B1'), ('Net-(U5-5VOut)', 'Net-(U2-5VOut)'), ('/Motor 3 (TMC2208)/VRef', '/Motor 0 (TMC2208)/VRef'), ('/Motor 3 (TMC2208)/A2', '/Motor 0 (TMC2208)/A2'), ('Net-(U5-CPI)', 'Net-(U2-CPI)'), ('/Motor 3 (TMC2208)/B2', '/Motor 0 (TMC2208)/B2'), ('', ''), ('/Motor 3 (TMC2208)/Dir', '/Motor 0 (TMC2208)/Dir'), ('Net-(U5-VCP)', 'Net-(U2-VCP)')]
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['Motor 1 (TMC2208)']
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Motor 1 (TMC2208)'] :[('+3.3V', 'Net-(U3-5VOut)'), ('/Motor 3 (TMC2208)/Dir', '/Motor 1 (TMC2208)/Dir'), ('GND', 'Net-(U3-VCP)'), ('+3.3V', '+3.3V'), ('/Motor 3 (TMC2208)/VRef', '/Motor 1 (TMC2208)/VRef'), ('Net-(U5-CPO)', 'GND'), ('/Motor 3 (TMC2208)/A1', '/Motor 1 (TMC2208)/A1'), ('/Motor 3 (TMC2208)/UART', '/Motor 1 (TMC2208)/UART'), ('GND', 'GND'), ('Net-(U5-CPO)', 'Net-(U3-CPO)'), ('Net-(U5-5VOut)', 'Net-(U3-5VOut)'), ('/Motor 3 (TMC2208)/Clk', '/Motor 1 (TMC2208)/Clk'), ('Net-(U5-CPI)', 'Net-(U3-CPI)'), ('Net-(U5-5VOut)', 'GND'), ('/M3_~{EN}', '/M1_~{EN}'), ('/Motor 3 (TMC2208)/Step', '/Motor 1 (TMC2208)/Step'), ('+24V', '+24V'), ('Net-(U5-CPI)', 'Net-(U3-CPO)'), ('/Motor 3 (TMC2208)/B2', '/Motor 1 (TMC2208)/B2'), ('Net-(U5-VCP)', 'Net-(U3-VCP)'), ('/Motor 3 (TMC2208)/A2', '/Motor 1 (TMC2208)/A2'), ('', ''), ('/Motor 3 (TMC2208)/BRA', '/Motor 1 (TMC2208)/BRA'), ('/Motor 3 (TMC2208)/Index', '/Motor 1 (TMC2208)/Index'), ('/Motor 3 (TMC2208)/BRB', '/Motor 1 (TMC2208)/BRB'), ('/Motor 3 (TMC2208)/Diag', '/Motor 1 (TMC2208)/Diag'), ('/Motor 3 (TMC2208)/B1', '/Motor 1 (TMC2208)/B1'), ('Net-(U5-VCP)', 'Net-(U3-CPI)')]
-08-22 21:20:34 root 345:updating GUI with: 37
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['Motor 2 (TMC2208)']
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Motor 2 (TMC2208)'] :[('/Motor 3 (TMC2208)/BRA', '/Motor 2 (TMC2208)/BRA'), ('Net-(U5-5VOut)', 'Net-(U4-5VOut)'), ('+3.3V', '+3.3V'), ('/Motor 3 (TMC2208)/UART', '/Motor 2 (TMC2208)/UART'), ('/Motor 3 (TMC2208)/Clk', '/Motor 2 (TMC2208)/Clk'), ('/Motor 3 (TMC2208)/Diag', '/Motor 2 (TMC2208)/Diag'), ('GND', 'Net-(U4-VCP)'), ('Net-(U5-VCP)', 'Net-(U4-CPI)'), ('/Motor 3 (TMC2208)/B2', '/Motor 2 (TMC2208)/B2'), ('Net-(U5-CPO)', 'GND'), ('GND', 'GND'), ('/M3_~{EN}', '/M2_~{EN}'), ('Net-(U5-CPO)', 'Net-(U4-CPO)'), ('/Motor 3 (TMC2208)/Index', '/Motor 2 (TMC2208)/Index'), ('Net-(U5-5VOut)', 'GND'), ('/Motor 3 (TMC2208)/VRef', '/Motor 2 (TMC2208)/VRef'), ('+24V', '+24V'), ('/Motor 3 (TMC2208)/A2', '/Motor 2 (TMC2208)/A2'), ('Net-(U5-CPI)', 'Net-(U4-CPO)'), ('/Motor 3 (TMC2208)/Dir', '/Motor 2 (TMC2208)/Dir'), ('+3.3V', 'Net-(U4-5VOut)'), ('/Motor 3 (TMC2208)/BRB', '/Motor 2 (TMC2208)/BRB'), ('/Motor 3 (TMC2208)/Step', '/Motor 2 (TMC2208)/Step'), ('Net-(U5-CPI)', 'Net-(U4-CPI)'), ('', ''), ('Net-(U5-VCP)', 'Net-(U4-VCP)'), ('/Motor 3 (TMC2208)/A1', '/Motor 2 (TMC2208)/A1'), ('/Motor 3 (TMC2208)/B1', '/Motor 2 (TMC2208)/B1')]
-08-22 21:20:34 root 340:updating GUI message: 'Replicating text'
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1083:Replicating text
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['Motor 0 (TMC2208)']
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['Motor 1 (TMC2208)']
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['Motor 2 (TMC2208)']
-08-22 21:20:34 root 340:updating GUI message: 'Replicating drawings'
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1134:Replicating drawings
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['Motor 0 (TMC2208)']
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['Motor 1 (TMC2208)']
-08-22 21:20:34 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['Motor 2 (TMC2208)']
-08-22 21:20:34 root 340:updating GUI message: 'Removing duplicates'
-08-22 21:20:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete
+08-29 15:39:33 root 340:updating GUI message: 'Preparing for replication'
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 309:Getting the list of source footprints
+08-29 15:39:35 root 345:updating GUI with: 0
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 319:Getting the list of all the remaining footprints
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 326:Getting source tracks
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1246:Filtering list of tracks
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 330:Getting source zones
+08-29 15:39:35 root 345:updating GUI with: 50
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 334:Getting source text items
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 338:Getting source drawing items
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 271:Removing tracks and zones, before footprint placement
+08-29 15:39:35 root 340:updating GUI message: 'Removing zones and tracks'
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:9025000, bottom:68475000, Left:135275000, Right:168845000
+08-29 15:39:35 root 340:updating GUI message: 'Replicating footprints'
+08-29 15:39:35 root 345:updating GUI with: 0
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 754:Replicating footprints
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 761:Replicating footprints on sheet ['Motor 5 (TMCx160)']
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 279:Removing tracks and zones, after footprint placement
+08-29 15:39:35 root 340:updating GUI message: 'Removing zones and tracks'
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1192:Remove bounding box top:57525000, bottom:87175000, Left:152155000, Right:168845000
+08-29 15:39:35 root 340:updating GUI message: 'Replicating tracks'
+08-29 15:39:35 root 345:updating GUI with: 0
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 924:Replicating tracks
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 930:Replicating tracks on sheet ['Motor 5 (TMCx160)']
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Cannot pair src net: ['', 'Motor 4 (TMCx160)', 'SRBH'] and dst net: ['GND'], with src_net_depth=3, dst_net_depth=1, src_fp_depth=1, dst_fp_depth=1
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Motor 5 (TMCx160)'] :[('/_{M4}Step', '/_{M5}Step'), ('/Motor 4 (TMCx160)/ENCN', '/Motor 5 (TMCx160)/ENCN'), ('Net-(QB1-S2-Pad5)', 'Net-(QB2-S2-Pad5)'), ('Net-(U6-CPI)', 'Net-(U7-CPI)'), ('/Motor 4 (TMCx160)/HB2', '/Motor 5 (TMCx160)/HB2'), ('/SClk_{3}', '/SClk_{3}'), ('/Motor 4 (TMCx160)/Motor_B2', '/Motor 5 (TMCx160)/Motor_B2'), ('/Motor 4 (TMCx160)/Diag1', '/Motor 5 (TMCx160)/Diag1'), ('/Motor 4 (TMCx160)/SRAL', '/Motor 5 (TMCx160)/SRAL'), ('/_{M4}Dir', '/_{M5}Dir'), ('/MOSI_{3}', '/MOSI_{3}'), ('GND', 'GND'), ('/Motor 4 (TMCx160)/Clk', '/Motor 5 (TMCx160)/Clk'), ('Net-(QB1-G2)', 'Net-(QB2-G2)'), ('+3.3V', '+3.3V'), ('/Motor 4 (TMCx160)/LA1', '/Motor 5 (TMCx160)/LA1'), ('Net-(QA1-G2)', 'Net-(QA2-G2)'), ('VMB', 'VMB'), ('/_{M4}~{CS}', '/_{M5}~{CS}'), ('/Motor 4 (TMCx160)/ENCA', '/Motor 5 (TMCx160)/ENCA'), ('/Motor 4 (TMCx160)/HA2', '/Motor 5 (TMCx160)/HA2'), ('/_{M4}~{En}', '/_{M5}~{En}'), ('Net-(QB1-G4)', 'Net-(QB2-G4)'), ('/Motor 4 (TMCx160)/LB1', '/Motor 5 (TMCx160)/LB1'), ('Net-(U6-VCC)', 'Net-(U7-VCC)'), ('/Motor 4 (TMCx160)/CA1', '/Motor 5 (TMCx160)/CA1'), ('/Motor 4 (TMCx160)/LB2', '/Motor 5 (TMCx160)/LB2'), ('/Motor 4 (TMCx160)/HA1', '/Motor 5 (TMCx160)/HA1'), ('/Motor 4 (TMCx160)/SRAH', '/Motor 5 (TMCx160)/SRAH'), ('Net-(QA1-G3)', 'Net-(QA2-G3)'), ('/Motor 4 (TMCx160)/CB1', '/Motor 5 (TMCx160)/CB1'), ('Net-(QA1-G1)', 'Net-(QA2-G1)'), ('/Motor 4 (TMCx160)/ENCB', '/Motor 5 (TMCx160)/ENCB'), ('/Motor 4 (TMCx160)/SRBL', '/Motor 5 (TMCx160)/SRBL'), ('Net-(U6-5VOUT)', 'Net-(U7-5VOUT)'), ('+12V', '+12V'), ('/Motor 4 (TMCx160)/LA2', '/Motor 5 (TMCx160)/LA2'), ('/Motor 4 (TMCx160)/SRBH', '/Motor 5 (TMCx160)/SRBH'), ('Net-(U6-VCP)', 'Net-(U7-VCP)'), ('Net-(C35-Pad2)', 'Net-(C47-Pad2)'), ('/Motor 4 (TMCx160)/HB1', '/Motor 5 (TMCx160)/HB1'), ('Net-(QB1-G1)', 'Net-(QB2-G1)'), ('/Motor 4 (TMCx160)/Motor_A2', '/Motor 5 (TMCx160)/Motor_A2'), ('', ''), ('/Motor 4 (TMCx160)/CB2', '/Motor 5 (TMCx160)/CB2'), ('Net-(QB1-G3)', 'Net-(QB2-G3)'), ('/Motor 4 (TMCx160)/Motor_B1', '/Motor 5 (TMCx160)/Motor_B1'), ('/MISO_{3}', '/MISO_{3}'), ('/Motor 4 (TMCx160)/Motor_A1', '/Motor 5 (TMCx160)/Motor_A1'), ('/Motor 4 (TMCx160)/CA2', '/Motor 5 (TMCx160)/CA2'), ('Net-(U6-CPO)', 'Net-(U7-CPO)'), ('Net-(QA1-G4)', 'Net-(QA2-G4)'), ('/Motor 4 (TMCx160)/Diag0', '/Motor 5 (TMCx160)/Diag0'), ('Net-(QA1-S2-Pad5)', 'Net-(QA2-S2-Pad5)')]
+08-29 15:39:35 root 340:updating GUI message: 'Replicating zones'
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 994:Replicating zones
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1001:Replicating zones on sheet ['Motor 5 (TMCx160)']
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Cannot pair src net: ['', 'Motor 4 (TMCx160)', 'SRBH'] and dst net: ['GND'], with src_net_depth=3, dst_net_depth=1, src_fp_depth=1, dst_fp_depth=1
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 749:Net pairs for sheet ['Motor 5 (TMCx160)'] :[('/_{M4}Step', '/_{M5}Step'), ('/Motor 4 (TMCx160)/ENCN', '/Motor 5 (TMCx160)/ENCN'), ('Net-(QB1-S2-Pad5)', 'Net-(QB2-S2-Pad5)'), ('Net-(U6-CPI)', 'Net-(U7-CPI)'), ('/Motor 4 (TMCx160)/HB2', '/Motor 5 (TMCx160)/HB2'), ('/SClk_{3}', '/SClk_{3}'), ('/Motor 4 (TMCx160)/Motor_B2', '/Motor 5 (TMCx160)/Motor_B2'), ('/Motor 4 (TMCx160)/Diag1', '/Motor 5 (TMCx160)/Diag1'), ('/Motor 4 (TMCx160)/SRAL', '/Motor 5 (TMCx160)/SRAL'), ('/_{M4}Dir', '/_{M5}Dir'), ('/MOSI_{3}', '/MOSI_{3}'), ('GND', 'GND'), ('/Motor 4 (TMCx160)/Clk', '/Motor 5 (TMCx160)/Clk'), ('Net-(QB1-G2)', 'Net-(QB2-G2)'), ('+3.3V', '+3.3V'), ('/Motor 4 (TMCx160)/LA1', '/Motor 5 (TMCx160)/LA1'), ('Net-(QA1-G2)', 'Net-(QA2-G2)'), ('VMB', 'VMB'), ('/_{M4}~{CS}', '/_{M5}~{CS}'), ('/Motor 4 (TMCx160)/ENCA', '/Motor 5 (TMCx160)/ENCA'), ('/Motor 4 (TMCx160)/HA2', '/Motor 5 (TMCx160)/HA2'), ('/_{M4}~{En}', '/_{M5}~{En}'), ('Net-(QB1-G4)', 'Net-(QB2-G4)'), ('/Motor 4 (TMCx160)/LB1', '/Motor 5 (TMCx160)/LB1'), ('Net-(U6-VCC)', 'Net-(U7-VCC)'), ('/Motor 4 (TMCx160)/CA1', '/Motor 5 (TMCx160)/CA1'), ('/Motor 4 (TMCx160)/LB2', '/Motor 5 (TMCx160)/LB2'), ('/Motor 4 (TMCx160)/HA1', '/Motor 5 (TMCx160)/HA1'), ('/Motor 4 (TMCx160)/SRAH', '/Motor 5 (TMCx160)/SRAH'), ('Net-(QA1-G3)', 'Net-(QA2-G3)'), ('/Motor 4 (TMCx160)/CB1', '/Motor 5 (TMCx160)/CB1'), ('Net-(QA1-G1)', 'Net-(QA2-G1)'), ('/Motor 4 (TMCx160)/ENCB', '/Motor 5 (TMCx160)/ENCB'), ('/Motor 4 (TMCx160)/SRBL', '/Motor 5 (TMCx160)/SRBL'), ('Net-(U6-5VOUT)', 'Net-(U7-5VOUT)'), ('+12V', '+12V'), ('/Motor 4 (TMCx160)/LA2', '/Motor 5 (TMCx160)/LA2'), ('/Motor 4 (TMCx160)/SRBH', '/Motor 5 (TMCx160)/SRBH'), ('Net-(U6-VCP)', 'Net-(U7-VCP)'), ('Net-(C35-Pad2)', 'Net-(C47-Pad2)'), ('/Motor 4 (TMCx160)/HB1', '/Motor 5 (TMCx160)/HB1'), ('Net-(QB1-G1)', 'Net-(QB2-G1)'), ('/Motor 4 (TMCx160)/Motor_A2', '/Motor 5 (TMCx160)/Motor_A2'), ('', ''), ('/Motor 4 (TMCx160)/CB2', '/Motor 5 (TMCx160)/CB2'), ('Net-(QB1-G3)', 'Net-(QB2-G3)'), ('/Motor 4 (TMCx160)/Motor_B1', '/Motor 5 (TMCx160)/Motor_B1'), ('/MISO_{3}', '/MISO_{3}'), ('/Motor 4 (TMCx160)/Motor_A1', '/Motor 5 (TMCx160)/Motor_A1'), ('/Motor 4 (TMCx160)/CA2', '/Motor 5 (TMCx160)/CA2'), ('Net-(U6-CPO)', 'Net-(U7-CPO)'), ('Net-(QA1-G4)', 'Net-(QA2-G4)'), ('/Motor 4 (TMCx160)/Diag0', '/Motor 5 (TMCx160)/Diag0'), ('Net-(QA1-S2-Pad5)', 'Net-(QA2-S2-Pad5)')]
+08-29 15:39:35 root 345:updating GUI with: 18
+08-29 15:39:35 root 340:updating GUI message: 'Replicating text'
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1083:Replicating text
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1090:Replicating text on sheet ['Motor 5 (TMCx160)']
+08-29 15:39:35 root 340:updating GUI message: 'Replicating drawings'
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1134:Replicating drawings
+08-29 15:39:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1140:Replicating drawings on sheet ['Motor 5 (TMCx160)']
+08-29 15:39:35 root 340:updating GUI message: 'Removing duplicates'
+08-29 15:39:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 264:Replication complete
+08-29 15:39:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 267:Letting the user know there are some issues with replicated design
+08-29 15:39:40 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 271:Looks like the design has an exotic connectivity that is not supported by the plugin
+ Make sure that you check the connectivity around:
+Footprint U7, pad 49
+
