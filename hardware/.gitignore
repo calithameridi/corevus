@@ -12,6 +12,7 @@
 *.sch-bak
 *.lck
 *~
+*.log
 _autosave-*
 *.tmp
 *-save.pro
