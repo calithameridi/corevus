@@ -41,4 +41,9 @@
     (solder_mask_margin -0.2) (tstamp e00d7ec9-cd35-4301-bd27-d7f877b2404a))
   (pad "1" smd circle (at 0 0) (size 6.4 6.4) (layers "F.Cu" "F.Mask")
     (solder_mask_margin -0.1) (tstamp bafce43b-b5b9-4515-9e5a-96c43754b350))
+  (model "${KICAD7_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M3_H2mm_9774020360.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

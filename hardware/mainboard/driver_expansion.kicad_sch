@@ -381,7 +381,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 123.19 66.04 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0719d42e-55d2-4fc0-ae05-dd62bdff99df)
-    (property "Reference" "H9" (at 127 64.77 90)
+    (property "Reference" "H5" (at 127 64.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "V_{M}" (at 127 67.31 90)
@@ -397,10 +397,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "H9") (unit 1)
+          (reference "H5") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "H5") (unit 1)
+          (reference "H7") (unit 1)
         )
       )
     )
@@ -409,7 +409,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 48.26 66.04 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07a72445-c850-4621-9764-de433a4304ca)
-    (property "Reference" "T6" (at 53.34 65.405 90)
+    (property "Reference" "T4" (at 53.34 65.405 90)
       (effects (font (size 0.635 0.635)) (justify left))
     )
     (property "Value" "MOSI" (at 53.34 66.675 90)
@@ -425,10 +425,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "T6") (unit 1)
+          (reference "T4") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T38") (unit 1)
+          (reference "T20") (unit 1)
         )
       )
     )
@@ -437,7 +437,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 48.26 71.12 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 080eecbd-3ba0-4521-98b5-525810828e31)
-    (property "Reference" "T8" (at 53.34 70.485 90)
+    (property "Reference" "T6" (at 53.34 70.485 90)
       (effects (font (size 0.635 0.635)) (justify left))
     )
     (property "Value" "V_{CC}IO" (at 53.34 71.755 90)
@@ -453,10 +453,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "T8") (unit 1)
+          (reference "T6") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T40") (unit 1)
+          (reference "T22") (unit 1)
         )
       )
     )
@@ -484,10 +484,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR0156") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "#PWR0188") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -515,7 +515,7 @@
           (reference "T10") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T44") (unit 1)
+          (reference "T26") (unit 1)
         )
       )
     )
@@ -552,10 +552,10 @@
           (reference "C56") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "C60") (unit 1)
+          (reference "C69") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "C61") (unit 1)
+          (reference "C73") (unit 1)
         )
       )
     )
@@ -564,7 +564,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 62.23 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 486303ba-bb77-4626-bf3d-73ea4c5c9401)
-    (property "Reference" "T27" (at 61.595 55.88 90)
+    (property "Reference" "T11" (at 61.595 55.88 90)
       (effects (font (size 0.635 0.635)) (justify left))
     )
     (property "Value" "TestPoint" (at 62.865 55.88 90)
@@ -580,10 +580,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "T27") (unit 1)
+          (reference "T11") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T45") (unit 1)
+          (reference "T27") (unit 1)
         )
       )
     )
@@ -592,7 +592,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 64.77 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5231ee98-8b3a-49d0-ad98-d081fe3d1f60)
-    (property "Reference" "T28" (at 64.135 55.88 90)
+    (property "Reference" "T13" (at 64.135 55.88 90)
       (effects (font (size 0.635 0.635)) (justify left))
     )
     (property "Value" "TestPoint" (at 65.405 55.88 90)
@@ -608,10 +608,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "T28") (unit 1)
+          (reference "T13") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T47") (unit 1)
+          (reference "T29") (unit 1)
         )
       )
     )
@@ -620,7 +620,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 67.31 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d690576-50dd-4ea2-907e-7520272cb81e)
-    (property "Reference" "T13" (at 66.675 76.2 90)
+    (property "Reference" "T16" (at 66.675 76.2 90)
       (effects (font (size 0.635 0.635)) (justify left))
     )
     (property "Value" "TestPoint" (at 67.945 76.2 90)
@@ -636,10 +636,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "T13") (unit 1)
+          (reference "T16") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T50") (unit 1)
+          (reference "T32") (unit 1)
         )
       )
     )
@@ -667,10 +667,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "#PWR0193") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -707,10 +707,10 @@
           (reference "C56") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "C62") (unit 1)
+          (reference "C70") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "C64") (unit 1)
+          (reference "C74") (unit 1)
         )
       )
     )
@@ -719,7 +719,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 48.26 81.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76f60e3d-51cb-4801-8546-3f893a5d341c)
-    (property "Reference" "T9" (at 53.34 80.645 90)
+    (property "Reference" "T8" (at 53.34 80.645 90)
       (effects (font (size 0.635 0.635)) (justify left))
     )
     (property "Value" "TestPoint" (at 53.34 81.915 90)
@@ -735,10 +735,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "T9") (unit 1)
+          (reference "T8") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T41") (unit 1)
+          (reference "T24") (unit 1)
         )
       )
     )
@@ -747,7 +747,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 48.26 76.2 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99815d4f-d3cd-4d21-a4be-ed54bb94686f)
-    (property "Reference" "T32" (at 53.34 75.565 90)
+    (property "Reference" "T7" (at 53.34 75.565 90)
       (effects (font (size 0.635 0.635)) (justify left))
     )
     (property "Value" "TestPoint" (at 53.34 76.835 90)
@@ -763,10 +763,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "T32") (unit 1)
+          (reference "T7") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T42") (unit 1)
+          (reference "T23") (unit 1)
         )
       )
     )
@@ -775,7 +775,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 48.26 68.58 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0b1d79a-a5dd-4188-8ae9-ae6640a27184)
-    (property "Reference" "T7" (at 53.34 67.945 90)
+    (property "Reference" "T5" (at 53.34 67.945 90)
       (effects (font (size 0.635 0.635)) (justify left))
     )
     (property "Value" "MISO" (at 53.34 69.215 90)
@@ -791,10 +791,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "T7") (unit 1)
+          (reference "T5") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T39") (unit 1)
+          (reference "T21") (unit 1)
         )
       )
     )
@@ -803,7 +803,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 48.26 60.96 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8a4d39b-1cc6-4528-b509-40ebbbd244b1)
-    (property "Reference" "T4" (at 53.34 60.325 90)
+    (property "Reference" "T2" (at 53.34 60.325 90)
       (effects (font (size 0.635 0.635)) (justify left))
     )
     (property "Value" "SClk" (at 53.34 61.595 90)
@@ -819,10 +819,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "T4") (unit 1)
+          (reference "T2") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T36") (unit 1)
+          (reference "T18") (unit 1)
         )
       )
     )
@@ -850,7 +850,7 @@
           (reference "T1") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T33") (unit 1)
+          (reference "T17") (unit 1)
         )
       )
     )
@@ -859,7 +859,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 59.69 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7c94816-ee88-4b6f-b074-77233e3c4a19)
-    (property "Reference" "T26" (at 59.055 55.88 90)
+    (property "Reference" "T9" (at 59.055 55.88 90)
       (effects (font (size 0.635 0.635)) (justify left))
     )
     (property "Value" "TestPoint" (at 60.325 55.88 90)
@@ -875,10 +875,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "T26") (unit 1)
+          (reference "T9") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T43") (unit 1)
+          (reference "T25") (unit 1)
         )
       )
     )
@@ -887,7 +887,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 48.26 63.5 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b99367c6-2d7f-43be-ab87-dd190295a462)
-    (property "Reference" "T5" (at 53.34 62.865 90)
+    (property "Reference" "T3" (at 53.34 62.865 90)
       (effects (font (size 0.635 0.635)) (justify left))
     )
     (property "Value" "Gnd" (at 53.34 64.135 90)
@@ -903,10 +903,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "T5") (unit 1)
+          (reference "T3") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T37") (unit 1)
+          (reference "T19") (unit 1)
         )
       )
     )
@@ -915,7 +915,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 62.23 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9a23005-34f6-411c-8727-28a05ab81f14)
-    (property "Reference" "T11" (at 61.595 76.2 90)
+    (property "Reference" "T12" (at 61.595 76.2 90)
       (effects (font (size 0.635 0.635)) (justify left))
     )
     (property "Value" "TestPoint" (at 62.865 76.2 90)
@@ -931,10 +931,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "T11") (unit 1)
+          (reference "T12") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T46") (unit 1)
+          (reference "T28") (unit 1)
         )
       )
     )
@@ -971,10 +971,10 @@
           (reference "C56") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "C58") (unit 1)
+          (reference "C68") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "C59") (unit 1)
+          (reference "C72") (unit 1)
         )
       )
     )
@@ -983,7 +983,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 123.19 76.2 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2cf6851-0357-47a6-93e1-9178dbd55636)
-    (property "Reference" "H10" (at 127 74.93 90)
+    (property "Reference" "H6" (at 127 74.93 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Gnd" (at 127 77.47 90)
@@ -999,10 +999,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "H10") (unit 1)
+          (reference "H6") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "H6") (unit 1)
+          (reference "H8") (unit 1)
         )
       )
     )
@@ -1011,7 +1011,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 64.77 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c757c904-6b99-4317-a19e-d73194dd2c9a)
-    (property "Reference" "T12" (at 64.135 76.2 90)
+    (property "Reference" "T14" (at 64.135 76.2 90)
       (effects (font (size 0.635 0.635)) (justify left))
     )
     (property "Value" "TestPoint" (at 65.405 76.2 90)
@@ -1027,10 +1027,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "T12") (unit 1)
+          (reference "T14") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T48") (unit 1)
+          (reference "T30") (unit 1)
         )
       )
     )
@@ -1039,7 +1039,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 67.31 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d888aa46-fc0a-4ebe-a681-274145ba5dd4)
-    (property "Reference" "T29" (at 66.675 55.88 90)
+    (property "Reference" "T15" (at 66.675 55.88 90)
       (effects (font (size 0.635 0.635)) (justify left))
     )
     (property "Value" "TestPoint" (at 67.945 55.88 90)
@@ -1055,10 +1055,10 @@
     (instances
       (project "mainboard"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "T29") (unit 1)
+          (reference "T15") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "T49") (unit 1)
+          (reference "T31") (unit 1)
         )
       )
     )
@@ -1086,10 +1086,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "#PWR0176") (unit 1)
+          (reference "#PWR0157") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "#PWR0189") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -1117,10 +1117,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR0155") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "#PWR0187") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -1148,10 +1148,10 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "#PWR0194") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -1188,10 +1188,10 @@
           (reference "C56") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
-          (reference "C63") (unit 1)
+          (reference "C71") (unit 1)
         )
         (path "/1a565782-f217-442e-b118-196625f31c53/226ad11a-fb4e-4632-9106-fccee4c96d67"
-          (reference "C65") (unit 1)
+          (reference "C75") (unit 1)
         )
       )
     )
