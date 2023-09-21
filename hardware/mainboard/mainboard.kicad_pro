@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 5.0,
-          "width": 5.0
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -174,6 +174,7 @@
       "track_widths": [
         0.0,
         0.15,
+        0.2,
         0.25,
         0.3,
         0.4,
@@ -451,23 +452,6 @@
         "via_diameter": 0.5,
         "via_drill": 0.25,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "HV",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
-        "via_diameter": 0.5,
-        "via_drill": 0.25,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -477,12 +461,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "HV",
-        "pattern": "(VM*)|"
-      },
-      {
         "netclass": "Default",
-        "pattern": ""
+        "pattern": "HV"
       }
     ]
   },
@@ -571,18 +551,6 @@
     [
       "5afe29f8-580d-41ca-9e85-d55138e0d5c1",
       "Motor Expansion 1x"
-    ],
-    [
-      "f5e39faf-2f25-4717-af7c-47e561e2f9f4",
-      "Fans 2, 3"
-    ],
-    [
-      "5b5467a5-d659-4bb4-8b42-429961292a36",
-      "Fans 0, 1"
-    ],
-    [
-      "f6029360-b194-4407-baec-f68f6b0b2c33",
-      "Fans 4, 5"
     ],
     [
       "956ffa88-460c-45ff-bb37-d040d3cbedfe",
