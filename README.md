@@ -1,6 +1,6 @@
 # corevus
 
-![alt text](/corevus/images/corevus-g-v0.2.png)
+![alt text](/images/corevus-g-v0.2.png)
 
 High-flexibility, low-cost mechatronics controller for 3D printers
 
