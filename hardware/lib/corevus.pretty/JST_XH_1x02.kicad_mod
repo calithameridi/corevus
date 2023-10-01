@@ -57,8 +57,8 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ee0dc1e6-f5e5-4dc0-a564-4d66708edfc6))
   (fp_line (start 3.7 3.4) (end 3.7 -2.35)
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 723ca3d6-1c19-49af-b1a9-2e09fbcb3f74))
-  (pad "1" thru_hole oval (at -1.25 0) (size 1.8 1.8) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 828b352a-6ec5-4e78-9340-d78ef24cd6db))
-  (pad "2" thru_hole oval (at 1.25 0) (size 1.8 1.8) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 1fbb2937-fbbc-475f-b804-5cef00e2c99b))
+  (pad "1" thru_hole oval (at -1.25 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 828b352a-6ec5-4e78-9340-d78ef24cd6db))
+  (pad "2" thru_hole oval (at 1.25 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 1fbb2937-fbbc-475f-b804-5cef00e2c99b))
   (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.wrl"
     (offset (xyz -1.25 0 0))
     (scale (xyz 1 1 1))

@@ -73,4 +73,9 @@
     (thermal_bridge_angle 45) (tstamp 83ddf6db-a043-4f73-ab76-4da6785ffc31))
   (pad "3" smd roundrect (at 2.25 -1.8) (size 0.6 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.125)
     (thermal_bridge_angle 45) (tstamp f3cc9201-8654-450d-b503-a534db40f114))
+  (model "${COREVUS}/lib/corevus.3dshapes/SW-SMD_MSS12C02LS-HB2.0-1.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )
