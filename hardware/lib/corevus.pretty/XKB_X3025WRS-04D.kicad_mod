@@ -81,9 +81,9 @@
   (pad "4" smd roundrect (at 4.5 5.5) (size 1.2 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e0dccabf-b68c-45ed-ae65-d524efb23a40))
   (pad "MP" smd roundrect (at -7.75 0) (size 3 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp eedc5b5b-1623-4a5e-aade-c67263097c93))
   (pad "MP" smd roundrect (at 7.75 0) (size 3 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1d5ef967-ce7e-456b-a514-ce6a68bcf86d))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43650-0424_1x04-1MP_P3.00mm_Vertical.wrl"
-    (offset (xyz 0 0 0))
+  (model "${COREVUS}/lib/corevus.3dshapes/CONN-SMD_1x4P-L15.7-W9.9-H3.9-P3.0.wrl"
+    (offset (xyz 4.5 -4.25 0.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 180))
   )
 )
