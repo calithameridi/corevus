@@ -8502,7 +8502,7 @@
     )
     (pin "1" (uuid 2d910162-506e-415b-a19e-aaa6b719527a))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR032") (unit 1)
         )
@@ -8527,7 +8527,7 @@
     )
     (pin "1" (uuid dceb8786-85ae-421c-bb4e-2ab2715da815))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR08") (unit 1)
         )
@@ -8552,7 +8552,7 @@
     )
     (pin "1" (uuid a19fa9d5-ad45-4b83-b408-358d5a6fb34e))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR07") (unit 1)
         )
@@ -8583,7 +8583,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C80") (unit 1)
         )
@@ -8608,7 +8608,7 @@
     )
     (pin "1" (uuid b3f87b51-6be3-4e35-aa86-c74695d7f3d3))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR094") (unit 1)
         )
@@ -8633,7 +8633,7 @@
     )
     (pin "1" (uuid a00b9646-0790-476d-870e-75b9d0c2e592))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0189") (unit 1)
         )
@@ -8658,7 +8658,7 @@
     )
     (pin "1" (uuid 25c9c6db-0a2a-42e9-ac73-8c45c349dbf7))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR073") (unit 1)
         )
@@ -8684,7 +8684,7 @@
     (pin "1" (uuid 8723dca1-52fb-4844-a5b4-a441a24c42c6))
     (pin "2" (uuid d36f1ce5-0c35-4dcf-a64d-73037659b08f))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J34") (unit 1)
         )
@@ -8715,7 +8715,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R50") (unit 1)
         )
@@ -8740,7 +8740,7 @@
     )
     (pin "1" (uuid 2b06ab22-314e-4fa9-8e35-112ce444ff26))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0169") (unit 1)
         )
@@ -8771,7 +8771,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D34") (unit 1)
         )
@@ -8817,7 +8817,7 @@
     (pin "8" (uuid 61782087-9873-4c36-8cd2-ad1bbfeb4511))
     (pin "9" (uuid dce3943f-a23a-43e0-be7b-32c168fbc882))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J13") (unit 1)
         )
@@ -8848,7 +8848,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C15") (unit 1)
         )
@@ -8874,7 +8874,7 @@
     (pin "1" (uuid 0ddda4e2-e918-4c07-8944-6883cfd6c23b))
     (pin "2" (uuid 81e5775a-e73e-40e4-bcb3-b98f3d9d5eea))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "F5") (unit 1)
         )
@@ -8899,7 +8899,7 @@
     )
     (pin "1" (uuid 9a9713c1-0042-42ee-aac9-b86d3809e548))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0192") (unit 1)
         )
@@ -8925,7 +8925,7 @@
     (pin "1" (uuid edaeada3-cc63-41e7-86aa-eed2b1b1f78e))
     (pin "2" (uuid 566a7fd1-48f2-4786-93ba-9161bd004821))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J9") (unit 1)
         )
@@ -8950,7 +8950,7 @@
     )
     (pin "1" (uuid 9292a381-304c-4b8b-b82a-eb31bd1c16cd))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0243") (unit 1)
         )
@@ -8958,7 +8958,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D_Small") (at 355.6 179.07 180) (unit 1)
+  (symbol (lib_id "Device:D_Schottky_Small") (at 355.6 179.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08d0e308-1ce0-4496-bb86-f0427a05d2ff)
     (property "Reference" "D46" (at 354.6 178.07 0)
@@ -8982,7 +8982,7 @@
     (pin "1" (uuid 7cf3afd9-aa4d-454e-8aed-d0d5c6b81ec9))
     (pin "2" (uuid 6384cb34-e457-4be0-94d3-6feeea143ba0))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D46") (unit 1)
         )
@@ -9007,7 +9007,7 @@
     )
     (pin "1" (uuid dedcfa0c-77e1-4f79-9570-c7061f59378b))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0256") (unit 1)
         )
@@ -9038,7 +9038,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C79") (unit 1)
         )
@@ -9067,7 +9067,7 @@
     (pin "1" (uuid 355efb08-79a6-4b55-9c7d-2a6a1ddf7d3f))
     (pin "2" (uuid f587485c-1734-4672-88e9-37c3ee0c702e))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C12") (unit 1)
         )
@@ -9092,7 +9092,7 @@
     )
     (pin "1" (uuid 9e8afe28-b7e3-4cd6-92df-638ab93af1f8))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0172") (unit 1)
         )
@@ -9118,7 +9118,7 @@
     (pin "1" (uuid f4adb5fd-f4a3-4982-816f-e7efc0b01fd4))
     (pin "2" (uuid a843072f-9c42-4a02-bd9b-dfeb90ffaf86))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "F1") (unit 1)
         )
@@ -9143,7 +9143,7 @@
     )
     (pin "1" (uuid 68e03a76-051e-4d15-8a16-56b1b7690251))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR06") (unit 1)
         )
@@ -9168,7 +9168,7 @@
     )
     (pin "1" (uuid e1eba75c-55c2-4489-80a2-1248c32c8451))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR085") (unit 1)
         )
@@ -9199,7 +9199,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C82") (unit 1)
         )
@@ -9230,7 +9230,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D29") (unit 1)
         )
@@ -9267,7 +9267,7 @@
     )
     (pin "1" (uuid a309860d-c243-4ccc-906c-455ffe2e4cf1))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR014") (unit 1)
         )
@@ -9298,7 +9298,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R15") (unit 1)
         )
@@ -9332,7 +9332,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C11") (unit 1)
         )
@@ -9357,7 +9357,7 @@
     )
     (pin "1" (uuid c016b799-86e9-48f9-8c65-043ca95b46b8))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR050") (unit 1)
         )
@@ -9381,7 +9381,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "H2") (unit 1)
         )
@@ -9406,7 +9406,7 @@
     )
     (pin "1" (uuid 2e6ec22c-d4fc-4f32-b6e1-0f03f4eb9c93))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0253") (unit 1)
         )
@@ -9431,7 +9431,7 @@
     )
     (pin "1" (uuid bdbd8e02-2bd5-4942-96ac-0f5d2080c0a9))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR045") (unit 1)
         )
@@ -9456,7 +9456,7 @@
     )
     (pin "1" (uuid ab7e134b-ebb2-43d2-92fa-2c27dce8f781))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0119") (unit 1)
         )
@@ -9481,7 +9481,7 @@
     )
     (pin "1" (uuid c9e045a5-d297-48ee-bd39-996511f7dd9b))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0252") (unit 1)
         )
@@ -9506,7 +9506,7 @@
     )
     (pin "1" (uuid 412f3e65-b718-453c-a676-c9bb51eb3780))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR096") (unit 1)
         )
@@ -9531,7 +9531,7 @@
     )
     (pin "1" (uuid e419e714-6a84-460d-88ce-6dc1d275ea60))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR022") (unit 1)
         )
@@ -9556,7 +9556,7 @@
     )
     (pin "1" (uuid f3da9ccf-5c40-4787-99af-332040f0fc15))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0251") (unit 1)
         )
@@ -9587,7 +9587,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R67") (unit 1)
         )
@@ -9624,7 +9624,7 @@
     )
     (pin "1" (uuid d2179bd9-a97b-4681-a532-6140333810b7))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0247") (unit 1)
         )
@@ -9655,7 +9655,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R13") (unit 1)
         )
@@ -9692,7 +9692,7 @@
     )
     (pin "1" (uuid a9bbe03a-4bfa-4d6a-a6c0-a65468dca3ec))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR030") (unit 1)
         )
@@ -9723,7 +9723,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R84") (unit 1)
         )
@@ -9760,7 +9760,7 @@
     )
     (pin "1" (uuid 5d709967-3d28-408c-9913-b53a9491a00a))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0242") (unit 1)
         )
@@ -9791,7 +9791,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/09bb4a8f-8694-4b82-8e1f-fabe3bd11ec7"
           (reference "C51") (unit 1)
         )
@@ -9822,7 +9822,7 @@
     )
     (pin "1" (uuid ffab5416-a13b-45f0-bff8-bfca1e3238a9))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR044") (unit 1)
         )
@@ -9847,7 +9847,7 @@
     )
     (pin "1" (uuid e6772f65-ff56-49dd-8cae-c8a60cf8c927))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR031") (unit 1)
         )
@@ -9872,7 +9872,7 @@
     )
     (pin "1" (uuid ca93430b-42f9-4109-93fb-084fd86de1ab))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR047") (unit 1)
         )
@@ -9903,7 +9903,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R68") (unit 1)
         )
@@ -9946,7 +9946,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D28") (unit 1)
         )
@@ -9983,7 +9983,7 @@
     )
     (pin "1" (uuid cee6893b-4410-4f7c-869b-aa7836037471))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0179") (unit 1)
         )
@@ -10010,7 +10010,7 @@
     (pin "2" (uuid 682a4845-7d30-47c1-a70f-e046723a1f4c))
     (pin "3" (uuid c833fec5-d963-48d6-ae9b-03ffc1648fa8))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "SW9") (unit 1)
         )
@@ -10041,7 +10041,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C38") (unit 1)
         )
@@ -10072,7 +10072,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/09bb4a8f-8694-4b82-8e1f-fabe3bd11ec7"
           (reference "C51") (unit 1)
         )
@@ -10103,7 +10103,7 @@
     )
     (pin "1" (uuid 4ee85cad-1355-4eb2-9534-05cad5d157a3))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR046") (unit 1)
         )
@@ -10134,7 +10134,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/09bb4a8f-8694-4b82-8e1f-fabe3bd11ec7"
           (reference "C51") (unit 1)
         )
@@ -10165,7 +10165,7 @@
     )
     (pin "1" (uuid f893804b-d5d2-433f-8e60-4305bcdfd033))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0180") (unit 1)
         )
@@ -10196,7 +10196,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D5") (unit 1)
         )
@@ -10239,7 +10239,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C46") (unit 1)
         )
@@ -10264,7 +10264,7 @@
     )
     (pin "1" (uuid ef96591e-e06d-4c2f-b30c-5d444c51a53e))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR034") (unit 1)
         )
@@ -10295,7 +10295,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C2") (unit 1)
         )
@@ -10326,7 +10326,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R25") (unit 1)
         )
@@ -10357,7 +10357,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D33") (unit 1)
         )
@@ -10399,7 +10399,7 @@
     (pin "5" (uuid 5f96f7b9-291d-40b5-9421-ca36223a127d))
     (pin "6" (uuid e7318ecc-2a77-4654-ade6-18479f9bef6c))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J3") (unit 1)
         )
@@ -10426,7 +10426,7 @@
     (pin "2" (uuid 357fa4b4-775f-4af5-b2bb-c89969b9458c))
     (pin "3" (uuid ebfaf773-1a97-4943-b187-06f5705fa2a1))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "Q31") (unit 1)
         )
@@ -10451,7 +10451,7 @@
     )
     (pin "1" (uuid 22edbcc5-c00d-454a-a7ce-0b168d19af12))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR068") (unit 1)
         )
@@ -10476,7 +10476,7 @@
     )
     (pin "1" (uuid cd5d3b03-7f0f-4dd8-bcb8-2e264d479d07))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0249") (unit 1)
         )
@@ -10503,7 +10503,7 @@
     (pin "2" (uuid 9c41a39a-414d-4d11-bf45-82c263a69a6f))
     (pin "3" (uuid 3e49664c-d805-4e46-a1e9-ac58df999173))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J5") (unit 1)
         )
@@ -10534,7 +10534,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R48") (unit 1)
         )
@@ -10560,7 +10560,7 @@
     (pin "1" (uuid 81f8bec8-8c28-430d-be44-2c8ee05cb9b8))
     (pin "2" (uuid ecbe1086-7809-450e-9101-717d970a8e45))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D3") (unit 1)
         )
@@ -10601,7 +10601,7 @@
     (pin "B9" (uuid 39df8019-9acb-4d82-be53-715a9401d912))
     (pin "S1" (uuid 1dc32678-5213-4225-bfe9-3d0edc6c6cc1))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J1") (unit 1)
         )
@@ -10632,7 +10632,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D18") (unit 1)
         )
@@ -10669,7 +10669,7 @@
     )
     (pin "1" (uuid 2fcef968-a82d-422a-8155-ff30a1747757))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR023") (unit 1)
         )
@@ -10694,7 +10694,7 @@
     )
     (pin "1" (uuid 2ccea657-99cf-414b-b1e7-b66df83aaa79))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR062") (unit 1)
         )
@@ -10720,7 +10720,7 @@
     (pin "1" (uuid 4bfc14cc-e437-4da4-82cb-7d4528afc3ad))
     (pin "2" (uuid d166b1d5-c6ee-4037-846f-7cdf1ea337ff))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J12") (unit 1)
         )
@@ -10746,7 +10746,7 @@
     (pin "1" (uuid 4a3584bf-445e-407e-bccb-5acfea44306f))
     (pin "2" (uuid 5963042a-6426-49ca-8b21-f9f3cad47537))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J33") (unit 1)
         )
@@ -10775,7 +10775,7 @@
     (pin "1" (uuid dcc50cda-0e9a-47cb-8b8d-1fd6904e898b))
     (pin "2" (uuid ea2c42f1-1a7d-40b0-a965-c9b1a808b255))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C17") (unit 1)
         )
@@ -10800,7 +10800,7 @@
     )
     (pin "1" (uuid e7e7566f-1580-40ed-a137-a013e584e58f))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR016") (unit 1)
         )
@@ -10829,7 +10829,7 @@
     (pin "1" (uuid cb469dd3-1efc-4a71-80e4-7e23b8621c5b))
     (pin "2" (uuid 813283d5-0d0f-420f-83f3-803e764a8532))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C14") (unit 1)
         )
@@ -10854,7 +10854,7 @@
     )
     (pin "1" (uuid 4c13c602-3d11-4862-b297-f99765c9f673))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR078") (unit 1)
         )
@@ -10885,7 +10885,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R16") (unit 1)
         )
@@ -10911,7 +10911,7 @@
     (pin "1" (uuid f2b0fcbb-27b6-419a-95e7-28dd80d6ae3d))
     (pin "2" (uuid 90cd2ec7-725c-4a7c-b89e-85d912ef9280))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "NT2") (unit 1)
         )
@@ -10936,7 +10936,7 @@
     )
     (pin "1" (uuid 782c7c60-e4bf-48f8-b06f-f53141aa2c34))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR082") (unit 1)
         )
@@ -10967,7 +10967,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R72") (unit 1)
         )
@@ -11004,7 +11004,7 @@
     )
     (pin "1" (uuid 0a427d04-fde6-4c58-b256-464dc5e904d0))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR027") (unit 1)
         )
@@ -11029,7 +11029,7 @@
     )
     (pin "1" (uuid 150c4986-7798-4ac1-9f82-05862294872b))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0164") (unit 1)
         )
@@ -11055,7 +11055,7 @@
     (pin "1" (uuid 43e49d65-509b-4590-a1cb-f40b1be013fa))
     (pin "2" (uuid 2037cf2f-3c35-4fbf-88c2-ad1d36513106))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J8") (unit 1)
         )
@@ -11080,7 +11080,7 @@
     )
     (pin "1" (uuid 3d54722c-2495-4c2b-a6a2-a987371ec783))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR057") (unit 1)
         )
@@ -11105,7 +11105,7 @@
     )
     (pin "1" (uuid e096fdbe-4ed3-4d8a-9cac-24e76d948147))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR060") (unit 1)
         )
@@ -11132,7 +11132,7 @@
     (pin "2" (uuid e0b735f6-55f3-4025-bb86-2bb48b1fe672))
     (pin "3" (uuid c47d4d3e-925e-4585-9952-4a9bbff38828))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "Q30") (unit 1)
         )
@@ -11157,7 +11157,7 @@
     )
     (pin "1" (uuid 3a6825e2-4dbe-4085-9030-6459003fe853))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR010") (unit 1)
         )
@@ -11182,7 +11182,7 @@
     )
     (pin "1" (uuid b49e4979-fa68-453d-847c-1ab4d3a3d3bf))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0170") (unit 1)
         )
@@ -11213,7 +11213,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R56") (unit 1)
         )
@@ -11244,7 +11244,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C59") (unit 1)
         )
@@ -11269,7 +11269,7 @@
     )
     (pin "1" (uuid c6fba82d-b31e-4bba-9341-06452b306866))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0171") (unit 1)
         )
@@ -11294,7 +11294,7 @@
     )
     (pin "1" (uuid 3f41dde6-b85d-4093-a454-a8ffa66cb87b))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR077") (unit 1)
         )
@@ -11319,7 +11319,7 @@
     )
     (pin "1" (uuid 3cb64cd6-997e-409e-b1f6-ea522f6f363d))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR029") (unit 1)
         )
@@ -11362,7 +11362,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/09bb4a8f-8694-4b82-8e1f-fabe3bd11ec7"
           (reference "C51") (unit 1)
         )
@@ -11399,7 +11399,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C7") (unit 1)
         )
@@ -11423,7 +11423,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "H3") (unit 1)
         )
@@ -11455,7 +11455,7 @@
     (pin "7" (uuid 462108fb-fb53-475d-aef7-fe8078d8946f))
     (pin "8" (uuid 7c6ec83a-b0ce-488b-9a18-c0af3ffd7098))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/6adaba86-2614-4e1b-b3d6-74260a2c85fe"
           (reference "Q26") (unit 1)
         )
@@ -11499,7 +11499,7 @@
     (pin "1" (uuid dfce396e-337f-4721-b3d7-f7aca8856956))
     (pin "2" (uuid 5545f275-c0a0-44da-a56a-7f588de68f4c))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D31") (unit 1)
         )
@@ -11530,7 +11530,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R10") (unit 1)
         )
@@ -11561,7 +11561,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R14") (unit 1)
         )
@@ -11601,7 +11601,7 @@
     (pin "3" (uuid ef7112c9-39f2-4f09-9a14-48ca54b4c058))
     (pin "4" (uuid 04514119-7e18-46eb-a1f8-7b5ceecee4c4))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J14") (unit 1)
         )
@@ -11632,7 +11632,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D7") (unit 1)
         )
@@ -11675,7 +11675,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R49") (unit 1)
         )
@@ -11700,7 +11700,7 @@
     )
     (pin "1" (uuid b6e49778-8965-4cd0-85a3-8b52e9939a8b))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR070") (unit 1)
         )
@@ -11725,7 +11725,7 @@
     )
     (pin "1" (uuid a1df307b-8530-4b8a-bb43-289ac6d9f3d7))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0150") (unit 1)
         )
@@ -11756,7 +11756,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D25") (unit 1)
         )
@@ -11800,7 +11800,7 @@
     (pin "7" (uuid 34196a4f-bbd1-432a-83bb-9286f5d7f24c))
     (pin "8" (uuid 4ac7c692-d67a-4503-b67f-fabbcb3a3411))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/6adaba86-2614-4e1b-b3d6-74260a2c85fe"
           (reference "Q26") (unit 1)
         )
@@ -11843,7 +11843,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R62") (unit 1)
         )
@@ -11886,7 +11886,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R2") (unit 1)
         )
@@ -11911,7 +11911,7 @@
     )
     (pin "1" (uuid a0e429c9-591e-4aa0-a590-81fca1809a77))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR033") (unit 1)
         )
@@ -11945,7 +11945,7 @@
     (pin "8" (uuid 1fcff58e-2946-4b64-a524-134ee330489d))
     (pin "9" (uuid d583792c-f572-4f16-8b02-88b74faae877))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J28") (unit 1)
         )
@@ -11976,7 +11976,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D6") (unit 1)
         )
@@ -12017,7 +12017,7 @@
     (pin "1" (uuid 92127205-bfc5-487c-aec7-ac3448be9ead))
     (pin "2" (uuid 4c0555f0-928e-401a-8d49-501391780dc7))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C16") (unit 1)
         )
@@ -12045,7 +12045,7 @@
     (pin "3" (uuid 9ce8a6b4-993f-41df-897e-8a95b3878b3f))
     (pin "4" (uuid 48c67501-2dc6-4ef3-ba27-680415d57503))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J16") (unit 1)
         )
@@ -12070,7 +12070,7 @@
     )
     (pin "1" (uuid 3d7a99eb-eb81-4908-a7a8-46f85cccf225))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR053") (unit 1)
         )
@@ -12095,7 +12095,7 @@
     )
     (pin "1" (uuid 3919a262-07cb-47f2-b154-4ba207d192d5))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR051") (unit 1)
         )
@@ -12127,7 +12127,7 @@
     (pin "1" (uuid 795b35ec-a3d2-45f9-9c0e-dec64cf41021))
     (pin "2" (uuid 1c946cd2-95c7-4c38-a1a0-ef83544a5e82))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D30") (unit 1)
         )
@@ -12152,7 +12152,7 @@
     )
     (pin "1" (uuid c6e6b903-1db2-4376-9be6-8a7e0ec69fee))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0257") (unit 1)
         )
@@ -12179,7 +12179,7 @@
     (pin "2" (uuid 00538ea3-f743-42fb-880b-ad4fff0c1fe8))
     (pin "3" (uuid 0784c6fa-78e6-4d55-8e26-86ef47ee9e05))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "Q28") (unit 1)
         )
@@ -12211,7 +12211,7 @@
     (pin "1" (uuid dceff6da-ebf6-4810-a39a-e94e77728d1c))
     (pin "2" (uuid bb417a8b-7069-4e79-b4ee-e8710e888712))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D37") (unit 1)
         )
@@ -12242,7 +12242,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R52") (unit 1)
         )
@@ -12273,7 +12273,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R93") (unit 1)
         )
@@ -12316,7 +12316,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R9") (unit 1)
         )
@@ -12341,7 +12341,7 @@
     )
     (pin "1" (uuid dd5bf605-d179-4609-8c6e-c1ee25cb305f))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR021") (unit 1)
         )
@@ -12349,7 +12349,7 @@
     )
   )
 
-  (symbol (lib_id "Device:D_Small") (at 355.6 213.36 180) (unit 1)
+  (symbol (lib_id "Device:D_Schottky_Small") (at 355.6 213.36 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 531cfb77-382a-468c-b514-7ebf9d8e9eb1)
     (property "Reference" "D48" (at 354.6 212.36 0)
@@ -12373,7 +12373,7 @@
     (pin "1" (uuid 3d4a94b8-8e7d-4312-803a-2091c48303ac))
     (pin "2" (uuid 62c72c09-a12f-4541-8594-992678f3a941))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D48") (unit 1)
         )
@@ -12400,7 +12400,7 @@
     (pin "2" (uuid 5aa8d192-2101-49cc-a23f-4738b0716292))
     (pin "3" (uuid 5278c7a3-099d-4247-a8c2-5a3d412a1ce9))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "Q22") (unit 1)
         )
@@ -12425,7 +12425,7 @@
     )
     (pin "1" (uuid bd6e36a5-9ed1-412f-b1f0-dab3512c6e25))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR02") (unit 1)
         )
@@ -12451,7 +12451,7 @@
     (pin "1" (uuid cd2640d8-6eb8-4ef0-9791-b3f217757093))
     (pin "2" (uuid 627232ba-833d-4166-bb1a-dc05def0fcb3))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "L2") (unit 1)
         )
@@ -12477,7 +12477,7 @@
     (pin "1" (uuid fa9b1cc4-d6ce-4849-9a9d-ef5b06de6138))
     (pin "2" (uuid ae59d80b-43ce-477e-9026-18a0a32f4a15))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "F4") (unit 1)
         )
@@ -12502,7 +12502,7 @@
     )
     (pin "1" (uuid 98f263e6-9885-4caf-99cd-725b2ad01ab9))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR080") (unit 1)
         )
@@ -12537,7 +12537,7 @@
     (pin "7" (uuid 18139cfd-1be7-42b3-b0eb-bf22bd12d3d8))
     (pin "8" (uuid 3825a5f4-485f-471d-92d9-b5ac65316a3f))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "U15") (unit 1)
         )
@@ -12562,7 +12562,7 @@
     )
     (pin "1" (uuid e576642d-e64c-4c17-bac7-8d17a3b71edc))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR039") (unit 1)
         )
@@ -12587,7 +12587,7 @@
     )
     (pin "1" (uuid 0aa85da2-d2bb-4012-aead-d67d10c59e75))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0102") (unit 1)
         )
@@ -12621,7 +12621,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R11") (unit 1)
         )
@@ -12646,7 +12646,7 @@
     )
     (pin "1" (uuid 9ca87a18-22f3-4a1c-8982-c288d6f83c8f))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR071") (unit 1)
         )
@@ -12671,7 +12671,7 @@
     )
     (pin "1" (uuid a11e6aaa-8b60-4a01-8f7c-d34217288f54))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0240") (unit 1)
         )
@@ -12706,7 +12706,7 @@
     (pin "7" (uuid 417f3101-148b-48e0-beae-e55f7d3822a3))
     (pin "8" (uuid f76d995f-a198-418d-86d4-e253e114ee63))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "U5") (unit 1)
         )
@@ -12732,7 +12732,7 @@
     (pin "1" (uuid 634008e6-bb3a-4888-8da1-aa8575cfd66c))
     (pin "2" (uuid 1a68d04b-5f36-475e-aee2-e3fba2d8d1ec))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J18") (unit 1)
         )
@@ -12763,7 +12763,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R85") (unit 1)
         )
@@ -12806,7 +12806,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/09bb4a8f-8694-4b82-8e1f-fabe3bd11ec7"
           (reference "C51") (unit 1)
         )
@@ -12837,7 +12837,7 @@
     )
     (pin "1" (uuid e981652b-05e4-4841-86b4-38b96023c509))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR015") (unit 1)
         )
@@ -12862,7 +12862,7 @@
     )
     (pin "1" (uuid d0a523fc-a913-43be-9923-860d8fb4f7d4))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR03") (unit 1)
         )
@@ -12886,7 +12886,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "H4") (unit 1)
         )
@@ -12911,7 +12911,7 @@
     )
     (pin "1" (uuid 159be983-7f14-4d23-ba4b-a7db91fd9f4f))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0100") (unit 1)
         )
@@ -12936,7 +12936,7 @@
     )
     (pin "1" (uuid 66d6829d-6e47-448d-bc2a-c0cb49a17181))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR079") (unit 1)
         )
@@ -12965,7 +12965,7 @@
     (pin "1" (uuid bfabc921-e46b-46e4-bbb5-fe01627bf4fe))
     (pin "2" (uuid 80d99857-f202-4d7a-8b2b-3806faa2d80d))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C13") (unit 1)
         )
@@ -12992,7 +12992,7 @@
     (pin "2" (uuid e4e4c782-b2f1-4b20-a58b-4aac135c6d1f))
     (pin "3" (uuid d48c908c-bca9-4c7d-b6e5-7b8b458875d8))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J4") (unit 1)
         )
@@ -13023,7 +13023,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R92") (unit 1)
         )
@@ -13066,7 +13066,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C95") (unit 1)
         )
@@ -13097,7 +13097,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D32") (unit 1)
         )
@@ -13140,7 +13140,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D35") (unit 1)
         )
@@ -13177,7 +13177,7 @@
     )
     (pin "1" (uuid 262ec6ed-26d7-413b-af73-03025b5a4209))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR028") (unit 1)
         )
@@ -13214,7 +13214,7 @@
     )
     (pin "1" (uuid 004c3d34-1ed3-4144-965f-87f1701c1cdf))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR089") (unit 1)
         )
@@ -13239,7 +13239,7 @@
     )
     (pin "1" (uuid 6c09a970-fd26-4c78-83d9-a039ae69db28))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR064") (unit 1)
         )
@@ -13270,7 +13270,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R47") (unit 1)
         )
@@ -13301,7 +13301,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R3") (unit 1)
         )
@@ -13326,7 +13326,7 @@
     )
     (pin "1" (uuid 3579578a-bde8-4c79-98ff-c99bb81cbc96))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0181") (unit 1)
         )
@@ -13351,7 +13351,7 @@
     )
     (pin "1" (uuid 15f802f7-2334-4cce-817e-2c366fba2b5a))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR043") (unit 1)
         )
@@ -13382,7 +13382,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C3") (unit 1)
         )
@@ -13414,7 +13414,7 @@
     (pin "7" (uuid a648252f-3089-4fe2-945c-023762488a49))
     (pin "8" (uuid 3c221d28-1a14-439c-852b-18ae77420382))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/6adaba86-2614-4e1b-b3d6-74260a2c85fe"
           (reference "Q26") (unit 1)
         )
@@ -13458,7 +13458,7 @@
     (pin "1" (uuid e2bbc9f6-7511-4621-a8de-66ef42645eee))
     (pin "2" (uuid bec88fa4-a59c-46b2-b4d2-232e2f3c9c28))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D39") (unit 1)
         )
@@ -13489,7 +13489,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/09bb4a8f-8694-4b82-8e1f-fabe3bd11ec7"
           (reference "C51") (unit 1)
         )
@@ -13526,7 +13526,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C9") (unit 1)
         )
@@ -13553,7 +13553,7 @@
     (pin "2" (uuid 106cd182-f1a8-47e3-b16a-dbf9666ffc05))
     (pin "3" (uuid 7e6385e7-3db7-4c5f-82f0-df04d8262392))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "Q32") (unit 1)
         )
@@ -13580,7 +13580,7 @@
     (pin "2" (uuid 9b7d170c-d286-4053-905e-190bf3747d8d))
     (pin "3" (uuid 680f14fd-3c93-4283-a6d6-bed8b14ab724))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "U6") (unit 1)
         )
@@ -13611,7 +13611,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R51") (unit 1)
         )
@@ -13638,7 +13638,7 @@
     (pin "2" (uuid 225aee9b-ec9d-4281-bdcd-4cfe6ffc8ee0))
     (pin "3" (uuid 676831b6-a2f7-4132-9ae0-7d912657e9ef))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "Q29") (unit 1)
         )
@@ -13669,7 +13669,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C5") (unit 1)
         )
@@ -13693,7 +13693,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "FID1") (unit 1)
         )
@@ -13720,7 +13720,7 @@
     (pin "2" (uuid 8f285580-cb48-4540-9afd-a344e01c5efe))
     (pin "3" (uuid 4ab3c57b-677c-42e0-9de8-9b91189b0a8b))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J15") (unit 1)
         )
@@ -13751,7 +13751,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R83") (unit 1)
         )
@@ -13788,7 +13788,7 @@
     )
     (pin "1" (uuid 9234d041-3f57-4728-a97c-f5103a2d69d8))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0254") (unit 1)
         )
@@ -13819,7 +13819,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R17") (unit 1)
         )
@@ -13845,7 +13845,7 @@
     (pin "1" (uuid c5ab0b80-306b-4d23-a9cf-f2fb9f089135))
     (pin "2" (uuid 4a1e4675-7573-4055-88d3-25a47f9042a3))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J7") (unit 1)
         )
@@ -13870,7 +13870,7 @@
     )
     (pin "1" (uuid 4c1abc91-0647-49a8-8206-0b8543348f80))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR088") (unit 1)
         )
@@ -13896,7 +13896,7 @@
     (pin "1" (uuid 4631bff5-fa3a-4cf1-8629-3985245d178e))
     (pin "2" (uuid 138784ca-5187-4dfa-ba53-37a0e4f7b655))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J19") (unit 1)
         )
@@ -13927,7 +13927,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R53") (unit 1)
         )
@@ -13970,7 +13970,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D8") (unit 1)
         )
@@ -14012,7 +14012,7 @@
     (pin "5" (uuid 0648269f-a4f9-42b4-b1e0-20ee0db3fc62))
     (pin "6" (uuid 30d2ab4d-29b9-4b2b-9022-061c35027475))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/555d743c-a55c-4bf1-af2e-c3584a300e89"
           (reference "U4") (unit 1)
         )
@@ -14040,7 +14040,7 @@
     )
     (pin "1" (uuid 5d14b684-770c-4c36-8643-12a80c1b743e))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR066") (unit 1)
         )
@@ -14072,7 +14072,7 @@
     (pin "1" (uuid 51db4bfe-ae5d-41f4-a89d-fdb215e57cbf))
     (pin "2" (uuid e89c3df8-09b4-487c-8638-294fb9aba030))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D36") (unit 1)
         )
@@ -14098,7 +14098,7 @@
     (pin "1" (uuid 936e81d2-ed8a-4b73-8348-511c7512edde))
     (pin "2" (uuid 805111b2-cfb2-48bb-b0a3-e0aa7c511be8))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J10") (unit 1)
         )
@@ -14123,7 +14123,7 @@
     )
     (pin "1" (uuid a9b644ab-eb10-47af-8990-227778f44952))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0176") (unit 1)
         )
@@ -14148,7 +14148,7 @@
     )
     (pin "1" (uuid e9b3fbdd-7956-44f6-b3f0-1eeb71e55207))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0184") (unit 1)
         )
@@ -14179,7 +14179,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C85") (unit 1)
         )
@@ -14219,7 +14219,7 @@
     (pin "8" (uuid 61ed60e2-7e8e-4c7c-acad-aa5c138c5651))
     (pin "9" (uuid 7acdb11b-b8bc-42d9-a527-b08fc8071468))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "U14") (unit 1)
         )
@@ -14244,7 +14244,7 @@
     )
     (pin "1" (uuid b4901583-282b-43fb-9f68-39940b58ddec))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0217") (unit 1)
         )
@@ -14271,7 +14271,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "FID2") (unit 1)
         )
@@ -14296,7 +14296,7 @@
     )
     (pin "1" (uuid 79ef7cc3-976f-4cb7-a66c-edd5486d8228))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0246") (unit 1)
         )
@@ -14322,7 +14322,7 @@
     (pin "1" (uuid 58f5262a-67ae-48fc-82bb-80aa355e7cb2))
     (pin "2" (uuid 730732d7-cb7b-4fe0-a9a3-1b4ba6e69944))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J17") (unit 1)
         )
@@ -14347,7 +14347,7 @@
     )
     (pin "1" (uuid 468e72cf-4928-4fc5-a82a-661831ae1a58))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0196") (unit 1)
         )
@@ -14372,7 +14372,7 @@
     )
     (pin "1" (uuid 984f82be-7bbb-4c76-98f9-04143c8844c2))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR05") (unit 1)
         )
@@ -14397,7 +14397,7 @@
     )
     (pin "1" (uuid b3d2ae4e-8b26-40d9-9279-592407b54e96))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR067") (unit 1)
         )
@@ -14422,7 +14422,7 @@
     )
     (pin "1" (uuid fb962984-abc9-4188-8ed0-5690cde17085))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR054") (unit 1)
         )
@@ -14453,7 +14453,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R66") (unit 1)
         )
@@ -14490,7 +14490,7 @@
     )
     (pin "1" (uuid 3cd34e52-8d20-401b-8c52-9f2a574e32eb))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR018") (unit 1)
         )
@@ -14529,7 +14529,7 @@
     (pin "2" (uuid 40adddf6-766c-447f-b1e9-fb10f8ed9497))
     (pin "3" (uuid 472cb82f-5738-42d6-906c-1d96195c57b9))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J2") (unit 1)
         )
@@ -14554,7 +14554,7 @@
     )
     (pin "1" (uuid 7e3c1e78-36df-455f-9632-a0801f362358))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR04") (unit 1)
         )
@@ -14579,7 +14579,7 @@
     )
     (pin "1" (uuid 78c1bdfc-a55f-44d7-9087-1bbac3bfc38b))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR09") (unit 1)
         )
@@ -14604,7 +14604,7 @@
     )
     (pin "1" (uuid 7f3cef4e-d084-4080-883c-c519fceb0fb6))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR041") (unit 1)
         )
@@ -14628,7 +14628,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "FID5") (unit 1)
         )
@@ -14653,7 +14653,7 @@
     )
     (pin "1" (uuid 39f28c18-cf71-4b6f-a231-da8d7fb59c96))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0209") (unit 1)
         )
@@ -14685,7 +14685,7 @@
     (pin "1" (uuid 394409d1-1e04-48bf-9ef5-28e282910283))
     (pin "2" (uuid 6cf59ede-7a37-4de0-ae27-08a289b9ddd8))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D41") (unit 1)
         )
@@ -14710,7 +14710,7 @@
     )
     (pin "1" (uuid 7bd243a2-4a6d-4db2-abd5-79637c764b9b))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0258") (unit 1)
         )
@@ -14735,7 +14735,7 @@
     )
     (pin "1" (uuid 00b55ebe-48d7-4ee3-9e0f-ffad9700ccf9))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR017") (unit 1)
         )
@@ -14774,7 +14774,7 @@
     (pin "2" (uuid d02c336a-e921-408a-844e-d819a855cae1))
     (pin "3" (uuid 3b5f4cf4-1c75-4cfd-ad59-d70c1e8fd4c6))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "SW2") (unit 1)
         )
@@ -14805,7 +14805,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C1") (unit 1)
         )
@@ -14836,7 +14836,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R74") (unit 1)
         )
@@ -14873,7 +14873,7 @@
     )
     (pin "1" (uuid 58d63b81-fbb9-4b79-97e7-b543108d76a9))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR01") (unit 1)
         )
@@ -14898,7 +14898,7 @@
     )
     (pin "1" (uuid 237495c6-a1f8-474b-b394-63d685dc41a1))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/555d743c-a55c-4bf1-af2e-c3584a300e89"
           (reference "#PWR0208") (unit 1)
         )
@@ -14932,7 +14932,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R19") (unit 1)
         )
@@ -14969,7 +14969,7 @@
     )
     (pin "1" (uuid a56c7e8b-fd5f-4c9a-8b69-a62199c90ccd))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR056") (unit 1)
         )
@@ -15001,7 +15001,7 @@
     (pin "7" (uuid 4c9f7e4c-130b-4e25-bff4-65ba6222855e))
     (pin "8" (uuid 6ae033a7-66a4-4726-a6da-be5b1bbd39f4))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/6adaba86-2614-4e1b-b3d6-74260a2c85fe"
           (reference "Q26") (unit 1)
         )
@@ -15038,7 +15038,7 @@
     )
     (pin "1" (uuid 2750518b-141a-4761-b541-c8d10a6e58c5))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR049") (unit 1)
         )
@@ -15069,7 +15069,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R12") (unit 1)
         )
@@ -15094,7 +15094,7 @@
     )
     (pin "1" (uuid 07bad91d-8720-43ba-a6c1-67de211ceff3))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR025") (unit 1)
         )
@@ -15125,7 +15125,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R95") (unit 1)
         )
@@ -15162,7 +15162,7 @@
     )
     (pin "1" (uuid 91fea045-3b61-47c5-9463-8a732c78ddf0))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0178") (unit 1)
         )
@@ -15193,7 +15193,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/09bb4a8f-8694-4b82-8e1f-fabe3bd11ec7"
           (reference "C51") (unit 1)
         )
@@ -15230,7 +15230,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D1") (unit 1)
         )
@@ -15267,7 +15267,7 @@
     )
     (pin "1" (uuid 0049929b-5113-4bc5-b506-bff6b501b19b))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR035") (unit 1)
         )
@@ -15293,7 +15293,7 @@
     (pin "1" (uuid b0573cf3-0c7e-450e-a34f-998b817ce262))
     (pin "2" (uuid 0f308311-0932-4110-8d9b-1fd0d044e25d))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "NT1") (unit 1)
         )
@@ -15324,7 +15324,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R39") (unit 1)
         )
@@ -15349,7 +15349,7 @@
     )
     (pin "1" (uuid bcf5f2e6-7308-4332-bc49-ee1b4d594128))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0222") (unit 1)
         )
@@ -15379,7 +15379,7 @@
     (pin "2" (uuid 4a148dc4-8671-41d4-81f8-b289c4848f4f))
     (pin "3" (uuid b00ec2b9-ac1f-497c-bb35-eb6cdac230c5))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "SW1") (unit 1)
         )
@@ -15404,7 +15404,7 @@
     )
     (pin "1" (uuid 77388185-44e0-494e-b87b-b99c9c71e9a7))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR090") (unit 1)
         )
@@ -15429,7 +15429,7 @@
     )
     (pin "1" (uuid 5dcbb949-ced4-4e75-9327-8c72e1ffacfd))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR058") (unit 1)
         )
@@ -15460,7 +15460,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R5") (unit 1)
         )
@@ -15491,7 +15491,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R6") (unit 1)
         )
@@ -15522,7 +15522,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/09bb4a8f-8694-4b82-8e1f-fabe3bd11ec7"
           (reference "C51") (unit 1)
         )
@@ -15553,7 +15553,7 @@
     )
     (pin "1" (uuid 0b78cfa8-ddcd-4ec9-8cb7-114db51bafe4))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR024") (unit 1)
         )
@@ -15578,7 +15578,7 @@
     )
     (pin "1" (uuid fd3f6c10-113c-4231-9ebd-78b3ff16840c))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0173") (unit 1)
         )
@@ -15603,7 +15603,7 @@
     )
     (pin "1" (uuid b4e251c4-08df-44bb-99f4-d5b386b4c7fc))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0248") (unit 1)
         )
@@ -15628,7 +15628,7 @@
     )
     (pin "1" (uuid 32860419-de53-412e-95bb-b4f4353e066a))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR037") (unit 1)
         )
@@ -15659,7 +15659,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R4") (unit 1)
         )
@@ -15684,7 +15684,7 @@
     )
     (pin "1" (uuid ba2b29b8-57c5-40bd-b0e3-9c381189a0c2))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR055") (unit 1)
         )
@@ -15709,7 +15709,7 @@
     )
     (pin "1" (uuid 15dc71d7-6d0e-4eb9-8a58-db808befe746))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0183") (unit 1)
         )
@@ -15740,7 +15740,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C44") (unit 1)
         )
@@ -15771,7 +15771,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C53") (unit 1)
         )
@@ -15796,7 +15796,7 @@
     )
     (pin "1" (uuid b15556ae-9849-4774-93bd-1a3205dd1f5d))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0245") (unit 1)
         )
@@ -15823,7 +15823,7 @@
     (pin "2" (uuid 4d09b631-9e52-45a9-9479-1ea60feb6af3))
     (pin "3" (uuid 20529e40-f9fa-4cb5-8a9b-1dd6e09c535f))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J6") (unit 1)
         )
@@ -15854,7 +15854,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D26") (unit 1)
         )
@@ -15891,7 +15891,7 @@
     )
     (pin "1" (uuid 30587beb-2966-47fc-a989-3bad8fb9c10b))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR065") (unit 1)
         )
@@ -15922,7 +15922,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R54") (unit 1)
         )
@@ -15953,7 +15953,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R94") (unit 1)
         )
@@ -15990,7 +15990,7 @@
     )
     (pin "1" (uuid c05b9e5e-4609-4c82-a7f0-5133696bf28c))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR095") (unit 1)
         )
@@ -16015,7 +16015,7 @@
     )
     (pin "1" (uuid 805952a2-2918-4b90-88b0-e4b40e47bea4))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR093") (unit 1)
         )
@@ -16040,7 +16040,7 @@
     )
     (pin "1" (uuid 32fe44d9-fb43-4f53-b9a1-0affc0102000))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR083") (unit 1)
         )
@@ -16068,7 +16068,7 @@
     (pin "3" (uuid 491fc560-3735-472f-8a5a-2e8eae8b2739))
     (pin "4" (uuid 4e9c05f5-7088-4573-a792-71635d268102))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "OC1") (unit 1)
         )
@@ -16102,7 +16102,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C10") (unit 1)
         )
@@ -16127,7 +16127,7 @@
     )
     (pin "1" (uuid 81586a4d-41ec-4adf-86aa-e37c6d00619a))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR075") (unit 1)
         )
@@ -16151,7 +16151,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "FID4") (unit 1)
         )
@@ -16175,7 +16175,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/5afe29f8-580d-41ca-9e85-d55138e0d5c1"
           (reference "H5") (unit 1)
         )
@@ -16207,7 +16207,7 @@
     (pin "1" (uuid 144a875d-030a-4810-872e-a646bc2b6886))
     (pin "2" (uuid 3512fb64-3be5-4052-ae32-d14110427f5d))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "L1") (unit 1)
         )
@@ -16232,7 +16232,7 @@
     )
     (pin "1" (uuid a0512c30-6426-46fc-86be-5d2ca692a824))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR026") (unit 1)
         )
@@ -16257,7 +16257,7 @@
     )
     (pin "1" (uuid cfc96203-2a2b-4863-8589-513ae933903f))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0200") (unit 1)
         )
@@ -16282,7 +16282,7 @@
     )
     (pin "1" (uuid 99547631-c5d7-4cbf-92d8-b1f2dce2c6bd))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0250") (unit 1)
         )
@@ -16313,7 +16313,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R104") (unit 1)
         )
@@ -16344,7 +16344,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C81") (unit 1)
         )
@@ -16375,7 +16375,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R57") (unit 1)
         )
@@ -16403,7 +16403,7 @@
     (pin "3" (uuid 90f7e9f6-5f8a-49ad-bfe6-ac60e3d4b7b5))
     (pin "4" (uuid 86275401-2f9e-41b4-aba5-42ffc7f83b3b))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "Y1") (unit 1)
         )
@@ -16571,7 +16571,7 @@
     (pin "98" (uuid a8012f37-d837-4fd6-a71c-fdfbe876f10d))
     (pin "99" (uuid d60add4d-145c-4dd8-ab86-1165e2e40bc3))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "U1") (unit 1)
         )
@@ -16602,7 +16602,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R31") (unit 1)
         )
@@ -16628,7 +16628,7 @@
     (pin "1" (uuid d56a145e-e759-4313-bf93-1f740c7dd57f))
     (pin "2" (uuid 5a1ff520-9e1a-4298-b428-a218c030517a))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J35") (unit 1)
         )
@@ -16654,7 +16654,7 @@
     (pin "1" (uuid 4654f5d6-4017-486b-8223-0eb006b0cedf))
     (pin "2" (uuid 96e3a8ac-c026-432c-8f10-098c50495952))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "F3") (unit 1)
         )
@@ -16679,7 +16679,7 @@
     )
     (pin "1" (uuid c868a42c-ea05-4018-8618-31c450774912))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0166") (unit 1)
         )
@@ -16704,7 +16704,7 @@
     )
     (pin "1" (uuid b15ea0ba-89f7-4222-8b09-56fcf61d4041))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0163") (unit 1)
         )
@@ -16729,7 +16729,7 @@
     )
     (pin "1" (uuid 5cb74c01-333d-4e02-8a1a-a65c2d0abc34))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR072") (unit 1)
         )
@@ -16760,7 +16760,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D40") (unit 1)
         )
@@ -16803,7 +16803,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D49") (unit 1)
         )
@@ -16846,7 +16846,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R96") (unit 1)
         )
@@ -16877,7 +16877,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R60") (unit 1)
         )
@@ -16913,7 +16913,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "FID3") (unit 1)
         )
@@ -16944,7 +16944,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R7") (unit 1)
         )
@@ -16969,7 +16969,7 @@
     )
     (pin "1" (uuid 26010b70-d869-411a-acef-27bca9af44b0))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0174") (unit 1)
         )
@@ -16994,7 +16994,7 @@
     )
     (pin "1" (uuid 8fd11562-a4d3-4ad8-93f6-3c29c58144f2))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR019") (unit 1)
         )
@@ -17037,7 +17037,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R55") (unit 1)
         )
@@ -17062,7 +17062,7 @@
     )
     (pin "1" (uuid 27f31ce1-a0b2-4197-9b33-455904d7b8a7))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0126") (unit 1)
         )
@@ -17087,7 +17087,7 @@
     )
     (pin "1" (uuid 92256557-ee16-4933-8c36-a6a3f999200c))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR036") (unit 1)
         )
@@ -17112,7 +17112,7 @@
     )
     (pin "1" (uuid 420f0925-f2a3-44cc-8806-9d649bd4339a))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR074") (unit 1)
         )
@@ -17138,7 +17138,7 @@
     (pin "1" (uuid b251570f-7f15-4bf6-8d10-cc8292579503))
     (pin "2" (uuid ba326867-d746-4756-8236-e72d785949b5))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "F6") (unit 1)
         )
@@ -17169,7 +17169,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C83") (unit 1)
         )
@@ -17194,7 +17194,7 @@
     )
     (pin "1" (uuid a657c33f-7416-4693-b48e-204a6e11fa23))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR012") (unit 1)
         )
@@ -17225,7 +17225,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R1") (unit 1)
         )
@@ -17262,7 +17262,7 @@
     )
     (pin "1" (uuid afbd7016-450c-4bef-aeab-84f33d3bd583))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR099") (unit 1)
         )
@@ -17286,7 +17286,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "H1") (unit 1)
         )
@@ -17311,7 +17311,7 @@
     )
     (pin "1" (uuid 6c5dd2f5-9f8c-4e1c-b390-4b281983ed1a))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR084") (unit 1)
         )
@@ -17336,7 +17336,7 @@
     )
     (pin "1" (uuid fc4717e6-cb6b-4ac9-9bb8-2aa7afcb8dfa))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0175") (unit 1)
         )
@@ -17361,7 +17361,7 @@
     )
     (pin "1" (uuid b6b63ce2-25fc-4926-a041-062c65f28846))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0165") (unit 1)
         )
@@ -17386,7 +17386,7 @@
     )
     (pin "1" (uuid 23e4c348-444b-4076-9268-8887de35d43e))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0162") (unit 1)
         )
@@ -17411,7 +17411,7 @@
     )
     (pin "1" (uuid c1ac3e70-a5d0-4862-a4e8-f94dbbf7427f))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR013") (unit 1)
         )
@@ -17436,7 +17436,7 @@
     )
     (pin "1" (uuid a6a09142-e262-4a99-8105-af82452459b3))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR038") (unit 1)
         )
@@ -17479,7 +17479,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C78") (unit 1)
         )
@@ -17511,7 +17511,7 @@
     (pin "7" (uuid 8bff0e29-839d-4538-bb93-1c856b8c9798))
     (pin "8" (uuid c9f3afe4-d523-4bd0-9bdd-1e1f78e61f8f))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/6adaba86-2614-4e1b-b3d6-74260a2c85fe"
           (reference "Q26") (unit 1)
         )
@@ -17548,7 +17548,7 @@
     )
     (pin "1" (uuid fd77d976-c2cb-4727-9597-e125fa824160))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR081") (unit 1)
         )
@@ -17579,7 +17579,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R64") (unit 1)
         )
@@ -17622,7 +17622,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D2") (unit 1)
         )
@@ -17659,7 +17659,7 @@
     )
     (pin "1" (uuid b4db03db-70b9-4cc9-b6b8-8740ea3c4bf5))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR091") (unit 1)
         )
@@ -17684,7 +17684,7 @@
     )
     (pin "1" (uuid d645fd7b-967f-47f5-b1ba-384b26d717a8))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR076") (unit 1)
         )
@@ -17715,7 +17715,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C61") (unit 1)
         )
@@ -17746,7 +17746,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C6") (unit 1)
         )
@@ -17771,7 +17771,7 @@
     )
     (pin "1" (uuid 70e01178-d0d7-4152-ac8c-d330af167142))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR020") (unit 1)
         )
@@ -17796,7 +17796,7 @@
     )
     (pin "1" (uuid 89813d3e-b0b8-41f0-8a4d-1cef7093d684))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR040") (unit 1)
         )
@@ -17821,7 +17821,7 @@
     )
     (pin "1" (uuid 7463e732-7ce7-45bc-8928-5e778e144b6f))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0160") (unit 1)
         )
@@ -17847,7 +17847,7 @@
     (pin "1" (uuid 3b911b32-942b-46c3-8682-a5579f8af977))
     (pin "2" (uuid b56f1451-219f-46e9-974d-66c4d9d7111a))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J32") (unit 1)
         )
@@ -17878,7 +17878,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R8") (unit 1)
         )
@@ -17903,7 +17903,7 @@
     )
     (pin "1" (uuid bb2494b4-00f0-4628-b9f2-9e8aceae5310))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR069") (unit 1)
         )
@@ -17928,7 +17928,7 @@
     )
     (pin "1" (uuid 25255be6-617e-4fbc-9467-5e7aca0957b0))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR063") (unit 1)
         )
@@ -17954,7 +17954,7 @@
     (pin "1" (uuid 5c732acd-9bdc-4a17-b24f-2644de37b075))
     (pin "2" (uuid 70d1da18-2e91-446d-910d-661f10c0c2c1))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "FB1") (unit 1)
         )
@@ -17985,7 +17985,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C8") (unit 1)
         )
@@ -18010,7 +18010,7 @@
     )
     (pin "1" (uuid 00b79662-873f-41a5-840a-07d72e0ec94a))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0167") (unit 1)
         )
@@ -18041,7 +18041,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C89") (unit 1)
         )
@@ -18066,7 +18066,7 @@
     )
     (pin "1" (uuid e46a2907-95d3-41dc-a71f-e36e85a1e2dd))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR087") (unit 1)
         )
@@ -18091,7 +18091,7 @@
     )
     (pin "1" (uuid 0a466b2e-38cb-4093-9b09-cd4fc68f0c02))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0101") (unit 1)
         )
@@ -18122,7 +18122,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R18") (unit 1)
         )
@@ -18147,7 +18147,7 @@
     )
     (pin "1" (uuid 1b5329f9-e08e-4309-9fb9-8985d9e4f617))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR092") (unit 1)
         )
@@ -18172,7 +18172,7 @@
     )
     (pin "1" (uuid 7c28e864-a8da-43a4-9b61-794658875b03))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR042") (unit 1)
         )
@@ -18198,7 +18198,7 @@
     (pin "1" (uuid 0cfc35b0-f2fd-4494-973f-19d9c0a691b5))
     (pin "2" (uuid 4e64a9b6-1f7b-4db9-a8b5-df069505529c))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J11") (unit 1)
         )
@@ -18223,7 +18223,7 @@
     )
     (pin "1" (uuid c04afc73-d889-48a1-878b-27a6187b569d))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0244") (unit 1)
         )
@@ -18254,7 +18254,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C84") (unit 1)
         )
@@ -18279,7 +18279,7 @@
     )
     (pin "1" (uuid 1623017d-3370-41f5-b237-b23f3583f1b9))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR097") (unit 1)
         )
@@ -18304,7 +18304,7 @@
     )
     (pin "1" (uuid 0cfd1aaa-f93a-4889-982d-9414a19f2a8e))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR011") (unit 1)
         )
@@ -18329,7 +18329,7 @@
     )
     (pin "1" (uuid 644ca4e3-ebb5-494f-951f-0482df1eb35d))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR059") (unit 1)
         )
@@ -18360,7 +18360,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/09bb4a8f-8694-4b82-8e1f-fabe3bd11ec7"
           (reference "C51") (unit 1)
         )
@@ -18392,7 +18392,7 @@
     (pin "1" (uuid 3d4d8877-6916-42f3-b721-7d27a0118f8a))
     (pin "2" (uuid 2cb5416c-981d-4e8f-9166-85f85eac140c))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "F2") (unit 1)
         )
@@ -18417,7 +18417,7 @@
     )
     (pin "1" (uuid 24721c6e-9795-42b1-83bb-788a1c12c3b0))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0143") (unit 1)
         )
@@ -18442,7 +18442,7 @@
     )
     (pin "1" (uuid 28d418aa-797a-493d-87c1-73bd153d8bfe))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0221") (unit 1)
         )
@@ -18476,7 +18476,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C4") (unit 1)
         )
@@ -18501,7 +18501,7 @@
     )
     (pin "1" (uuid 1bd0ae48-39cd-48b7-a68b-599667f2cd9d))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0255") (unit 1)
         )
@@ -18526,7 +18526,7 @@
     )
     (pin "1" (uuid 3713424c-54dd-4855-85e8-4fab77a9fcef))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR098") (unit 1)
         )
@@ -18551,7 +18551,7 @@
     )
     (pin "1" (uuid 9bbf8b32-c36a-4cc7-93e6-e666ec6ca94c))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0131") (unit 1)
         )
@@ -18576,7 +18576,7 @@
     )
     (pin "1" (uuid 3455447f-b31d-455c-b8a0-6a9fa8797f83))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR086") (unit 1)
         )
@@ -18602,7 +18602,7 @@
     (pin "1" (uuid 036162b5-77d0-4f94-bd72-8ab2baa4bda9))
     (pin "2" (uuid 24f2798d-560e-4ccf-a457-5ef9925bf579))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "SW3") (unit 1)
         )
@@ -18627,7 +18627,7 @@
     )
     (pin "1" (uuid a3b2f596-4f12-48fc-8a04-9205d16c9ac1))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR048") (unit 1)
         )
@@ -18654,7 +18654,7 @@
     (pin "2" (uuid 93e6120d-cfaa-46fa-8bc2-ad19b485d1a7))
     (pin "3" (uuid 455f7c2f-9bbe-4e67-ada5-72f94c6fbdc3))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "Q27") (unit 1)
         )
@@ -18685,7 +18685,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R71") (unit 1)
         )
@@ -18728,7 +18728,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "C77") (unit 1)
         )
@@ -18753,7 +18753,7 @@
     )
     (pin "1" (uuid 1a967516-bdb1-484e-8a34-78e4e34ea5d9))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0138") (unit 1)
         )
@@ -18784,7 +18784,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R58") (unit 1)
         )
@@ -18809,7 +18809,7 @@
     )
     (pin "1" (uuid cd46bc1c-12a0-4a1c-bd43-665586bd1792))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR061") (unit 1)
         )
@@ -18834,7 +18834,7 @@
     )
     (pin "1" (uuid c06a2a85-d645-486d-8f05-01524cf28414))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0105") (unit 1)
         )
@@ -18865,7 +18865,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "R73") (unit 1)
         )
@@ -18902,7 +18902,7 @@
     )
     (pin "1" (uuid 9fae9445-5014-414f-b16a-0f82fbc51eba))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR0161") (unit 1)
         )
@@ -18956,7 +18956,7 @@
     (pin "8" (uuid 63fc821d-0e19-4567-954b-63b30911950f))
     (pin "9" (uuid 09102b73-6b76-4c43-a2c9-94bad757a387))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "J36") (unit 1)
         )
@@ -18988,7 +18988,7 @@
     (pin "1" (uuid f55a184e-fe6d-4b26-b412-1c4a460cc50c))
     (pin "2" (uuid 68372660-dc45-43d6-828f-e3d9f403e39e))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "D38") (unit 1)
         )
@@ -19012,7 +19012,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "FID6") (unit 1)
         )
@@ -19037,7 +19037,7 @@
     )
     (pin "1" (uuid 4256c642-6d63-4bd1-a340-565298154579))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53"
           (reference "#PWR052") (unit 1)
         )
@@ -19069,7 +19069,7 @@
     (pin "7" (uuid 0c7a85f9-c5f7-4f40-92d9-07e35e6d3b2d))
     (pin "8" (uuid f3cf6dae-682d-4a51-99ce-f011f8b36587))
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/6adaba86-2614-4e1b-b3d6-74260a2c85fe"
           (reference "Q26") (unit 1)
         )
@@ -19164,7 +19164,7 @@
       (uuid daa7af4d-280b-46d6-95b6-f6a929d6dec8)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53" (page "6"))
       )
     )
@@ -19257,7 +19257,7 @@
       (uuid 88b6bdc6-8fcc-40f3-a96a-72628ca99a6f)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53" (page "15"))
       )
     )
@@ -19278,7 +19278,7 @@
       (uuid b1d7c0c2-9a01-4d2a-8188-81d95f80b454)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53" (page "13"))
       )
     )
@@ -19303,7 +19303,7 @@
       (uuid 1678a34a-01cf-4424-bd62-ff1452fd4416)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53" (page "17"))
       )
     )
@@ -19396,7 +19396,7 @@
       (uuid 6080bcbf-d5aa-44d1-9cff-9e389266274f)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53" (page "8"))
       )
     )
@@ -19461,7 +19461,7 @@
       (uuid a002abee-2acf-41f8-9546-c111bfbbc967)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53" (page "5"))
       )
     )
@@ -19482,7 +19482,7 @@
       (uuid 1e94e3bc-2693-4603-8e50-011a7c5b8418)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53" (page "16"))
       )
     )
@@ -19503,7 +19503,7 @@
       (uuid b5f7a3b2-3a89-412a-b11e-86ce7f30d413)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53" (page "12"))
       )
     )
@@ -19568,7 +19568,7 @@
       (uuid d0afb930-e70c-437f-ae95-a6ca84bf88da)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53" (page "2"))
       )
     )
@@ -19633,7 +19633,7 @@
       (uuid 2829c31b-4952-4487-9ea1-a1651f8c8f2e)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53" (page "3"))
       )
     )
@@ -19714,7 +19714,7 @@
       (uuid e46fa56a-a73e-4a2c-9c9e-8094341af909)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53" (page "7"))
       )
     )
@@ -19735,7 +19735,7 @@
       (uuid fc7dc7c1-113b-4ad0-bf24-e7f8a426ee6f)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53" (page "14"))
       )
     )
@@ -19800,7 +19800,7 @@
       (uuid 8f0092f6-7df0-4fd7-8933-fd1c0ed5ef5d)
     )
     (instances
-      (project "mainboard"
+      (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53" (page "4"))
       )
     )
