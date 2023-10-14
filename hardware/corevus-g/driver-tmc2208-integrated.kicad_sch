@@ -930,7 +930,7 @@
     (property "Reference" "R3" (at 33.93 60.96 90)
       (effects (font (size 0.8 0.8)))
     )
-    (property "Value" "1kΩ" (at 35.56 60.96 90)
+    (property "Value" "4.7kΩ" (at 35.56 60.96 90)
       (effects (font (size 0.8 0.8)))
     )
     (property "Footprint" "AlphaLib:0402R" (at 35.56 60.96 0)

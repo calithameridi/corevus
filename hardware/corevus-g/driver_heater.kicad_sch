@@ -734,7 +734,7 @@
     (property "Reference" "R3" (at 62.5 73.39 90)
       (effects (font (size 0.8 0.8)) (justify right))
     )
-    (property "Value" "1kΩ" (at 63.5 71.12 90)
+    (property "Value" "10kΩ" (at 63.5 71.12 90)
       (effects (font (size 0.8 0.8)))
     )
     (property "Footprint" "AlphaLib:0402R" (at 63.5 71.12 0)
