@@ -1,6 +1,4 @@
 # Corevus-G alpha program user's guide
-
-
 Read the entirety of this document before unboxing the board and proceeding with any integration and testing.
 
 # Safety precautions
