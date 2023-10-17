@@ -5,7 +5,7 @@ Read the entirety of this document before unboxing the board and proceeding with
 So far, I have verified most functionalities on the alpha hardware to function nominally. Nonetheless, the possibility of failures — including catastrophic failures threatening life and property — cannot be ruled out. Please exercise the following precautions while handling or operating the provided hardware:
 * Be able to cut power at a moment's notice, such as powering the board / printer from a power strip with an **easily accessible** off switch.
 * Maintain a fire extinguisher by the board at all times.
-* Do not allow the board to operate near any flammable materials.
+* Do not allow the board to operate near any flammable materials.https://github.com/calithameridi/corevus/blob/main/hardware/corevus-g/corevus-g-alpha-users-guide.md
 
 **Participation in the alpha program is conditional on you acknowledging the risk of prototype hardware failing catastrophically and making sufficient preparations to mitigate suck risk.** I will be following up with each alpha tester individually to review these terms.
 
@@ -18,7 +18,7 @@ So far, I have verified most functionalities on the alpha hardware to function n
 - The board contains nine fan ports. Two (F0, F1) are four-pin while the remaining seven (F2-F8) are two-pin. The first six (F0-F5) ports can be switched between 24V and 12V using jumpers, while the last three (F6-F8) are 24V only.
 - There are four endstop ports (E0-E3) plus an additional inductive probe port (E4, defective, see errata below).
 - There are six thermistor ports, all have 4.7kΩ pullup resistors. I have had good results directly connecting PT1000 sensors to them.
-- The Pi Zero dock and USB hub is designed to mount and expose the connections on a Pi Zero or Zero 2, such as running the USB port into a hub. 
+- The Pi Zero dock and USB hub is designed to mount and expose the connections on a Pi Zero or Zero 2, such as running the USB port into a hub. A dummy splice board is provided that exposes the upstream port of the hub as USB-C.
 
 ## Errata
 - Endstop port E4 (inductive probe) is not electrically connected to the microcontroller.
