@@ -6,6 +6,7 @@ So far, I have verified most functionalities on the alpha hardware to function n
 * Be able to cut power at a moment's notice, such as powering the board / printer from a power strip with an **easily accessible** off switch.
 * Maintain a fire extinguisher by the board at all times.
 * Do not allow the board to operate near any flammable materials.
+
 **Participation in the alpha program is conditional on you acknowledging the risk of prototype hardware failing catastrophically and making sufficient preparations to mitigate suck risk.** I will be following up with each alpha tester individually to review these terms.
 
 # Feature description
