@@ -5,8 +5,7 @@ Read the entirety of this document before unboxing the board and proceeding with
 So far, I have verified most functionalities on the alpha hardware to function nominally. Nonetheless, the possibility of failures — including catastrophic failures threatening life and property — cannot be ruled out. Please exercise the following precautions while handling or operating the provided hardware:
 * Be able to cut power at a moment's notice, such as powering the board / printer from a power strip with an **easily accessible** off switch.
 * Maintain a fire extinguisher by the board at all times.
-* Do not allow the board to operate near any flammable materials.https://github.com/calithameridi/corevus/blob/main/hardware/corevus-g/corevus-g-alpha-users-guide.md
-
+* Do not allow the board to operate near any flammable materials.
 **Participation in the alpha program is conditional on you acknowledging the risk of prototype hardware failing catastrophically and making sufficient preparations to mitigate suck risk.** I will be following up with each alpha tester individually to review these terms.
 
 # Feature description
