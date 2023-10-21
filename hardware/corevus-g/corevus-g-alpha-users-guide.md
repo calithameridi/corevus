@@ -22,7 +22,7 @@ So far, I have verified most functionalities on the alpha hardware to function n
 
 ## Errata
 - Endstop port E4 (inductive probe) is not electrically connected to the microcontroller.
-    - _Workaround_: Bodge the output pin of the opto-isolator to another endstop input pin.
+    - _Workaround_: Bodge the output pin of the opto-isolator to another endstop input pin. Ask me if you're using an inductive probe and need this fix to be performed.
 - Plugging in the board to a Raspberry Pi or other computer, while the board itself is not powered from 24V, causes the large electrolytic capacitors to charge off the supplied 5V power. this may cause the Pi to reboot as the onboard PMIC detects an overcurrent and shuts down the processor until the capacitors are charged. Fix is planned for next revision.
     - _Workaround_: Ensure the board and the Pi are connected prior to powering up the Pi.  
 ## Installing Klipper
