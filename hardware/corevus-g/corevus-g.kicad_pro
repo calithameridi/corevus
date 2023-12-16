@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -533,55 +533,55 @@
     ],
     [
       "972ca71f-1c40-4278-8cb4-2b520c3e8975",
-      "Motor 0 (TMC2208)"
+      "Motor 4 (TMC2208)"
     ],
     [
       "99778979-7977-44ff-ba7b-f489010f8682",
-      "Motor 1 (TMC2208)"
+      "Motor 5 (TMC2208)"
     ],
     [
       "f6e6a5bb-7803-4b0b-883d-433919711a15",
-      "Motor 2 (TMC2208)"
+      "Motor 6 (TMC2208)"
     ],
     [
       "64a332d7-9292-493c-af4b-24f0e80d7999",
-      "Motor 3 (TMC2208)"
+      "Motor 7 (TMC2208)"
     ],
     [
       "09bb4a8f-8694-4b82-8e1f-fabe3bd11ec7",
-      "Motor 4 (TMCx160)"
+      "Motor 0 (TMC2160)"
     ],
     [
       "d34aeff3-da22-4edc-92e0-1591d6117dbc",
-      "Motor 5 (TMCx160)"
+      "Motor 1 (TMC2160)"
     ],
     [
       "5afe29f8-580d-41ca-9e85-d55138e0d5c1",
-      "Motor Expansion 1x"
+      "Motor Expansion 2A, 2B"
     ],
     [
-      "956ffa88-460c-45ff-bb37-d040d3cbedfe",
+      "bb16317b-ca89-4c54-91fa-fbae4a7551b1",
       "Heater 1"
     ],
     [
-      "28340924-2d90-4a87-bb0b-10ef0633a541",
+      "e431a135-0fb4-461f-9017-9bc2d88ea1f7",
+      "Heater 4"
+    ],
+    [
+      "8e27c19c-e19c-4813-a1cf-aa58793105a1",
       "Heater 0"
     ],
     [
-      "f514cf63-1394-4014-821a-69b4627909f9",
+      "a01cd58f-7f75-4e1a-8889-9711b3d0cced",
       "Heater 2"
     ],
     [
-      "226ad11a-fb4e-4632-9106-fccee4c96d67",
-      "Motor Expansion 2x"
-    ],
-    [
-      "6adaba86-2614-4e1b-b3d6-74260a2c85fe",
+      "b3227175-22a5-463e-9e60-58ccde9b8f4a",
       "Heater 3"
     ],
     [
-      "555d743c-a55c-4bf1-af2e-c3584a300e89",
-      "Pi Zero + USB Hub"
+      "226ad11a-fb4e-4632-9106-fccee4c96d67",
+      "Motor Expansion 3A, 3B"
     ]
   ],
   "text_variables": {}
