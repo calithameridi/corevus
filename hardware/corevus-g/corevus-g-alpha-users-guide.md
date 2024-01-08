@@ -5,7 +5,7 @@ Read the entirety of this document before unboxing the board and proceeding with
 So far, I have verified most functionalities on the alpha hardware to function nominally. Nonetheless, the possibility of failures — including catastrophic failures threatening life and property — cannot be ruled out. Please exercise the following precautions while handling or operating the provided hardware:
 * Be able to cut power at a moment's notice, such as powering the board / printer from a power strip with an **easily accessible** off switch.
 * Maintain a fire extinguisher by the board at all times.
-* Do not allow the board to operate near any flammable materials.https://github.com/calithameridi/corevus/blob/main/hardware/corevus-g/corevus-g-alpha-users-guide.md
+* Do not allow the board to operate near any flammable materials.
 
 **Participation in the alpha program is conditional on you acknowledging the risk of prototype hardware failing catastrophically and making sufficient preparations to mitigate suck risk.** I will be following up with each alpha tester individually to review these terms.
 
@@ -22,7 +22,7 @@ So far, I have verified most functionalities on the alpha hardware to function n
 
 ## Errata
 - Endstop port E4 (inductive probe) is not electrically connected to the microcontroller.
-    - _Workaround_: Bodge the output pin of the opto-isolator to another endstop input pin.
+    - _Workaround_: Bodge the output pin of the opto-isolator to another endstop input pin. Ask me if you're using an inductive probe and need this fix to be performed.
 - Plugging in the board to a Raspberry Pi or other computer, while the board itself is not powered from 24V, causes the large electrolytic capacitors to charge off the supplied 5V power. this may cause the Pi to reboot as the onboard PMIC detects an overcurrent and shuts down the processor until the capacitors are charged. Fix is planned for next revision.
     - _Workaround_: Ensure the board and the Pi are connected prior to powering up the Pi.  
 ## Installing Klipper
@@ -50,7 +50,7 @@ Run `make` to compile the firmware (this will take a while). Once complete, load
 3. Check that the microcontroller is in DFU mode and connected to the Pi by running `lsusb`. The board should appear in the resulting list as `0483:df11 STMicroelectronics STM Device in DFU Mode`.
 4. Load the compiled Klipper firmware by running `make flash FLASH_DEVICE=0483:df11`. This will take a while.
 5. On the board, disable the DFU switch and push the reset button.
-6. Verify the firmware has been successfully loaded by running `lsusb` again. The board should now appear as `1d50:614e OpenMoko, Inc. stm32f407xx` or similar.
+6. Verify the firmware has been successfully loaded by running `lsusb` again. The board should now appear as `1d50:614e OpenMoko, Inc. stm32f407xx`.
 7. At this point you can run `ls /dev/serial/by-id/*` and copy the resulting directory path into your Klipper printer.cfg file.
     > Remember to use the **directory path** (e.g. `/dev/serial/by-id/usb-Klipper_stm32f407xx_3F0046000351323531343534-if00`) in your printer.cfg. The 24-character string in the device name is the 96-bit unique ID of the STM32 and varies per device.
 8. Remember to re-enable heaters with the _Kill Heaters_ switch when you are ready to use them.
