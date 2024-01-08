@@ -1836,7 +1836,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 154e0ae8-5339-45df-927c-7872e1643c6c)
   )
-  (label "A1" (at 163.83 88.9 0) (fields_autoplaced)
+  (label "A1" (at 163.83 86.36 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 194a5bef-abae-49f6-b03b-13820c46c1ed)
   )
@@ -1852,7 +1852,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2fc50e85-c02b-4d6b-ab3a-0f46c3de9909)
   )
-  (label "A2" (at 163.83 91.44 0) (fields_autoplaced)
+  (label "A2" (at 163.83 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 320dccf8-e3b3-41d0-bfcd-b5a3c7389cfc)
   )
@@ -1880,7 +1880,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 62ff9ac6-4f77-41f8-bed7-fc3cb8ae3bab)
   )
-  (label "B1" (at 163.83 83.82 0) (fields_autoplaced)
+  (label "B1" (at 163.83 91.44 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 63556e68-54d7-45cf-945b-af951f415d62)
   )
@@ -1948,7 +1948,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid cbee0331-8baa-46bf-86e4-31abfc468f7a)
   )
-  (label "B2" (at 163.83 86.36 0) (fields_autoplaced)
+  (label "B2" (at 163.83 88.9 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cdeefa42-97a0-4844-86f2-178db9126031)
   )
@@ -2176,9 +2176,6 @@
         )
       )
       (project "corevus-g"
-        (path "/1a565782-f217-442e-b118-196625f31c53"
-          (reference "R?") (unit 1)
-        )
         (path "/1a565782-f217-442e-b118-196625f31c53/d34aeff3-da22-4edc-92e0-1591d6117dbc"
           (reference "R107") (unit 1)
         )
@@ -2483,9 +2480,6 @@
         )
       )
       (project "corevus-g"
-        (path "/1a565782-f217-442e-b118-196625f31c53"
-          (reference "R?") (unit 1)
-        )
         (path "/1a565782-f217-442e-b118-196625f31c53/d34aeff3-da22-4edc-92e0-1591d6117dbc"
           (reference "R119") (unit 1)
         )
@@ -2981,9 +2975,6 @@
         )
       )
       (project "corevus-g"
-        (path "/1a565782-f217-442e-b118-196625f31c53"
-          (reference "R?") (unit 1)
-        )
         (path "/1a565782-f217-442e-b118-196625f31c53/d34aeff3-da22-4edc-92e0-1591d6117dbc"
           (reference "R99") (unit 1)
         )
@@ -3052,9 +3043,6 @@
         )
       )
       (project "corevus-g"
-        (path "/1a565782-f217-442e-b118-196625f31c53"
-          (reference "D?") (unit 1)
-        )
         (path "/1a565782-f217-442e-b118-196625f31c53/d34aeff3-da22-4edc-92e0-1591d6117dbc"
           (reference "D13") (unit 1)
         )
@@ -3188,7 +3176,7 @@
     (property "Value" "Micro-Fit 3.0" (at 180.34 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "corevus:XKB_X3025WR-04" (at 176.784 95.504 0)
+    (property "Footprint" "corevus:JST_XH_1x04" (at 176.784 95.504 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" (at 176.784 95.504 0)
@@ -3585,9 +3573,6 @@
         )
       )
       (project "corevus-g"
-        (path "/1a565782-f217-442e-b118-196625f31c53"
-          (reference "D?") (unit 1)
-        )
         (path "/1a565782-f217-442e-b118-196625f31c53/d34aeff3-da22-4edc-92e0-1591d6117dbc"
           (reference "D20") (unit 1)
         )

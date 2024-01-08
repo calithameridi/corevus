@@ -948,15 +948,6 @@
         )
       )
       (project "corevus-g"
-        (path "/1a565782-f217-442e-b118-196625f31c53"
-          (reference "R96") (unit 1)
-        )
-        (path "/1a565782-f217-442e-b118-196625f31c53/09bb4a8f-8694-4b82-8e1f-fabe3bd11ec7"
-          (reference "R98") (unit 1)
-        )
-        (path "/1a565782-f217-442e-b118-196625f31c53/d34aeff3-da22-4edc-92e0-1591d6117dbc"
-          (reference "R99") (unit 1)
-        )
         (path "/1a565782-f217-442e-b118-196625f31c53/972ca71f-1c40-4278-8cb4-2b520c3e8975"
           (reference "R22") (unit 1)
         )
@@ -1185,16 +1176,16 @@
     (property "Value" "JST XH" (at 99.06 66.04 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "corevus:JST_XH_1x04-Side" (at 95.504 65.024 0)
+    (property "Footprint" "corevus:JST_XH_1x04" (at 95.504 65.024 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" (at 95.504 65.024 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8a1f7ac6-5e60-4797-9567-eaf86284fbff))
-    (pin "2" (uuid 8529c999-9f6b-4ce9-9cfa-2719dae30e9e))
-    (pin "3" (uuid 7bac7a78-3a3e-4c00-9a5b-6428e1bfc4d9))
-    (pin "4" (uuid 286d7d0c-c510-4b69-a98e-dd45362a32f6))
+    (pin "1" (uuid c258989f-e1ed-4014-813c-30ed5c6201ee))
+    (pin "2" (uuid 71ee4008-751a-4c94-bc18-e7603faa25f9))
+    (pin "3" (uuid 5c09e082-62ca-486e-a1fb-b118c2e8fedc))
+    (pin "4" (uuid a834849b-3cd0-4274-b0dc-8b6d6e49c032))
     (instances
       (project "corevus-g"
         (path "/1a565782-f217-442e-b118-196625f31c53/972ca71f-1c40-4278-8cb4-2b520c3e8975"
@@ -1276,15 +1267,6 @@
         )
       )
       (project "corevus-g"
-        (path "/1a565782-f217-442e-b118-196625f31c53"
-          (reference "R96") (unit 1)
-        )
-        (path "/1a565782-f217-442e-b118-196625f31c53/09bb4a8f-8694-4b82-8e1f-fabe3bd11ec7"
-          (reference "R98") (unit 1)
-        )
-        (path "/1a565782-f217-442e-b118-196625f31c53/d34aeff3-da22-4edc-92e0-1591d6117dbc"
-          (reference "R99") (unit 1)
-        )
         (path "/1a565782-f217-442e-b118-196625f31c53/972ca71f-1c40-4278-8cb4-2b520c3e8975"
           (reference "R97") (unit 1)
         )
@@ -1536,15 +1518,6 @@
         )
       )
       (project "corevus-g"
-        (path "/1a565782-f217-442e-b118-196625f31c53"
-          (reference "D18") (unit 1)
-        )
-        (path "/1a565782-f217-442e-b118-196625f31c53/09bb4a8f-8694-4b82-8e1f-fabe3bd11ec7"
-          (reference "D19") (unit 1)
-        )
-        (path "/1a565782-f217-442e-b118-196625f31c53/d34aeff3-da22-4edc-92e0-1591d6117dbc"
-          (reference "D20") (unit 1)
-        )
         (path "/1a565782-f217-442e-b118-196625f31c53/972ca71f-1c40-4278-8cb4-2b520c3e8975"
           (reference "D21") (unit 1)
         )
