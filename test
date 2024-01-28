@@ -31,47 +31,4 @@ aliases:
 # Endstops
 	S0 = PG12, S1 = PG13, S2 = PG14, S3 = PG15
     
-### Corevus-G v0.4 Thermistors ###
 
-[thermistor CvBoardTherm]
-temperature1: 25.0
-resistance1: 10000.0
-beta: 3950
-
-[temperature_sensor M1_Driver]
-sensor_type: CvBoardTherm
-sensor_pin: M1_THERM
-min_temp: -20
-max_temp: 85
-
-[temperature_sensor M4_Driver]
-sensor_type: CvBoardTherm
-sensor_pin: M4_THERM
-min_temp: -20
-max_temp: 85
-
-[temperature_sensor 12V]
-sensor_type: CvBoardTherm
-sensor_pin: 12V_THERM
-min_temp: -20
-max_temp: 85
-
-[temperature_sensor 5V]
-sensor_type: CvBoardTherm
-sensor_pin: 5V_THERM
-min_temp: -20
-max_temp: 85
-
-# Uncomment if using expansion ports M2 and/or M3
-
-#[temperature_sensor M2_Driver]
-#sensor_type: SDNT1005X103F3950FTF
-#sensor_pin: M2_THERM
-#min_temp: -20
-#max_temp: 85
-
-#[temperature_sensor M3_Driver]
-#sensor_type: SDNT1005X103F3950FTF
-#sensor_pin: M3_THERM
-#min_temp: -20
-#max_temp: 85
