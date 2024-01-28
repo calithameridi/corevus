@@ -1,6 +1,6 @@
 # Corevus-G v0.4 beta test manual
 
-
+Document incomplete, work in progress
 
 
 # Flashing Klipper
