@@ -979,7 +979,7 @@
     (property "Datasheet" "~" (at 41.91 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C19666" (at 41.91 82.55 90)
+    (property "LCSC" "" (at 41.91 82.55 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dea5f9ba-24b9-4597-b65e-716604cf4baa))

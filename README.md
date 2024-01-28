@@ -1,9 +1,9 @@
 # corevus
 
-![alt text](/images/corevus-g-v0.4.png)
+![corevus-g v0.4 board render](/assets/corevus-g-v0.4.png)
 
-Copyright 2023 Meridi Engineering. All rights reserved.
+Copyright 2024 by meridi (myself), all rights reserved
 
-High-flexibility, low-cost mechatronics controller for 3D printers
+High performance, low cost controller for 3D printers. 
 
-todo: update relative path for project libraries, update mainpage render
+For CvG v0.4 beta testers, see [insert link here]()
