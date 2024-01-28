@@ -32,6 +32,8 @@ fp-info-cache
 
 jlcpcb/
 gerbers/
+export/
+production/
 *-backups/
 */#auto_saved_files#
 
