@@ -1,6 +1,7 @@
 # Corevus-G v0.4 hardware overview
 
 Document incomplete, work in progress
+
 *See also*: [Configuration and Setup](./CvG-v0.4-config-setup.md)
 
 ## Errata
@@ -10,7 +11,7 @@ Document incomplete, work in progress
 
 ## Wiring the 5V power harness
 
-The JST-XH connector should be plugged into the S2 endstop port, as shown in the below image. [image1](link) 
+The JST-XH connector should be plugged into the S2 endstop port, as shown in the below image. [image1](/assets/bodge-harness-1.jpg) 
 The pin header side of the harness should be plugged in as shown in the below image, with the red 5V wire over pin 4 and the black gnd wire over pin 6. **Failure to install this correctly may result in destruction of hardware** and a bad user experience. [image2](link)
 
 ## Board hardware
@@ -20,13 +21,15 @@ The pin header side of the harness should be plugged in as shown in the below im
 
 M0 and M1 are high-power TMC2160 stepper drivers, conventionally used for driving the XY stage on the printer. 
 
-The MOSFETs attached to the TMC2160s are good enough so as to not require heatsinks — even in excess of 3A drive current — although providing cooling airflow is always useful.\
+The MOSFETs attached to the TMC2160s are good enough so as to not require heatsinks — even in excess of 3A drive current — although providing cooling airflow is always useful.
 
 ### Driver expansion ports
 
 Each of the two driver expansion ports is provisioned to accommodate signals for two drivers each.
 
 (for example, a common configuration is to add two more TMC2160s, one per port to drive a cross-gantry or 4-motor corexy stage)
+
+
 
 ### Low power motors
 
