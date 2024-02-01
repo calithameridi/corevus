@@ -11,7 +11,7 @@ Document incomplete, work in progress
 
 ## Wiring the 5V power harness
 
-The JST-XH connector should be plugged into the S2 endstop port, as shown in the below image. [image1](/assets/bodge-harness-1.jpg) 
+The JST-XH connector should be plugged into the S2 endstop port, as shown in the below image. [image1](/assets/images/bodge-harness-1.jpg) 
 The pin header side of the harness should be plugged in as shown in the below image, with the red 5V wire over pin 4 and the black gnd wire over pin 6. **Failure to install this correctly may result in destruction of hardware** and a bad user experience. [image2](link)
 
 ## Board hardware
