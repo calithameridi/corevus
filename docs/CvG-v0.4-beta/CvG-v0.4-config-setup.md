@@ -1,19 +1,25 @@
 # Corevus-G v0.4 beta test manual
 
-
+*See also*: [Hardware Overview](../CvG-v0.4-hardware-overview.md)
 
 
 # Flashing Klipper
 
-v0 boards are tested and flashed with klipper prior to 
+The Corevus-G v0.4 boards are tested and flashed with the klipper mcu firmware prior to shipout. However in the event that you need to flash klipper, use the following procedure:
+- Unplug everything from the board except the USB connection to the klipper host (or any machine with the klipper build chain), you may find it helpful to take a photo before dismantling attached cables
+- on the klipper host, run `cd ~/klipper` to enter the klipper source directory
+- Run `make clean` to delete previous builds and `make menuconfig`
+- In the configuration menu, select the following parameters: `STMicroelectronics STM32`, `STM32H723`, `No bootloader`, and `12 MHz crystal`.
+- Exit the configuration menu and save you
+- Run `make` and wait for the firmware to finish compiling
+- Switch the device into DFU mode by holding down the BOOT pushbutton and then pushing and releasing the RESET pushbutton
+- Reinstall the board in accordance to your previous wiring scheme
 
 # Configuration 
 
 
 ## Pin table
 Add the following section to your configuration. 
-
-in a mostly human readable 
 
 ```
 ### Corevus-G v0.4 Pin Aliases ###
