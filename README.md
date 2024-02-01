@@ -6,4 +6,4 @@ Copyright 2024 by meridi (myself), all rights reserved until i decide on a suita
 
 High performance, low cost controller for 3D printers. 
 
-For CvG v0.4 beta testers, see [the manual](./docs/CvG-v0.4-beta/CvG-v0.4-beta-manual.md)
+For CvG v0.4 beta testers, see [the manual](./docs/CvG-v0.4-beta/CvG-v0.4-hardware-overview.md)
