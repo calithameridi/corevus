@@ -1,11 +1,7 @@
 # Corevus-G v0.4 beta test manual
 
-<<<<<<< HEAD:docs/CvG-v0.4-beta/CvG-v0.4-config-setup.md
-*See also*: [Hardware Overview](../CvG-v0.4-hardware-overview.md)
-=======
 Document incomplete, work in progress
->>>>>>> 2b68ebf92644d1bf02056858a3e9f3beb721485c:docs/CvG-v0.4-beta-manual.md
-
+*See also*: [Hardware Overview](./CvG-v0.4-hardware-overview.md)
 
 # Flashing Klipper
 
