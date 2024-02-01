@@ -1,6 +1,7 @@
 # Corevus-G v0.4 hardware overview
 
-*See also*: [Configuration and Setup](../CvG-v0.4-config-setup.md)
+Document incomplete, work in progress
+*See also*: [Configuration and Setup](./CvG-v0.4-config-setup.md)
 
 ## Errata
 - The USB-A connector labeled 5V PWR, designed to supply power to the RPi, is unusable due to a wiring error. I have shipped a cable harness with each order to bodge this while I push the fix to the next revision.
