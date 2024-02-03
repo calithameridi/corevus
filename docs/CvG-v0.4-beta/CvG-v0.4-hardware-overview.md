@@ -1,6 +1,6 @@
 # Corevus-G v0.4 hardware overview
 
-Document incomplete, work in progress
+Document incomplete (but for the most part ready), work in progress
 
 *See also*: [Configuration and Setup](./CvG-v0.4-config-setup.md)
 
@@ -66,7 +66,7 @@ The board has eight thermistor connectors T0-T7 with 4.7kΩ 1% pullup resistors 
 
 The T0 port appears to not work, perhaps due to a bug with the stm32h7 ADC code.
 
-Testing has shown thermistor noise to be fairly usable, even with directly-connected Pt1000-type sensors.
+Testing has shown thermistor noise to be fairly stable, even with directly-connected Pt1000-type sensors.
 
 ### Fans 
 

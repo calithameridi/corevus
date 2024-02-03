@@ -115,4 +115,46 @@ max_temp: 85
 
 ## Motors 
 
+TO DO. WATCH FOR SENSE RESISTOR VALUES (THESE ARE PRINTED ON THE DRIVER, DO NOT MISCONFIGURE OR ELSE YOU'RE IN FOR A BAD TIME)
+
+
+The following klipper configuration code uses the TMC5160 module — works, as the two chips are mostly register compatible and Klipper does not use 5160-specific features. A dedicated TMC2160 module is being tested and should be upstreamed soon. 
+```
+INSERT WIP CODE SNIPPET HERE IDK
+
+[stepper-<n>]
+step_pin:
+dir_pin:
+enable_pin:
+rotation_distance:
+microsteps:
+#full_steps_per_rotation: 200
+#step_pulse_duration:
+endstop_pin:
+#position_min: 0
+position_endstop:
+position_max:
+#homing_speed: 5.0
+#homing_retract_dist: 5.0
+#homing_retract_speed:
+#second_homing_speed:
+#homing_positive_dir:
+
+[tmc5160 stepper_x]
+cs_pin:
+spi_bus:
+interpolate: True
+run_current: 1.0 # Start at this value and work your way up
+hold_current: 1.0
+sense_resistor: 0.03 # YOU MUST CHECK THIS AGAINST YOUR HARDWARE
+#stealthchop_threshold: 0
+# Relevant for sensorless homing
+driver_SGT: 0
+diag1_pin: # For integrated 2160s this is M0_DIAG1 or M1_DIAG1, for TMC2160 driver expansion modules this is M2A_DIAG or similar (with no '1')
+
+```
+
+
+
+
 ## Toolhead connector
