@@ -100,13 +100,13 @@ max_temp: 85
 # Uncomment if using expansion ports M2 and/or M3
 
 #[temperature_sensor M2_Driver]
-#sensor_type: SDNT1005X103F3950FTF
+#sensor_type: CvBoardTherm
 #sensor_pin: M2_THERM
 #min_temp: -20
 #max_temp: 85
 
 #[temperature_sensor M3_Driver]
-#sensor_type: SDNT1005X103F3950FTF
+#sensor_type: CvBoardTherm
 #sensor_pin: M3_THERM
 #min_temp: -20
 #max_temp: 85
