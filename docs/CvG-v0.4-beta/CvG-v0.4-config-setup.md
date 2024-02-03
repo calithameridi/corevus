@@ -12,7 +12,8 @@ The Corevus-G v0.4 boards are tested and flashed with the klipper mcu firmware p
 - In the configuration menu, select the following parameters: `STMicroelectronics STM32`, `STM32H723`, `No bootloader`, and `12 MHz crystal`.
 - Exit the configuration menu and save you
 - Run `make` and wait for the firmware to finish compiling
-- Switch the device into DFU mode by holding down the BOOT pushbutton and then pushing and releasing the RESET pushbutton
+- Switch the device into DFU mode by holding down the BOOT pushbutton and then pushing and releasing the RESET pushbutton (the STM32 should show up as '0483:df11 STM device in DFU mode' or whatnot \
+- Flash the board with `make flash FLASH_DEVICE=0483:df11`, this may return an error 255 but check lsusb to see whether you have successfully flashed the board
 - Reinstall the board in accordance to your previous wiring scheme
 
 # Configuration 
