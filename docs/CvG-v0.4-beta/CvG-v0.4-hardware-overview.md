@@ -24,6 +24,12 @@ Board is 135 × 75 mm, with M3 mounting holes inset 3mm from the corners.
 
 ![aeiou](/assets/images/CvG-v0.4-dimensions.png)
 
+### Power inlet
+
+Connect a 24V power supply to the screw terminal pair labeled '24V MAIN / GND'. If you are using a dedicated power supply for motors, connect it to the screw terminal pair labeled '48V MOTOR / GND'. 
+
+![aeiou](/assets/images/CvG-v0.4-power-inlet.jpg)
+
 ### High power motors
 
 M0 and M1 are high-power TMC2160 stepper drivers, conventionally used for driving the XY stage on the printer. 
@@ -39,9 +45,19 @@ To install additional drivers, use a 2 mm hex key to pop out the orange cover ta
 ![aeiou](/assets/images/CvG-v0.4-drivers-uninstalled.jpg)
 ![aeiou](/assets/images/CvG-v0.4-drivers-installed.jpg)
 
+### *High voltage operation*
+
+A dedicated motor voltage supply can be used to power M0, M1, M2, and M3 for certain high performance applications. 
+
+Voltage switching is accomplished by using pairs of fuse slots to connect a motor driver bank to either the main 24V supply or the dedicated (up to 48V) motor supply, which should be wired up to the power-in screw terminals labeled '24-48V MOTOR / GND'. The fuse pair marked [0-1] connects power to the two integral TMC2160 drivers (M0, M1) and the fuse pair marked [2-3] connects power to the driver expansion mounting slots (M2, M3).
+
+**Do not** attach both fuses in a fuse pair together as this will short the main and motor power supplies together and may destroy power supplies connected to both. In addition, **do not** connect the M2-M3 ports to an external power supply that exceeds the voltage ratings of the installed drivers — it's very likely that if you have drivers other than TMC2160 on a 48V power supply that they will be destroyed and you will not have a good hardware experience.
+
+*Tip: to remove fuses, gently pull them out of the socket with pliers. To install fuses, first install them partially by hand, then use a large flat object like a table edge to push the fuse down into its fully seated position.*
+
 ### Low power motors
 
-The board contains four TMC2208 drivers for powering low power stepper motors, such as Z-axis drives and extruders (up to 1A).
+The board contains four TMC2208 drivers for powering low power stepper motors, such as Z-axis drives and extruders (up to 1A). They are run off the primary 24V power supply. 
 
 ![aeiou](/assets/images/CvG-v0.4-tmc2208.jpg)
 
@@ -62,13 +78,11 @@ Testing has shown thermistor noise to be fairly usable, even with directly-conne
 
 ### USB and toolhead ports 
 
-MCU USB 
+The microcontroller USB, accessible through the type-C connector labeled 'MCU USB', is the recommended way to control the board. It can also be used to flash the board firmware in DFU mode. 
 
 The USB-A port labeled 5V PWR is designed to power an attached RPi or other SBC, but it is not usable due to a wiring error and should be taped off. 
 
-
-
-
+The 'TOOLHEAD' connector makes available a 24V, 12V and USB differential pair connection for an in-development tool board, of which the USB is broken out as a separate type-C connector. As I have not finalized the pinout for this connector it is taped off for now, if in the future you order or obtain a corevus toolboard then please contact me for a cable assembly before using this connector.
 
 # Heaters
 
@@ -76,7 +90,9 @@ The H0-H3 heater ports can be used to drive 24V heaters at up to 5A per heater. 
 
 Although H0 is functional, it is connected to a pin that is pulled on when loading the stm32 bootrom during DFU, it may be wise to not connect that to anything.
 
-Alternatively, you can use these ports or additional fan ports to drive relays 
+Alternatively, you can use these ports or additional fan ports to drive relays / SSRs for larger loads such as mains powered bed heaters. 
+
+![aeiou](/assets/images/CvG-v0.4-heaters.jpg)
 
 ### Endstops 
 S0 through S3, with signal / gnd / 5V pinout. S3 can be switched between 5V and 24V using an adjacent jumper and has a built-in protection diode for use with inductive probes.
