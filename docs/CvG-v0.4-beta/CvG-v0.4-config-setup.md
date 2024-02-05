@@ -6,27 +6,26 @@ Document incomplete, work in progress
 # Flashing Klipper
 
 The Corevus-G v0.4 boards are tested and flashed with the klipper mcu firmware prior to shipout. However in the event that you need to flash klipper, use the following procedure:
-- Unplug everything from the board except the USB connection to the klipper host (or any machine with the klipper build chain), you may find it helpful to take a photo before dismantling attached cables
-- on the klipper host, run `cd ~/klipper` to enter the klipper source directory
+- Unplug **everything** from the board except the USB connection to the klipper host (or any machine with the klipper build chain). You may find it helpful to take a photo before dismantling attached cables
+- On the klipper host, run `cd ~/klipper` to enter the klipper source directory
 - Run `make clean` to delete previous builds and `make menuconfig`
 - In the configuration menu, select the following parameters: `STMicroelectronics STM32`, `STM32H723`, `No bootloader`, and `12 MHz crystal`.
 - Exit the configuration menu and save you
 - Run `make` and wait for the firmware to finish compiling
-- Switch the device into DFU mode by holding down the BOOT pushbutton and then pushing and releasing the RESET pushbutton (the STM32 should show up as '0483:df11 STM device in DFU mode' or whatnot \
+- Switch the microcontroller into DFU mode by holding down the BOOT pushbutton and then pushing and releasing the RESET pushbutton (the STM32 should show up as '0483:df11 STM device in DFU mode')
 - Flash the board with `make flash FLASH_DEVICE=0483:df11`, this may return an error 255 but check lsusb to see whether you have successfully flashed the board
-- Reinstall the board in accordance to your previous wiring scheme
+- (Re)install the board in accordance to your wiring scheme.
 
 # Configuration 
 
+Reading through the [Klipper configuration reference](https://www.klipper3d.org/Config_Reference.html) will probably be of great help here.
 
 ## Pin table
-Add the following section to your configuration. 
+Add the following section to your configuration. This defines human readable pins for pin names such that you won't have to reference the schematic for the microcontroller pin names. For example, you can call `T1` to denote the pin connected to thermistor T1 and `M4_STEP` to denote the pin connected to the M4 driver step signal.
 
 ```
-### Corevus-G v0.4 Pin Aliases ###
-
-[board_pins corevus-g]
-mcu: # specify name given to the corevus microcontroller, typically 'mcu'
+[board_pins corevus-g] ### Corevus-G v0.4 Pin Aliases ###
+mcu: # specify name given to corevus microcontroller, typically 'mcu'
 aliases:
 # TMC2160 drivers
 	M0_STEP = PG8,  M0_DIR = PG7, M0_EN = PG5,  M0_CS = PG6, M0_DIAG1 = PG4,
@@ -62,7 +61,7 @@ aliases:
 ## Thermistors
 Corevus-G features 4 onboard thermistors soldered on to measure temperature in key locations. These temperature sensors not only present a useful diagnostic tool but also provide an extra layer of safety from serious errors such as motor driver misconfigurations. 
 
-Add the following section to your config file. If the default `max_temp` of 85°C is too low, and providing more cooling / airflow to the board is not an option, you may have to increase the `max_temp`. Do not increase the value past 100°C. 
+Add the following section to your config file. If the default `max_temp` of 85°C is too low, and providing more cooling / airflow to the board is not an option, you may have to increase the `max_temp`. For safety it is not recommended to increase this value past 100°C. 
 
 The expansion motor drivers also feature built-in thermistors, if you have drivers installed in ports M2 and/or M3 their temperatures can be read out by uncommenting the relevant sections.
 
