@@ -40,7 +40,7 @@ The MOSFETs attached to the TMC2160s are good enough so as to not require heatsi
 
 Each of the two driver expansion ports M2 and M3 is provisioned to accommodate signals for one- or two-driver modules that screw onto the ports by means of screw standoffs (for example, a common configuration is to add one TMC2160 driver per port to drive a cross-gantry or 4-motor corexy stage).
 
-To install additional drivers, use a 2 mm hex key to pop out the orange cover tape on the screw standoff, and fasten the drivers using the included M3x4 screws. **Make sure the screws are secured tightly** — the screw standoffs *are* the current bearing connections for motor voltage. In addition, fasten a screw on the rear screw standoff to clamp down the drivers completely and ensure reliable signal connections.
+To install additional drivers, use a 2 mm hex key to pop out the orange cover tape on the screw standoff, and fasten the drivers using the included M3x4 screws. **Make sure the screws are secured tightly** — the standoffs are current bearing connections for motor voltage. In addition, fasten a screw on the rear screw standoff to clamp down the drivers completely and ensure reliable signal connections.
 
 ![aeiou](/assets/images/CvG-v0.4-drivers-uninstalled.jpg)
 ![aeiou](/assets/images/CvG-v0.4-drivers-installed.jpg)
