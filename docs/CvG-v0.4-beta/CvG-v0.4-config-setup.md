@@ -9,16 +9,35 @@ The Corevus-G v0.4 boards are tested and flashed with the klipper mcu firmware p
 - Unplug **everything** from the board except the USB connection to the klipper host (or any machine with the klipper build chain). You may find it helpful to take a photo before dismantling attached cables
 - On the klipper host, run `cd ~/klipper` to enter the klipper source directory
 - Run `make clean` to delete previous builds and `make menuconfig`
-- In the configuration menu, select the following parameters: `STMicroelectronics STM32`, `STM32H723`, `No bootloader`, and `12 MHz crystal`.
-- Exit the configuration menu and save you
+- In the configuration menu, select the following parameters: 
+	```
+	[*] Enable extra low-level configuration options
+    Micro-controller Architecture (STMicroelectronics STM32)  --->
+    Processor model (STM32H723)  --->
+    Bootloader offset (No bootloader)  --->
+    Clock Reference (12 MHz crystal)  --->
+    Communication interface (USB (on PA11/PA12))  --->
+	```
+- Save and exit the configuration menu
 - Run `make` and wait for the firmware to finish compiling
-- Switch the microcontroller into DFU mode by holding down the BOOT pushbutton and then pushing and releasing the RESET pushbutton (the STM32 should show up as '0483:df11 STM device in DFU mode')
-- Flash the board with `make flash FLASH_DEVICE=0483:df11`, this may return an error 255 but check lsusb to see whether you have successfully flashed the board
+- Switch the microcontroller into DFU mode by holding down the BOOT pushbutton and then pressing and releasing the RESET pushbutton (the STM32 should show up as '0483:df11 STMicroelectronics STM device in DFU mode')
+- Flash the board with `make flash FLASH_DEVICE=0483:df11`. Expect it to return an 'error 255', this apparently does not affect functionality
+- Check `lsusb`, the board should show up as '1d50:614e OpenMoko, Inc. stm32h723xx'
 - (Re)install the board in accordance to your wiring scheme.
+
+# Super cursed bug workaround 
+A bug introduced with [this commit](https://github.com/Klipper3d/klipper/commit/c491ea669f8b189f72824b9d20f005fb6e86afe7) dated 2023-12-07 causes random timer closings to occur after e.g. homing or extruder moves. While we work on the bugfix, rollback your Klipper version to v0.12.0 (dated 2023-11-10) by running the following commands:
+```
+systemctl stop klipper
+cd ~/klipper
+git checkout v0.12.0
+systemctl start klipper
+```
+Check in your web interface (mainsail: machine → update manager, fluidd: settings → software updates) that the klipper version is v0.12.0 before proceeding.
 
 # Configuration 
 
-Reading through the [Klipper configuration reference](https://www.klipper3d.org/Config_Reference.html) will probably be of great help here.
+Reading through the [Klipper configuration reference](https://www.klipper3d.org/Config_Reference.html) will probably be of good help here.
 
 ## Pin table
 Add the following section to your configuration. This defines human readable pins for pin names such that you won't have to reference the schematic for the microcontroller pin names. For example, you can call `T1` to denote the pin connected to thermistor T1 and `M4_STEP` to denote the pin connected to the M4 driver step signal.
@@ -63,7 +82,7 @@ Corevus-G features 4 onboard thermistors soldered on to measure temperature in k
 
 Add the following section to your config file. If the default `max_temp` of 85°C is too low, and providing more cooling / airflow to the board is not an option, you may have to increase the `max_temp`. For safety it is not recommended to increase this value past 100°C. 
 
-The expansion motor drivers also feature built-in thermistors, if you have drivers installed in ports M2 and/or M3 their temperatures can be read out by uncommenting the relevant sections.
+Driver expansion modules have their own built-in thermistors. If you have drivers installed in ports M2 and/or M3 their temperatures can be read out by uncommenting the relevant sections.
 
 ```
 ### Corevus-G v0.4 Thermistors ###
