@@ -19,21 +19,13 @@ The Corevus-G v0.4 boards are tested and flashed with the klipper mcu firmware p
     Communication interface (USB (on PA11/PA12))  --->
 	```
 - Save and exit the configuration menu
-- Run `make` and wait for the firmware to finish compiling
 - Switch the microcontroller into DFU mode by holding down the BOOT pushbutton and then pressing and releasing the RESET pushbutton (the STM32 should show up as '0483:df11 STMicroelectronics STM device in DFU mode')
 - Flash the board with `make flash FLASH_DEVICE=0483:df11`. Expect it to return an 'error 255', this apparently does not affect functionality
 - Check `lsusb`, the board should show up as '1d50:614e OpenMoko, Inc. stm32h723xx'
 - (Re)install the board in accordance to your wiring scheme.
 
-# Super cursed bug workaround 
-A bug introduced with [this commit](https://github.com/Klipper3d/klipper/commit/c491ea669f8b189f72824b9d20f005fb6e86afe7) dated 2023-12-07 causes random timer closings to occur after e.g. homing or extruder moves. While we work on the bugfix, rollback your Klipper version to v0.12.0 (dated 2023-11-10) by running the following commands:
-```
-systemctl stop klipper
-cd ~/klipper
-git checkout v0.12.0
-systemctl start klipper
-```
-Check in your web interface (mainsail: machine → update manager, fluidd: settings → software updates) that the klipper version is v0.12.0 before proceeding.
+# Super cursed bug 
+THERE IS A BUG IN THE STM32H723 SOURCE CODE, PARTICULARLY CLOCK CONFIGURATION: IT IS HARD CODED TO ASSUME A 25 MHz CRYSTAL OSCILLATOR EVEN IF YOU SET THE HSE TO ANOTHER VALUE (E.G. 12 MHz), THIS IN TURN CAUSES AN INTEGER OVERFLOW ERROR THAT GETS IDENTIFIED AS A TIMER CLOSING AND CAUSES THE MACHINE TO SHUTDOWN. AWAIT BUG FIX
 
 # Configuration 
 
@@ -74,8 +66,6 @@ aliases:
 # Endstops
 	S0 = PG12, S1 = PG13, S2 = PG14, S3 = PG15
 ```
-
-
 
 ## Thermistors
 Corevus-G features 4 onboard thermistors soldered on to measure temperature in key locations. These temperature sensors not only present a useful diagnostic tool but also provide an extra layer of safety from serious errors such as motor driver misconfigurations. 
