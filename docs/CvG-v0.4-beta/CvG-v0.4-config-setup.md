@@ -3,9 +3,13 @@
 Document incomplete, work in progress
 *See also*: [Hardware Overview](./CvG-v0.4-hardware-overview.md)
 
-# Flashing Klipper
+# Critical bug fix
 
-The Corevus-G v0.4 boards are tested and flashed with the klipper mcu firmware prior to shipout. However in the event that you need to flash klipper, use the following procedure:
+Early testers found [a bug in the Klipper STM32H723 source code](https://github.com/DangerKlippers/danger-klipper/pull/148) that would fail to configure the microcontroller's clock frequency correctly, causing serious problems. I am working on adding this to mainline Klipper, but in the meantime, please convert your system to DangerKlipper (which, as of the latest version, has the fix already applied), and reflash the MCU with the following instructions.
+
+# Flashing Klipper
+Flashing the firmware is fairly straightforward and mostly similar to how you would flash any control board through USB-DFU:
+
 - Unplug **everything** from the board except the USB connection to the klipper host (or any machine with the klipper build chain). You may find it helpful to take a photo before dismantling attached cables
 - On the klipper host, run `cd ~/klipper` to enter the klipper source directory
 - Run `make clean` to delete previous builds and `make menuconfig`
@@ -20,12 +24,13 @@ The Corevus-G v0.4 boards are tested and flashed with the klipper mcu firmware p
 	```
 - Save and exit the configuration menu
 - Switch the microcontroller into DFU mode by holding down the BOOT pushbutton and then pressing and releasing the RESET pushbutton (the STM32 should show up as '0483:df11 STMicroelectronics STM device in DFU mode')
-- Flash the board with `make flash FLASH_DEVICE=0483:df11`. Expect it to return an 'error 255', this apparently does not affect functionality
-- Check `lsusb`, the board should show up as '1d50:614e OpenMoko, Inc. stm32h723xx'
+- Flash the board with `make flash FLASH_DEVICE=0483:df11`. This may return 'error 255', which does not affect functionality
+- Check `lsusb`, the board should show up as '1d50:614e OpenMoko, Inc. stm32h723xx'.
 - (Re)install the board in accordance to your wiring scheme.
 
-# Super cursed bug 
-THERE IS A BUG IN THE STM32H723 SOURCE CODE, PARTICULARLY CLOCK CONFIGURATION: IT IS HARD CODED TO ASSUME A 25 MHz CRYSTAL OSCILLATOR EVEN IF YOU SET THE HSE TO ANOTHER VALUE (E.G. 12 MHz), THIS IN TURN CAUSES AN INTEGER OVERFLOW ERROR THAT GETS IDENTIFIED AS A TIMER CLOSING AND CAUSES THE MACHINE TO SHUTDOWN. AWAIT BUG FIX
+Configuring the board should also be straightforward — with the board connected to your host computer via USB, run `ls /dev/serial/by-id/*` and copy the resulting directory path into the `serial:` section under `[mcu]` in your Klipper config file. 
+
+After doing this, verify in the settings / machine panel that the clock frequency of the STM32H723 MCU is 400 MHz _and not 480 MHz_. If you see 480 MHz, the machine will not work — check that you're on the latest version of DangerKlipper and/or ping me on Discord.
 
 # Configuration 
 
@@ -127,7 +132,7 @@ The following klipper configuration code uses the TMC5160 module — works, as t
 
 Important to note: **you must check the driver sense resistor values** and add them to your configuration file. Failure to do so may result in destruction of motors, drivers, or both — this is a scenario that has happened numerous times so save yourself the effort of dealing with an electrical fire. For v0.4 tmc2160s, the value is 30 mΩ — however, due to reported issues with low sense resistances this value is likely to change in the future. Check the physical resistors on the board before configuring!
 
-This code configures the TMC2160 drivers M0 and M1 (just substitute the pin alias names). Start out at a low run current and increase it when you have established that the drivers work.
+This code configures the TMC2160 drivers M0 and M1 (just substitute the pin alias names). Start out at a low run current and increase it to your preferred value once you have established that the drivers work.
 ```
 [stepper-<n>]
 step_pin: M0_STEP
@@ -135,7 +140,7 @@ dir_pin: M0_DIR
 enable_pin: !M0_EN
 rotation_distance: 
 microsteps:
-#full_steps_per_rotation: 200
+full_steps_per_rotation: 200
 endstop_pin:
 #position_min: 0
 position_endstop:
@@ -146,7 +151,7 @@ position_max:
 #second_homing_speed:
 #homing_positive_dir:
 
-[tmc5160 stepper_x]
+[tmc5160 stepper_<n>]
 cs_pin: M0_STEP
 spi_bus: spi2
 interpolate: True
@@ -156,13 +161,8 @@ sense_resistor: 0.03 # YOU MUST CHECK THIS AGAINST YOUR HARDWARE
 #stealthchop_threshold: 0
 # Relevant for sensorless homing
 driver_SGT: 0
-diag1_pin: # For integrated 2160s this is M0_DIAG1 or M1_DIAG1, for TMC2160 driver expansion modules this is M2A_DIAG or similar (with no '1')
+diag1_pin:
+	# For integrated 2160s this is M0_DIAG1 or M1_DIAG1, for TMC2160 driver expansion modules this is M2A_DIAG or similar (with no '1')
 
 ```
-This code configures a single TMC2160 driver module bolted to the M2 slot — the driver is electrically connected to the signals labeled with M2A. If the driver were a dual TMC2160, you would duplicate this with the second driver configured as M2B. 
-
-
-
-
-
-## Toolhead connector
+This code configures a single TMC2160 driver module bolted to the M2 slot — the driver is electrically connected to the signals labeled with M2A.
