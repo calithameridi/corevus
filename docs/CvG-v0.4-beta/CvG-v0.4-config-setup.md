@@ -5,7 +5,7 @@ Document incomplete, work in progress
 
 # Critical bug fix
 
-Early testers found [a bug in the Klipper STM32H723 source code](https://github.com/DangerKlippers/danger-klipper/pull/148) that would fail to configure the microcontroller's clock frequency correctly, causing serious problems. I am working on adding this to mainline Klipper, but in the meantime, please convert your system to DangerKlipper (which, as of the latest version, has the fix already applied), and reflash the MCU with the following instructions.
+Early testers found [a bug in the Klipper STM32H723 source code](https://github.com/DangerKlippers/danger-klipper/pull/148) that would fail to configure the microcontroller's clock frequency correctly, causing serious problems. I am working on adding this to mainline Klipper, but in the meantime, please [convert your system to DangerKlipper](https://github.com/DangerKlippers/danger-klipper/?tab=readme-ov-file#switch-to-danger-klipper) (which, as of the latest version, has the fix already applied), and reflash the MCU with the following instructions.
 
 # Flashing Klipper
 Flashing the firmware is fairly straightforward and mostly similar to how you would flash any control board through USB-DFU:
