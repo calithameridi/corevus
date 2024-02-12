@@ -24,6 +24,7 @@ Flashing the firmware is fairly straightforward and mostly similar to how you wo
 	```
 - Save and exit the configuration menu
 - Switch the microcontroller into DFU mode by holding down the BOOT pushbutton and then pressing and releasing the RESET pushbutton (the STM32 should show up as '0483:df11 STMicroelectronics STM device in DFU mode')
+- Run `make` to compile the Klipper MCU firmware. On most Raspberry Pis with a quad-core processor, use `make -j4` to use all CPU cores and save substantial time.
 - Flash the board with `make flash FLASH_DEVICE=0483:df11`. This may return 'error 255', which does not affect functionality
 - Check `lsusb`, the board should show up as '1d50:614e OpenMoko, Inc. stm32h723xx'.
 - (Re)install the board in accordance to your wiring scheme.
