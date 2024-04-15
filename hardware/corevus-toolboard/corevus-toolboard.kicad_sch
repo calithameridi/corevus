@@ -12227,7 +12227,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1efdca02-5535-48d7-bd67-656164afeeb1")
 		(property "Reference" "C24"
 			(at 88.63 65.04 90)
@@ -12238,7 +12238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "100pF"
 			(at 88.63 67.04 90)
 			(effects
 				(font
@@ -18385,7 +18385,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5819"
+		(property "Value" "4148"
 			(at 155.21 162.83 0)
 			(effects
 				(font
@@ -21769,7 +21769,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "f5b4038d-eeba-4eef-b050-877c045620cc")
 		(property "Reference" "C25"
 			(at 114.03 65.04 90)
@@ -21780,7 +21780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "100pF"
 			(at 114.03 67.04 90)
 			(effects
 				(font
