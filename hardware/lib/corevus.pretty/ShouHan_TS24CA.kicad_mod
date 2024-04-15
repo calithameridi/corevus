@@ -143,18 +143,18 @@
 		(uuid "5bc658c4-cda7-40bf-b690-6f78758602fc")
 	)
 	(pad "3" smd roundrect
-		(at -2.3 0)
-		(size 0.9 1.2)
+		(at -2.3 -0.15)
+		(size 0.9 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2222222222)
-		(uuid "b5f8fcbe-324b-4776-bc16-159dc575ec6e")
+		(uuid "e82b3652-d00c-487e-af90-cc565e4101c0")
 	)
 	(pad "3" smd roundrect
-		(at 2.3 0)
-		(size 0.9 1.2)
+		(at 2.3 -0.15)
+		(size 0.9 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2222222222)
-		(uuid "a63c7052-9d25-4947-a90d-8f4e457f54e1")
+		(uuid "e68cd6ae-3065-4e20-8110-e3fedb95f9ac")
 	)
 	(model "/home/meridi/Electronics/corevus/hardware/lib/corevus.3dshapes/SW-SMD_TS24CA.wrl"
 		(offset

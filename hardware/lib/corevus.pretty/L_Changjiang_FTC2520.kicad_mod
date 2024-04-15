@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -40,7 +40,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -52,7 +52,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -65,19 +65,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -1.125 -0.875)
-		(end -0.625 0.875)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "ab63b2e3-d589-45a3-aaec-ba015a40bde1")
-	)
-	(fp_rect
-		(start 0.625 -0.875)
-		(end 1.125 0.875)
+		(start -1.1 -0.8)
+		(end -0.65 0.8)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -85,6 +74,17 @@
 		(fill solid)
 		(layer "F.Paste")
 		(uuid "78598cac-4adc-488b-a5f6-b0305e13dd44")
+	)
+	(fp_rect
+		(start 0.65 -0.8)
+		(end 1.1 0.8)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "ab63b2e3-d589-45a3-aaec-ba015a40bde1")
 	)
 	(fp_line
 		(start -1.5 -1.25)
@@ -201,15 +201,15 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 0.875 0)
-		(size 1 2.25)
+		(at -0.875 0 180)
+		(size 0.95 2.2)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.125)
 		(uuid "53160a7a-4331-466d-9dfc-877a8149f199")
 	)
 	(pad "2" smd roundrect
-		(at -0.875 0)
-		(size 1 2.25)
+		(at 0.875 0 180)
+		(size 0.95 2.2)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.125)
 		(uuid "6dc9a26d-0558-49ac-bcde-a84c0b084fc6")
