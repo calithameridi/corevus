@@ -320,22 +320,22 @@
 		(uuid "dd0deb7a-acc9-46d6-b6f7-158f36c844ee")
 	)
 	(pad "9" smd roundrect
-		(at 7.4 -5.25 180)
-		(size 1.8 3)
+		(at 7.25 -5.25 180)
+		(size 1.6 3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1388888889)
+		(roundrect_rratio 0.125)
 		(uuid "21cad12e-1f17-4b60-8da3-0cdc2b7508c7")
 	)
 	(pad "10" smd roundrect
-		(at -7.4 -5.25 180)
-		(size 1.8 3)
+		(at -7.25 -5.25 180)
+		(size 1.6 3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.1388888889)
+		(roundrect_rratio 0.125)
 		(uuid "ffa76173-3456-49c6-8aab-f9da70130f7f")
 	)
-	(model "${COREVUS}/lib/corevus.3dshapes/CONN-SMD_X3025WRS-2X04E-LPSW.wrl"
+	(model "${COREVUS}/corevus.3dshapes/CONN-SMD_2x4P-L15.7-W9.9-H7.4-P3.0.wrl"
 		(offset
-			(xyz -0 2 0.5)
+			(xyz 4.5 1 0.5)
 		)
 		(scale
 			(xyz 1 1 1)

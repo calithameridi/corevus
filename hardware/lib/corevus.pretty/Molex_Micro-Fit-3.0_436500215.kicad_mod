@@ -310,14 +310,14 @@
 		(at -4.5 1.96)
 		(size 1.6 1.6)
 		(drill 1.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Mask")
 		(uuid "ba800208-ed43-4e9b-b234-ad84d695e0ee")
 	)
 	(pad "" np_thru_hole circle
 		(at 4.5 1.96)
 		(size 1.6 1.6)
 		(drill 1.2)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Mask")
 		(uuid "da97f53f-cf10-4595-9122-44eaad3b4302")
 	)
 	(pad "1" thru_hole circle
