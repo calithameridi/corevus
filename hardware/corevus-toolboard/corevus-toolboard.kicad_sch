@@ -8774,6 +8774,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 85.09) (xy 77.47 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e906566-654a-4b25-9f2b-abbece383e3b")
+	)
+	(wire
+		(pts
 			(xy 97.79 132.08) (xy 102.87 132.08)
 		)
 		(stroke
@@ -12125,15 +12135,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
-			(at 130.81 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "de4c4bc7-caf1-4e23-a345-e949d4133c17")
 		)
@@ -12337,7 +12338,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "10pF"
 			(at 88.63 67.04 90)
 			(effects
 				(font
@@ -12366,15 +12367,6 @@
 		)
 		(property "Description" ""
 			(at 87.63 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 87.63 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15467,7 +15459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 50V"
+		(property "Value" "22nF 50V"
 			(at 131.81 119.11 90)
 			(effects
 				(font
@@ -15496,15 +15488,6 @@
 		)
 		(property "Description" ""
 			(at 130.81 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1532"
-			(at 130.81 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16746,15 +16729,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C382279"
-			(at 128.27 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5ee701dd-845e-4416-8fc1-09d411ba61e7")
 		)
@@ -16995,15 +16969,6 @@
 		)
 		(property "Description" ""
 			(at 130.81 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C382279"
-			(at 130.81 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18641,7 +18606,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "xµF 25V"
+		(property "Value" "10µF 25V"
 			(at 27.67 79.74 90)
 			(effects
 				(font
@@ -19210,7 +19175,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75pF "
+		(property "Value" "68pF "
 			(at 65.77 79.01 90)
 			(effects
 				(font
@@ -19239,15 +19204,6 @@
 		)
 		(property "Description" ""
 			(at 66.04 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 66.04 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19669,7 +19625,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "50Ω"
+		(property "Value" "51Ω"
 			(at 71.12 83.82 90)
 			(effects
 				(font
@@ -19877,7 +19833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "xµF"
+		(property "Value" "10µF"
 			(at 78.47 82.28 90)
 			(effects
 				(font
@@ -21737,7 +21693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "10pF"
 			(at 114.03 67.04 90)
 			(effects
 				(font
@@ -21766,15 +21722,6 @@
 		)
 		(property "Description" ""
 			(at 113.03 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 113.03 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22225,7 +22172,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 83.82 0)
+		(at 77.47 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22233,7 +22180,7 @@
 		(dnp no)
 		(uuid "fd0db1c4-663a-4db9-b538-96b41ad0be33")
 		(property "Reference" "#PWR056"
-			(at 77.47 90.17 0)
+			(at 77.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22242,7 +22189,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 86.36 90)
+			(at 77.47 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22252,7 +22199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 83.82 0)
+			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22261,7 +22208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 83.82 0)
+			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22270,7 +22217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 83.82 0)
+			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -219,7 +219,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "corevus-toolboard-panelize.kicad_pro",
+    "filename": "corevus-toolboard-panelize2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -254,7 +254,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./export",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
