@@ -1406,7 +1406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "corevus:XKB_X3025WR-02"
+		(property "Footprint" "corevus:HCTL_HC-MX3.0-2A"
 			(at 86.36 52.07 0)
 			(effects
 				(font
@@ -2084,7 +2084,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "22kΩ"
 			(at 64.77 68.58 90)
 			(effects
 				(font

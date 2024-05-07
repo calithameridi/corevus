@@ -7479,7 +7479,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Ylw"
+		(property "Value" "Grn"
 			(at 25.67 88.63 0)
 			(effects
 				(font
@@ -7833,7 +7833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Micro-Fit 3.0"
+		(property "Value" "JST XH"
 			(at 180.34 97.79 0)
 			(effects
 				(font
@@ -8847,7 +8847,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2Ω"
+		(property "Value" "1Ω"
 			(at 50.8 27.94 90)
 			(effects
 				(font
