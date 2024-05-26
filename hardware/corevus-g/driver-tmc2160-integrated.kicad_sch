@@ -3246,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 24.13) (xy 50.8 24.13)
+			(xy 49.53 24.13) (xy 50.8 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3596,7 +3596,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 31.75) (xy 50.8 31.75)
+			(xy 49.53 31.75) (xy 50.8 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5912,7 +5912,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 24.13 270)
+		(at 44.45 24.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5921,15 +5921,6 @@
 		(fields_autoplaced yes)
 		(uuid "28a42d19-aedf-4335-a02f-a06873f6db23")
 		(property "Reference" "#PWR02"
-			(at 36.83 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
 			(at 38.1 24.13 0)
 			(effects
 				(font
@@ -5938,8 +5929,17 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "GND"
+			(at 39.37 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" ""
-			(at 43.18 24.13 0)
+			(at 44.45 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +5948,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 24.13 0)
+			(at 44.45 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +5957,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 24.13 0)
+			(at 44.45 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6216,7 +6216,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 45.72 24.13 90)
+		(at 46.99 24.13 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6225,7 +6225,7 @@
 		(dnp no)
 		(uuid "3955bd03-f4a6-4df0-af88-2f2c49e6e2b8")
 		(property "Reference" "C4"
-			(at 44.72 23.13 90)
+			(at 45.99 23.13 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6234,7 +6234,7 @@
 			)
 		)
 		(property "Value" "1μF"
-			(at 46.72 23.13 90)
+			(at 47.99 23.13 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -6243,7 +6243,7 @@
 			)
 		)
 		(property "Footprint" "AlphaLib:0402C"
-			(at 45.72 24.13 0)
+			(at 46.99 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +6252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 24.13 0)
+			(at 46.99 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6261,7 +6261,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 24.13 0)
+			(at 46.99 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,7 +7383,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 45.72 31.75 90)
+		(at 46.99 31.75 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7392,7 +7392,7 @@
 		(dnp no)
 		(uuid "8858ef5a-c253-4497-8645-52a5c0647f2c")
 		(property "Reference" "C5"
-			(at 44.72 30.75 90)
+			(at 45.99 30.75 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7401,7 +7401,7 @@
 			)
 		)
 		(property "Value" "1μF"
-			(at 46.72 30.75 90)
+			(at 47.99 30.75 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7410,7 +7410,7 @@
 			)
 		)
 		(property "Footprint" "AlphaLib:0402C"
-			(at 45.72 31.75 0)
+			(at 46.99 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,7 +7419,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 31.75 0)
+			(at 46.99 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +7428,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 31.75 0)
+			(at 46.99 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +8676,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 31.75 270)
+		(at 44.45 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8685,15 +8685,6 @@
 		(fields_autoplaced yes)
 		(uuid "de195eac-a9fb-49c9-a477-1aad9000b530")
 		(property "Reference" "#PWR02"
-			(at 36.83 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
 			(at 38.1 31.75 0)
 			(effects
 				(font
@@ -8702,8 +8693,17 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "GND"
+			(at 39.37 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" ""
-			(at 43.18 31.75 0)
+			(at 44.45 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8712,7 +8712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 31.75 0)
+			(at 44.45 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8721,7 +8721,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 31.75 0)
+			(at 44.45 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
