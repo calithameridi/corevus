@@ -1,0 +1,134 @@
+(footprint "XL1606"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "103b2af7-7774-40f5-a276-cc280e899408")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XL1606"
+		(at 0 -0.15 0)
+		(layer "F.Fab")
+		(uuid "62baa7e4-da6d-46dc-b26e-dc1da0a47ff8")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a97645c-5b9f-477e-a512-e53526e4ffbf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f391d8eb-53c1-4305-8b71-508be7e0ac03")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1d7697a-f3f6-45c4-8ea3-8d42f65d15f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.25 0.15)
+		(end -0.25 0.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "71932e50-06aa-44a2-aa3b-68d0224f0d90")
+	)
+	(fp_line
+		(start 0.3 0.15)
+		(end -0.25 0.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1cbbbb55-a9a5-4331-bcb1-1ec66d8b9017")
+	)
+	(fp_poly
+		(pts
+			(xy 0.85 -0.4) (xy 0.7 -0.4) (xy 0.7 -1) (xy -0.7 -1) (xy -0.7 -0.4) (xy -0.85 -0.4) (xy -0.85 0.1)
+			(xy 0.85 0.1)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "56fa2adb-59b9-42b6-919a-db55bc25afbb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.7 0)
+		(layer "F.Fab")
+		(uuid "30b01e4f-06df-41b7-abdc-6ff5e988c5da")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.8 0 90)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "9184c7b5-489b-45a1-b258-56f6b4da074b")
+	)
+	(pad "2" smd roundrect
+		(at 0.8 0 90)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "106d2d41-edfe-4618-9066-145f92ee89f7")
+	)
+	(model "/home/meridi/Electronics/corevus/hardware/lib/corevus.3dshapes/LED-SMD_L1.7-W1.1-RD_RED-SIDE.wrl"
+		(offset
+			(xyz 0 0.4 0.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+)
