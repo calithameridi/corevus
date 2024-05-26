@@ -56,7 +56,7 @@
   (pad "8" smd roundrect (at 0 -0.975) (size 4.55 4.35) (layers "F.Cu") (roundrect_rratio 0.02222222222)
     (solder_mask_margin -0.05) (solder_paste_margin -0.05) (tstamp aac1f127-23f3-4b92-8642-09738cc35590))
   (model "/home/meridi/Electronics/corevus/hardware/lib/corevus.3dshapes/POWERVDFN-8_L5.8-W4.9-H1.0-P1.27.wrl"
-    (opacity 0.3600)    (offset (xyz -0 0 -0))
+    (offset (xyz -0 0 -0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
   )
