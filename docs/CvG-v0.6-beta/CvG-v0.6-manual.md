@@ -22,6 +22,8 @@ Now that we've gotten that out of the way, promise to be careful and not set any
 - Twelve fan ports, including two 12-volt 4-pin fan ports, six 12/24V jumperable 2-pin fan ports, and four fixed-voltage fan ports
 - Four endstop ports, one of which can be configured for 24 volts for inductive probe
 - Toolboard breakout allows wiring up a Corevus Toolboard without need for a dedicated breakout board in your electronics bay
+  
+![Corevus-G v0.6 board image](../../assets/images/CvG-v0.6.jpeg)
 ## Installing Klipper firmware
 
 Flashing can be done over USB-DFU from your Raspberry Pi or other Klipper host computer. Alternatively, you can also build and flash the Klipper firmware on another device such as a desktop computer with Klipper downloaded, which may speed up compilation.
