@@ -1,8 +1,6 @@
 # Corevus-G v0.6 user's manual
 
-This user manual provides information on Corevus-G board revision v0.6 and contains information on hardware features and setting up Klipper.
-
-[table of contents goes here]
+This user manual provides information on Corevus-G board revision v0.6 and contains information on hardware features and setting up Klipper. Also consult the [Klipper documentation](https://www.klipper3d.org/Config_Reference.html)
 
 ## General disclaimer and usage notes
 
@@ -157,19 +155,159 @@ Screw-mounted motor drivers also come with on-board thermistors. If you have dri
 
 ### Motors [WIP]
 
-This should configure the TMC2160 drivers M0 and M1
+When configuring motor drivers, the important values to get right here are 'run_current', 'hold_current' and 'sense_resistor'. For now, set 'run_current' to a **very low value** — such as 10-20% of the rated motor current — and 'hold_current' to be the same as 'run_current' (we will change this later). The correct value for 'sense_resistor' can be found by checking the physical sense resistors on the board next to the driver MOSFETs. A resistor code 'R050' indicates 0.050 Ω, 'R100' indicates 0.100 Ω, etc. TMC2160 drivers on Corevus-G v0.6 and forward use 0.05 Ω sense resistors. TMC2160 drivers on older Corevus revisions use 0.03 Ω. TMC2209 drivers typically use 0.1 Ω. Make sure to get this right.
+> [!WARNING]
+> <u>**You must**</u> check the sense resistor value against your hardware! Misconfiguration of these values may cause an electrical fire or destruction of hardware. Again, for safety specify an intentionally low 'run_current' value while setting up to avoid the worst of consequences.
+>
+> Don't be that guy who let the magic smoke out of his steppers. (It has happened before!)
 
-Example configuration for TMC2160 (uses `[tmc5160]`, which is mostly register-compatible):
+The two integrated TMC2160 drivers are designated M0 and M1, and are connected to SPI bus 'spi2' in Klipper. This following config section configures them as the XY motors in a Cartesian / CoreXY machine. (The `[tmc5160]` module is used as the two devices are for the most part register compatible.) Again, customize this section to your specific machine, including limit positions and endstop pins.
+```
+[stepper_x] # M0 Driver
+enable_pin: !M0_EN
+step_pin: M0_STEP
+dir_pin: M0_DIR
+microsteps: 256
+full_steps_per_rotation: 
+rotation_distance: 
+endstop_pin: 
+position_endstop: 
+position_max: 
+homing_speed: 
+homing_retract_dist: 
 
+[tmc5160 stepper_x]
+spi_bus: spi2
+cs_pin: M0_CS
+diag1_pin: ^!M0_STALL # used for sensorless homing
+sense_resistor: 0.05 # CHECK THIS AGAINST YOUR HARDWARE!!!
+run_current: 0.50
+hold_current: 0.50
+interpolate: True
 
-These drivers are typically used to 
-drive the XY stage in a cartesian or CoreXY machine and thus require higher power. 
+[stepper_y] # M1 Driver
+enable_pin: !M1_EN
+step_pin: M1_STEP
+dir_pin: M1_DIR
+microsteps: 256
+full_steps_per_rotation: 
+rotation_distance: 
+endstop_pin: 
+position_endstop: 
+position_max: 
+homing_speed: 
+homing_retract_dist: 
 
-Pay attention to the 
+[tmc5160 stepper_y]
+spi_bus: spi2
+cs_pin: M1_CS
+diag1_pin: ^!M1_STALL # used for sensorless homing
+sense_resistor: 0.05 # CHECK THIS AGAINST YOUR HARDWARE!!!
+run_current: 0.50
+hold_current: 0.50
+interpolate: True
+```
 
+Each of the screw-mounted driver expansion slots (M2, M3) has two sets of driver signals (M2A, M2B; M3A, M3B) for forward compatibility with future dual-driver modules. When using single-driver modules, configure with the 'A' pin names. 
 
-This following config section can be used to configure 
+This is an example config for two additional TMC2160 drivers installed in the M2 and M3 driver slots and configured as X1 and Y1 in a 4-motor XY system. (Remember to enable M2 and/or M3 temperature sensors if drivers are installed, and to leave them commented out if they aren't.) Adapt to your usAgain, **check sense resistances against your hardware**.
+```
+[stepper_x1] # M2 Driver
+enable_pin: !M2A_EN
+step_pin: M2A_STEP
+dir_pin: M2A_DIR
+full_steps_per_rotation: 
+rotation_distance: 
+microsteps: 256
 
+[tmc5160 stepper_x1]
+spi_bus: spi2
+cs_pin: M2A_CS
+interpolate: True
+run_current: 0.5
+hold_current: 0.5
+sense_resistor: 0.05 # CHECK THIS AGAINST YOUR HARDWARE!!!
+
+[stepper_y1] # M3 Driver
+enable_pin: !M3A_EN
+step_pin: M3A_STEP
+dir_pin: M3A_DIR
+full_steps_per_rotation: 
+rotation_distance: 
+microsteps: 256
+
+[tmc5160 stepper_y1]
+spi_bus: spi2
+cs_pin: M3A_CS
+interpolate: True
+run_current: 0.5
+hold_current: 0.5
+sense_resistor: 0.05 # CHECK THIS AGAINST YOUR HARDWARE!!!
+```
+Again, customize the pin name assignments here to your specific machine, e.g. rearranging motor to driver assignments for better wiring layout (especially in 4-motor CoreXY or cross-gantry wiring schemes), 3 TMC2160s for delta, etc. 
+
+Finally, here's an example config for using three of the integrated TMC2209 drivers (M4, M5, M6) to control a 3-point Z system. In my experience, enabling StealthChop works far better than SpreadCycle at not producing irritated high-pitched commutation whine on Z-axis and other statically loaded motors, however it is probably wise to test both and use whichever one works better. 
+
+``` 
+[stepper_z]
+step_pin: M4_STEP
+dir_pin: M4_DIR
+enable_pin: !M4_EN
+full_steps_per_rotation: 200
+rotation_distance: 
+gear_ratio: 
+microsteps: 64
+endstop_pin: 
+position_min: 
+position_max: 
+homing_speed: 
+homing_retract_dist: 
+second_homing_speed: 
+homing_positive_dir: 
+
+[tmc2209 stepper_z] # M4 Driver
+uart_pin: M4_UART
+interpolate: True
+stealthchop_threshold: 999999
+run_current: 0.2
+hold_current: 0.2
+sense_resistor: 0.1
+
+[stepper_z1] # M5 Driver
+step_pin: M5_STEP
+dir_pin: M5_DIR
+enable_pin: !M5_EN
+full_steps_per_rotation: 200
+rotation_distance: 
+gear_ratio: 
+microsteps: 64
+
+[tmc2209 stepper_z1]
+uart_pin: M5_UART
+interpolate: True
+stealthchop_threshold: 999999
+run_current: 0.2
+hold_current: 0.2
+sense_resistor: 0.1
+
+[stepper_z2] # M6 Driver
+step_pin: M6_STEP
+dir_pin: M6_DIR
+enable_pin: !M6_EN
+full_steps_per_rotation: 200
+rotation_distance: 
+gear_ratio: 
+microsteps: 64
+
+[tmc2209 stepper_z2]
+uart_pin: M6_UART
+interpolate: True
+stealthchop_threshold: 999999
+run_current: 0.2
+hold_current: 0.2
+sense_resistor: 0.1
+```
+Again, customize this and above sections to your specific machine and application (for example, using more or fewer motors on Z), etc.
 
 
 ### Heaters, fans, etc [WIP]
@@ -219,6 +357,17 @@ heater_temp: 50
 
 ## Post-config 
 
+- Bring a fire extinguisher
+- Power up your machine and pray it doesn't catch fire 
+  - If machine catches on fire, extinguish fire
+- Congratulations, your machine is not on fire. Continue with setup: 
+
 Verify that temperature sensors such as your hotend and heatbed thermistors are reporting room temperature, and not an implausibly high or low value that may result from an egregious configuration error. Once this is done, go back and raise 'max_temp' values to their nominal operating temperature limits.
 
-Verify that machine kinematics are functioning, that your motors are not overheating when powered on, and that homing works normally (this procedure may be slightly more involved with sensorless homing). Once this is done, go back and raise 'run_current' and 'hold_current' values to their nominal operating values.
+Verify that machine kinematics are functioning, that your motors are not overheating when powered on, and that homing works normally (this procedure may be slightly more involved with sensorless homing). Once this is done, go back and in your motor TMC driver config sections, raise 'run_current' and 'hold_current' values to their nominal operating values. 
+
+Larger current means more torque (and thus a quicker printer) but also increased waste heat. The desired value depends on the rated current of the motor, which is specified by the manufacturer, and other factors — for example, a motor mounted to an aluminium plate will be able to safely operate at a higher current than a motor mounted to plastic owing to the higher temperature resistance of aluminium and its ability to conduct heat.
+
+Let me know of your thoughts on this documentation in the discord server and/or possible changes. Enjoy testing Corevus and thanks for your support.
+
+— meridi
