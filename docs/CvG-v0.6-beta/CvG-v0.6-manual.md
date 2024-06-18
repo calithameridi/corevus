@@ -15,8 +15,9 @@ Now that we've gotten that out of the way, promise to be careful and not set any
 - Screw-on motor drivers have significantly better current and thermal handling than stepsticks
 - 48V on motor drivers supported 
 - 4 heaters + DC heatbed output (can drive SSRs or other loads)
-- On-board thermistors in key locations (motor drivers, 12V, 5V converters).
+- On-board thermistors in key locations (motor drivers, 12V, 5V converters)
 - 8 temperature sensor ports (in addition to board thermistors)
+- Pretty decent analog — 0.1 °C noise on 100k/3950 thermistors typical
 - Twelve fan ports, including two 12-volt 4-pin fan ports, six 12/24V jumperable 2-pin fan ports, and four fixed-voltage fan ports
 - Four endstop ports, one of which can be configured for 24 volts for inductive probe
 - Toolboard breakout allows wiring up a Corevus Toolboard without need for a dedicated breakout board in your electronics bay
@@ -367,6 +368,58 @@ Verify that temperature sensors such as your hotend and heatbed thermistors are 
 Verify that machine kinematics are functioning, that your motors are not overheating when powered on, and that homing works normally (this procedure may be slightly more involved with sensorless homing). Once this is done, go back and in your motor TMC driver config sections, raise 'run_current' and 'hold_current' values to their nominal operating values. 
 
 Larger current means more torque (and thus a quicker printer) but also increased waste heat. The desired value depends on the rated current of the motor, which is specified by the manufacturer, and other factors — for example, a motor mounted to an aluminium plate will be able to safely operate at a higher current than a motor mounted to plastic owing to the higher temperature resistance of aluminium and its ability to conduct heat.
+
+## Usage
+
+### Fan voltages
+
+Fan ports F0 and F1 (4-pin) are 12V only, and support PWM and tachometer I/O to e.g. a 4 pin PC fan.
+
+Fan ports F2-F7 (2-pin) are 12/24V selectable by moving the position of the adjacent jumper between the 12V and 24V positions, as shown:
+![Corevus-G v0.6 fan jumper voltage selection](../../assets/images/fan-voltages-CvG-v0.6.jpeg)
+
+Fan ports F8-F9 (2-pin) are 12V only. Fan ports F10-F11 (2-pin) are 5V only.
+
+### Motor voltage selection
+
+The board supplies an external power entry labeled "48V MOTOR", where a dedicated e.g. 48V power supply can be used to power M0-M3. The TMC2160 drivers are rated to 48V and higher drive voltage may increase motor torque at faster motor velocities and can be useful for certain high-speed applications. 
+
+![Corevus-G v0.6 motor voltage selection](../../assets/images/CvG-v0.6-voltage-selection-fuses.jpeg)
+To set a certain driver bank to 48V, (e.g. the M0 and M1 TMC2160 drivers) move the associated fuse (e.g. M0-1) from the 24V position to the 48V position, and then connect the board to the 48V power supply. The fuses may be difficult to remove, so be gentle. 
+
+Note that you should ensure your machine and motors work normally running off the main 24V supply before setting up 48V operation.
+
+> [!WARNING]
+> Before setting the M2-3 voltage to 48V make sure that all hardware attached to the driver ports is actually rated for the specified voltage. Feeding 48V into a device not rated for may have catastrophic results.
+
+> [!NOTE]
+> Higher voltages on the motor drivers will creater more heat from greater switching losses in the transistors. Keep an eye on your motor driver temperatures and ensure that your drivers are not getting unacceptably hot.
+
+> [!NOTE]
+> If you are using sensorless homing via StallGuard on your motor drivers, they may need recalibration.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Let me know of your thoughts on this documentation in the discord server and/or possible changes. Enjoy testing Corevus and thanks for your support.
 
