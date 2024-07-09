@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "tmc5160-driver")(type "KiCad")(uri "${KIPRJMOD}/driver-tmc5160.pretty")(options "")(descr "")(disabled))
-  (lib (name "corevus")(type "KiCad")(uri "/home/meridi/Electronics/corevus/hardware/lib/corevus.pretty")(options "")(descr ""))
-)

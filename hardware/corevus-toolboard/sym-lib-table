@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "corevus")(type "KiCad")(uri "${COREVUS}/lib/corevus.kicad_sym")(options "")(descr ""))
+  (lib (name "corevus")(type "KiCad")(uri "${COREVUS}/corevus.kicad_sym")(options "")(descr ""))
 )

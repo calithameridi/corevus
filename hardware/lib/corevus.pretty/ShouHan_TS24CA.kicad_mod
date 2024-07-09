@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,13 +60,14 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_line
 		(start -2.35 1.4)
-		(end -2.35 0.5)
+		(end -2.35 0.35)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -84,13 +87,43 @@
 	)
 	(fp_line
 		(start 2.35 1.4)
-		(end 2.35 0.5)
+		(end 2.35 0.35)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "8fb129b3-73bd-4578-a22d-873f34636f57")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end -1 -2.375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a725151e-4be7-4800-90d5-49e870ec4a27")
+	)
+	(fp_line
+		(start -1 -2.375)
+		(end 1 -2.375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e3318418-1d4a-4cd1-946d-97128990c8f0")
+	)
+	(fp_line
+		(start 1 -2.375)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1ed6f194-0674-4c9e-9d22-b0f8ccf1431b")
 	)
 	(fp_rect
 		(start -2.25 -0.9)
@@ -132,28 +165,28 @@
 		(at 1.7 1.375 180)
 		(size 0.8 0.75)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.2666666667)
+		(roundrect_rratio 0.2)
 		(uuid "f483e109-6310-41ae-9e69-5f4097c11229")
 	)
 	(pad "2" smd roundrect
 		(at -1.7 1.375 180)
 		(size 0.8 0.75)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.2666666667)
+		(roundrect_rratio 0.2)
 		(uuid "5bc658c4-cda7-40bf-b690-6f78758602fc")
 	)
 	(pad "3" smd roundrect
-		(at -2.3 -0.15)
-		(size 0.9 0.9)
+		(at -2.25 -0.375)
+		(size 0.8 1.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.2222222222)
+		(roundrect_rratio 0.1875)
 		(uuid "e82b3652-d00c-487e-af90-cc565e4101c0")
 	)
 	(pad "3" smd roundrect
-		(at 2.3 -0.15)
-		(size 0.9 0.9)
+		(at 2.25 -0.375)
+		(size 0.8 1.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.2222222222)
+		(roundrect_rratio 0.1875)
 		(uuid "e68cd6ae-3065-4e20-8110-e3fedb95f9ac")
 	)
 	(model "/home/meridi/Electronics/corevus/hardware/lib/corevus.3dshapes/SW-SMD_TS24CA.wrl"

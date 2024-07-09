@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -214,7 +217,7 @@
 		(roundrect_rratio 0.125)
 		(uuid "6dc9a26d-0558-49ac-bcde-a84c0b084fc6")
 	)
-	(model "${COREVUS}/lib/corevus.3dshapes/IND-SMD_L2.5-W2.0-H1.2.wrl"
+	(model "${COREVUS}/corevus.3dshapes/IND-SMD_L2.5-W2.0-H1.2.step"
 		(offset
 			(xyz 0 0 0)
 		)
