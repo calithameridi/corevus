@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -418,7 +421,7 @@
 		(keep_end_layers yes)
 		(uuid "a5452d22-c4e2-43d8-a1e0-86b8e342508b")
 	)
-	(model "/home/meridi/Electronics/corevus/hardware/lib/corevus.3dshapes/CONN-TH_430450813.wrl"
+	(model "${COREVUS}/corevus.3dshapes/CONN-TH_430450812.step"
 		(offset
 			(xyz 0 0 0)
 		)
