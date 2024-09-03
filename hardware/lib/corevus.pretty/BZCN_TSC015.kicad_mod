@@ -35,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -47,6 +48,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,6 +61,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -135,7 +138,7 @@
 		(roundrect_rratio 0.2083333333)
 		(uuid "5e2df11d-87c6-4574-baf7-3e1ad32768df")
 	)
-	(model "/home/meridi/Electronics/corevus/hardware/lib/corevus.3dshapes/SW-SMD_4P-L4.5-W4.5-H6.5-P3.00-LS6.8.wrl"
+	(model "${COREVUS}/corevus.3dshapes/SW-SMD_4P-L4.5-W4.5-H6.5-P3.00-LS6.8.step"
 		(offset
 			(xyz 0 -0 3)
 		)

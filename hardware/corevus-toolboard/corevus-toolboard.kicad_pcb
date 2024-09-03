@@ -7698,7 +7698,7 @@
 		(descr "Capacitor 0402 package")
 		(tags "capacitor cap")
 		(property "Reference" "R21"
-			(at 0 0.9 360)
+			(at 0 0.9 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "2eccfacf-85fc-44b4-99cc-bcdf729113ea")
@@ -7711,7 +7711,7 @@
 			)
 		)
 		(property "Value" "2.2kΩ"
-			(at 0 -0.1 360)
+			(at 0 -0.1 0)
 			(layer "B.Fab")
 			(uuid "4909b308-946e-47f8-bb2d-6ada5eb17761")
 			(effects
@@ -7723,7 +7723,7 @@
 			)
 		)
 		(property "Footprint" "AlphaLib:0402R"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5125773e-4518-4ce0-8791-c020a850e7a1")
@@ -7736,7 +7736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cc59bb0c-1dae-42ea-ba24-46d771c2484a")
@@ -7749,7 +7749,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "692c2057-67b9-4dd2-8f9d-2e1632389a25")
@@ -7839,7 +7839,7 @@
 			(uuid "7bb293d9-c89b-4198-a172-adfedb09d928")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.15 360)
+			(at 0 0.15 0)
 			(layer "B.Fab")
 			(uuid "d5d1dc23-9ca2-4a96-967a-b7f46caf5583")
 			(effects
@@ -15131,7 +15131,7 @@
 		(descr "Capacitor 0402 package")
 		(tags "capacitor cap")
 		(property "Reference" "C23"
-			(at 0 0.9 360)
+			(at 0 0.9 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "ba900820-4a1c-4fd1-88ec-97b1ba46905e")
@@ -15144,7 +15144,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 0 -0.1 360)
+			(at 0 -0.1 0)
 			(layer "B.Fab")
 			(uuid "c2a6e0e6-0543-4271-a4d6-41e50173df5a")
 			(effects
@@ -15156,7 +15156,7 @@
 			)
 		)
 		(property "Footprint" "AlphaLib:0402C"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4e59120a-3099-49bc-8770-9824146a5d1b")
@@ -15169,7 +15169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "db97864c-e736-4345-b6a6-b59b0b0d1c83")
@@ -15182,7 +15182,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "78104ae9-3525-4b33-a960-45ced4c23ce5")
@@ -15272,7 +15272,7 @@
 			(uuid "7e219f0d-e3a2-4958-a8b3-33f7f2fbbb33")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.15 360)
+			(at 0 0.15 0)
 			(layer "B.Fab")
 			(uuid "e9917ef4-9a5c-48d7-b28e-cd774f7e0947")
 			(effects

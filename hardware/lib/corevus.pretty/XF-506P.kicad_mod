@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -361,7 +364,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "10654582-7adc-4338-8e9d-ff4a96933bdd")
 	)
-	(model "${COREVUS}/corevus.3dshapes/FUSE-TH_XF-506P.wrl"
+	(model "${COREVUS}/corevus.3dshapes/FUSE-TH_XF-506P.step"
 		(offset
 			(xyz 0 0.3 5)
 		)

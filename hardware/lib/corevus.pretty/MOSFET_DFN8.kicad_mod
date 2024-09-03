@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,31 +60,21 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_rect
-		(start -1.05 -0.85)
-		(end -0.2 0.475)
+		(start -0.85 -0.85)
+		(end 0.85 0.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.Paste")
-		(uuid "b1ac6710-2dd6-45ec-bb3a-9cd51171d88a")
-	)
-	(fp_rect
-		(start 0.2 -0.85)
-		(end 1.05 0.475)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "52b87614-0d6a-4c12-b116-1d9ff72958ea")
+		(uuid "2b5fc088-ffe4-4c9f-96b2-a824cc295746")
 	)
 	(fp_line
 		(start -1.7 1.7)
@@ -345,15 +337,15 @@
 		(solder_paste_margin -0.05)
 		(uuid "3e4e1cd0-9639-4687-a869-5ccf5243b7b5")
 	)
-	(model "/home/meridi/Electronics/corevus/hardware/lib/corevus.3dshapes/POWERPAK-1212-8_L3.1-W3.1-P0.65-LS3.3-BL.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm.step"
 		(offset
-			(xyz 0 0 0.3)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 -90)
 		)
 	)
 )

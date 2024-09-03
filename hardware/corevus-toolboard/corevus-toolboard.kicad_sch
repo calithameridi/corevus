@@ -4263,7 +4263,6 @@
 					(alternate "COMP1_INM" bidirectional line)
 					(alternate "COMP1_OUT" bidirectional line)
 					(alternate "COMP3_INP" bidirectional line)
-					(alternate "" input line)
 					(alternate "RTC_TAMP2" bidirectional line)
 					(alternate "SYS_WKUP1" bidirectional line)
 					(alternate "TIM2_CH1" bidirectional line)
@@ -4360,7 +4359,6 @@
 					(alternate "OPAMP1_VINM_SEC" bidirectional line)
 					(alternate "OPAMP1_VINP" bidirectional line)
 					(alternate "OPAMP1_VINP_SEC" bidirectional line)
-					(alternate "" input line)
 					(alternate "SAI1_CK1" bidirectional line)
 					(alternate "SAI1_MCLK_A" bidirectional line)
 					(alternate "TIM15_CH2" bidirectional line)
@@ -9581,16 +9579,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 107.95) (xy 224.79 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0642bab-6d29-4de4-87a0-fe9592e1cadc")
-	)
-	(wire
-		(pts
 			(xy 71.12 49.53) (xy 66.04 49.53)
 		)
 		(stroke
@@ -9918,6 +9906,16 @@
 			(type default)
 		)
 		(uuid "cde422b1-ec59-4afb-af46-57eb693ca04e")
+	)
+	(wire
+		(pts
+			(xy 25.4 44.45) (xy 26.67 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf80b8f-a36a-4bc8-b263-9a3a2ce9df68")
 	)
 	(polyline
 		(pts
@@ -12366,7 +12364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6pF"
+		(property "Value" "10pF"
 			(at 28.21 35.83 90)
 			(effects
 				(font
@@ -12624,7 +12622,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 44.45 270)
+		(at 25.4 44.45 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12633,7 +12631,7 @@
 		(dnp no)
 		(uuid "25fe8b76-8e1e-460b-886e-be541fb6bf6c")
 		(property "Reference" "#PWR038"
-			(at 20.32 44.45 0)
+			(at 19.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12642,7 +12640,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 44.45 90)
+			(at 22.86 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12652,7 +12650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 44.45 0)
+			(at 25.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12661,7 +12659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 44.45 0)
+			(at 25.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12670,7 +12668,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 44.45 0)
+			(at 25.4 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20690,7 +20688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6pF"
+		(property "Value" "10pF"
 			(at 28.21 45.45 90)
 			(effects
 				(font

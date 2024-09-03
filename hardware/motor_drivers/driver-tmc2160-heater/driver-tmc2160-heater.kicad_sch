@@ -14627,8 +14627,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6f89ed7-b62b-4409-a32a-eaee739f0a17")
 		(property "Reference" "H3"
