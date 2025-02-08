@@ -65,47 +65,6 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_line
-		(start -3 -3)
-		(end -3 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "Cmts.User")
-		(uuid "146bf236-2478-421b-aca1-91bcca539a6e")
-	)
-	(fp_line
-		(start 3 -3)
-		(end -3 -3)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "Cmts.User")
-		(uuid "6c4bfc4f-5f99-4255-b2bd-10aa3213f451")
-	)
-	(fp_line
-		(start 3 0)
-		(end 3 -3)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "Cmts.User")
-		(uuid "4d82eb88-f19a-4208-a87c-62d9465bb15a")
-	)
-	(fp_arc
-		(start 3 0)
-		(mid 0 3)
-		(end -3 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "Cmts.User")
-		(uuid "3e6e0513-62a2-4dca-a094-c6b6d2992cdc")
-	)
-	(fp_line
 		(start -3.25 -3.25)
 		(end -3.25 0)
 		(stroke
@@ -164,6 +123,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
+		(clearance 0.25)
 		(uuid "8e379dbf-1813-42f3-8a38-cc555ee9d9c9")
 	)
 	(pad "1" thru_hole circle
@@ -173,6 +133,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
+		(clearance 0.25)
 		(uuid "12ac3b32-c289-4eeb-a041-14ed6c1b49ec")
 	)
 	(pad "1" thru_hole circle
@@ -182,6 +143,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
+		(clearance 0.25)
 		(uuid "ca274461-b62b-4081-bffd-67a570a4c1e2")
 	)
 	(pad "1" thru_hole circle
@@ -191,6 +153,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
+		(clearance 0.25)
 		(uuid "e89acbc5-c1a4-4e5c-b3a5-d30836fc8b2b")
 	)
 	(pad "1" thru_hole circle
@@ -200,6 +163,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
+		(clearance 0.25)
 		(uuid "960776a5-4d37-468d-854a-6506cd1858db")
 	)
 	(pad "1" thru_hole circle
@@ -209,6 +173,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
+		(clearance 0.25)
 		(uuid "1562d6e3-d148-428b-8822-86ec18d78aa2")
 	)
 	(pad "1" thru_hole custom
@@ -218,6 +183,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
+		(clearance 0.25)
 		(options
 			(clearance outline)
 			(anchor circle)
@@ -240,6 +206,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
+		(clearance 0.25)
 		(uuid "0e3033f5-c4a7-4608-8915-30c01db9d242")
 	)
 	(pad "1" thru_hole circle
@@ -249,6 +216,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
+		(clearance 0.25)
 		(uuid "7533965e-3071-4906-a577-b85d8d71ea4d")
 	)
 	(pad "1" thru_hole circle
@@ -258,6 +226,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
+		(clearance 0.25)
 		(uuid "adde8c5e-80d6-430d-975d-ccc54f999c0f")
 	)
 	(pad "1" thru_hole circle
@@ -267,6 +236,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
+		(clearance 0.25)
 		(uuid "f9170c61-cb87-4fb5-9fb2-f70e7fc01b45")
 	)
 	(pad "1" thru_hole circle
@@ -276,6 +246,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
+		(clearance 0.25)
 		(uuid "dcc659f8-43bf-4420-962d-f2b79e7b1cef")
 	)
 	(pad "1" thru_hole circle
@@ -285,6 +256,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
+		(clearance 0.25)
 		(uuid "ab999f97-97c6-4697-aa9a-32067d0d71ea")
 	)
 )

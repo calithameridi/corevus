@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.1
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -80,7 +80,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
-        "holes_co_located": "warning",
+        "holes_co_located": "error",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -119,11 +119,11 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.09,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.3,
+        "min_clearance": 0.1,
+        "min_connection": 0.1,
+        "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.2,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -131,9 +131,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.09,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.125,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -185,6 +185,7 @@
       "track_widths": [
         0.0,
         0.1,
+        0.125,
         0.15,
         0.2,
         0.25,
@@ -229,10 +230,6 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4,
-          "drill": 0.25
-        },
-        {
           "diameter": 0.5,
           "drill": 0.25
         },
@@ -241,7 +238,7 @@
           "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": false,
+      "zones_allow_external_fillets": true,
       "zones_use_no_outline": true
     },
     "ipc2581": {
@@ -496,7 +493,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.15,
         "via_diameter": 0.5,
         "via_drill": 0.25,
         "wire_width": 6
@@ -511,6 +508,10 @@
       {
         "netclass": "Default",
         "pattern": "HV"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/_{MB}SRBL"
       }
     ]
   },

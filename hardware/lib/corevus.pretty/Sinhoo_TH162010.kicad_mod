@@ -139,6 +139,7 @@
 		(remove_unused_layers yes)
 		(keep_end_layers yes)
 		(solder_mask_margin -0.2)
+		(clearance 0.25)
 		(uuid "e00d7ec9-cd35-4301-bd27-d7f877b2404a")
 	)
 	(pad "1" smd circle

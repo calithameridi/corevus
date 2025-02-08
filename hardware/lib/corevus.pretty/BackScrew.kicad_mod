@@ -1,0 +1,117 @@
+(footprint "BackScrew"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f7c17761-4045-4cd0-bc77-66021e1e0754")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BackScrew"
+		(at 0 -6.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5f5e48f-5d5d-4631-bfc5-98e0f119b51b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ed38c7a-5e21-4ff3-a0ae-4726779419f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a2691c4-ff3c-4037-ae26-d6f473632827")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05e2c61d-1110-4d0b-8e95-3876df856a8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_arc
+		(start 0 2.25)
+		(mid -2.25 0)
+		(end 0 -2.25)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "B.Mask")
+		(uuid "0ad80c72-46e7-426f-b361-0d9c4c0186f5")
+	)
+	(fp_arc
+		(start 0 2.25)
+		(mid -2.25 0)
+		(end 0 -2.25)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "2bf3f527-fbfc-4e44-8d7b-6a185ad06a88")
+	)
+	(fp_arc
+		(start 0 2.25)
+		(mid -2.25 0)
+		(end 0 -2.25)
+		(stroke
+			(width 1.5)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "fa7eb63b-4d9e-4da8-930d-6b37d54b374b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f7b947d-477b-4a20-b2e7-c74a6dfee080")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)

@@ -315,6 +315,9 @@ Again, customize this and above sections to your specific machine and applicatio
 
 This is a config for an extruder wired up to heater H0, temperature sensor T0, stepper driver M7, and hotend fan F2. Customize the following to your specific application by changing specified values or pin names.
 
+> [!WARNING]
+> Only use heater pins (e.g. H0, H1, H2, H3, HB) for driving heaters! On Corevus-G v0.6, these do not turn on while the STM32 is in boot mode. The same is not the case for other pins, such as F4. Connecting heaters to non-heater ports may result in catastrophic results.
+
 ```
 [extruder]
 step_pin: M7_STEP

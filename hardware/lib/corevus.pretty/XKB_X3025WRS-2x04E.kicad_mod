@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -319,19 +322,19 @@
 		(roundrect_rratio 0.2)
 		(uuid "dd0deb7a-acc9-46d6-b6f7-158f36c844ee")
 	)
-	(pad "9" smd roundrect
-		(at 7.25 -5.25 180)
-		(size 1.6 3)
+	(pad "MP" smd roundrect
+		(at -7.125 -5.25 180)
+		(size 2.25 3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.125)
-		(uuid "21cad12e-1f17-4b60-8da3-0cdc2b7508c7")
+		(roundrect_rratio 0.1111111111)
+		(uuid "b8dcb6a6-527a-482d-b37e-477de0b34202")
 	)
-	(pad "10" smd roundrect
-		(at -7.25 -5.25 180)
-		(size 1.6 3)
+	(pad "MP" smd roundrect
+		(at 7.125 -5.25 180)
+		(size 2.25 3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.125)
-		(uuid "ffa76173-3456-49c6-8aab-f9da70130f7f")
+		(roundrect_rratio 0.1111111111)
+		(uuid "21cad12e-1f17-4b60-8da3-0cdc2b7508c7")
 	)
 	(model "${COREVUS}/corevus.3dshapes/CONN-SMD_2x4P-L15.7-W9.9-H7.4-P3.0.wrl"
 		(offset

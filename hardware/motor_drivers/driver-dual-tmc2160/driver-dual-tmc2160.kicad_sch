@@ -1679,6 +1679,85 @@
 				)
 			)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -4058,16 +4137,16 @@
 		(uuid "027f13eb-6e52-48fc-81d7-85ae0590d574")
 	)
 	(junction
-		(at 132.08 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "044e1c54-efd7-45f7-af3b-6238698ec17f")
-	)
-	(junction
 		(at 252.73 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04f82503-edae-4ca2-9796-8a7b80ed6681")
+	)
+	(junction
+		(at 204.47 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07136516-2edc-46d7-9326-d704a344efde")
 	)
 	(junction
 		(at 175.26 119.38)
@@ -4136,12 +4215,6 @@
 		(uuid "1c618c75-812f-41ba-af2b-30bef99ccdb4")
 	)
 	(junction
-		(at 162.56 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c779b40-d094-4d0f-9d70-23cf65e6c203")
-	)
-	(junction
 		(at 167.64 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4152,6 +4225,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e81243d-bb9f-4dfb-b484-30cf2e93d8a4")
+	)
+	(junction
+		(at 191.77 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21de454a-c38d-4d1c-b66b-298faf879522")
+	)
+	(junction
+		(at 162.56 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26800650-0be3-4e21-8607-996c54b1062b")
 	)
 	(junction
 		(at 193.04 81.28)
@@ -4166,10 +4251,10 @@
 		(uuid "2879c3ab-aa6a-4aa4-af07-691ed09d4b6c")
 	)
 	(junction
-		(at 132.08 49.53)
+		(at 132.08 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "288c689c-21d9-4b27-a7cf-a245ba05f7e4")
+		(uuid "2c3ddedf-4f4d-4165-aabd-f4003ef8703c")
 	)
 	(junction
 		(at 162.56 129.54)
@@ -4178,10 +4263,40 @@
 		(uuid "2e7bf571-f730-4e87-a50a-e1a9eb22fec9")
 	)
 	(junction
+		(at 191.77 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "307ea8c5-1de0-4f97-a70c-123d9fb654d8")
+	)
+	(junction
+		(at 160.02 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3964ace4-a94c-49c6-9b17-9f016a5adca9")
+	)
+	(junction
+		(at 191.77 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42a2435d-e6e7-4e73-b712-b24d9d91be88")
+	)
+	(junction
+		(at 160.02 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44800766-de81-46fc-a9ed-5ea59f09ab7c")
+	)
+	(junction
 		(at 248.92 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45852450-b425-43ce-b3ad-09fb129c3c26")
+	)
+	(junction
+		(at 204.47 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c34bee9-5274-4e64-9c62-8a2cdb97bf4b")
 	)
 	(junction
 		(at 148.59 83.82)
@@ -4214,22 +4329,22 @@
 		(uuid "5addc681-1132-4159-b4d9-84f7c8d1618e")
 	)
 	(junction
-		(at 160.02 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5eff1cc8-5374-4338-9b67-214bb5e91d56")
-	)
-	(junction
 		(at 139.7 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fd2b4a9-91c9-4ee5-9358-d512d2ca214c")
 	)
 	(junction
-		(at 160.02 41.91)
+		(at 191.77 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6684767d-53fa-4d5b-bc3b-2306f8db003a")
+		(uuid "6393b056-048b-4f3f-bbf9-683491c1141f")
+	)
+	(junction
+		(at 162.56 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64b5ad1e-71eb-4773-b25b-432f254a31a5")
 	)
 	(junction
 		(at 39.37 111.76)
@@ -4242,6 +4357,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b29f4f1-6d29-4ad1-a85c-350f156aad29")
+	)
+	(junction
+		(at 191.77 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bec0e78-296b-4006-8b39-338a26af558d")
 	)
 	(junction
 		(at 17.78 48.26)
@@ -4268,10 +4389,10 @@
 		(uuid "739345a6-f361-4ea9-8e84-46bae08411a3")
 	)
 	(junction
-		(at 133.35 132.08)
+		(at 191.77 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "757f6917-8d8b-4c4e-9fc9-33bf3cd03e8e")
+		(uuid "7504fe81-2c65-4b8f-aeba-4e1765215009")
 	)
 	(junction
 		(at 38.1 19.05)
@@ -4316,6 +4437,18 @@
 		(uuid "8ff37611-68fa-4aee-8884-098ba0722505")
 	)
 	(junction
+		(at 204.47 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a8ac170-40a5-4d84-8f55-8edd98a97d7c")
+	)
+	(junction
+		(at 191.77 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a99b2a0-d9bb-467b-ad53-e2869befae89")
+	)
+	(junction
 		(at 161.29 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4338,6 +4471,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3b7bbf9-77f2-4180-a1b0-57e5c5df41e7")
+	)
+	(junction
+		(at 191.77 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af20c801-57ad-4a47-affe-68922076a73e")
 	)
 	(junction
 		(at 193.04 83.82)
@@ -4370,12 +4509,6 @@
 		(uuid "b9e27e41-597a-42ce-a220-3a3ee34dc20e")
 	)
 	(junction
-		(at 133.35 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bca73722-4967-44b5-804d-23a48fbe52b7")
-	)
-	(junction
 		(at 119.38 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4406,6 +4539,12 @@
 		(uuid "c9c6c8e5-1196-4584-951e-7b9e72bce199")
 	)
 	(junction
+		(at 132.08 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca9a83c3-3744-49a8-ae65-1534cf5508ae")
+	)
+	(junction
 		(at 148.59 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4418,16 +4557,22 @@
 		(uuid "cbc4871d-43fd-4572-8a2e-8912c9be639f")
 	)
 	(junction
-		(at 162.56 132.08)
+		(at 133.35 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ce75d579-8729-4e8c-bddb-7d5d687c857d")
+		(uuid "cbcf6a38-0cbd-4170-9bf5-2e0bb956c842")
 	)
 	(junction
 		(at 149.86 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d313c0cb-993a-4eae-9384-6473fd8118f7")
+	)
+	(junction
+		(at 133.35 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3438116-b568-4817-a12a-4e4cf796af15")
 	)
 	(junction
 		(at 170.18 49.53)
@@ -4440,6 +4585,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d94741c1-0956-43b4-b2b3-2db7732c92e6")
+	)
+	(junction
+		(at 204.47 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9909244-cde5-4724-abac-caac6e7ea28a")
+	)
+	(junction
+		(at 204.47 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da29b599-5f40-4c78-b3cd-56971e1fe5dd")
 	)
 	(junction
 		(at 166.37 19.05)
@@ -4464,6 +4621,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df98c3cc-f8b2-4b6a-86dd-429c825ce331")
+	)
+	(junction
+		(at 204.47 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e17c4cf9-4346-4e3c-92f6-3032bf4eea2d")
+	)
+	(junction
+		(at 204.47 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1c896a9-3abe-47ea-8ae5-4875dd592a74")
 	)
 	(junction
 		(at 160.02 119.38)
@@ -4512,6 +4681,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4063a56-d1c6-4d08-ac6b-58b106e071de")
+	)
+	(junction
+		(at 204.47 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f687ac80-4c6b-45f4-bdd6-791287669d92")
 	)
 	(junction
 		(at 121.92 41.91)
@@ -4599,6 +4774,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 41.91) (xy 204.47 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00722c2f-6072-4059-b5d5-7bd45ff7b2d7")
+	)
+	(wire
+		(pts
 			(xy 120.65 129.54) (xy 133.35 129.54)
 		)
 		(stroke
@@ -4616,6 +4801,16 @@
 			(type default)
 		)
 		(uuid "020263a9-5060-43c3-ba02-069d3e5e5a7b")
+	)
+	(wire
+		(pts
+			(xy 26.67 128.27) (xy 27.94 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066370e9-d75a-4058-bd55-6f6300e1624f")
 	)
 	(wire
 		(pts
@@ -4676,6 +4871,16 @@
 			(type default)
 		)
 		(uuid "0b412552-9588-430e-ac6f-920613876e59")
+	)
+	(wire
+		(pts
+			(xy 191.77 41.91) (xy 191.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b98abc7-fc8d-43ea-8e3b-35a6bff2e51e")
 	)
 	(wire
 		(pts
@@ -4809,6 +5014,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 59.69) (xy 204.47 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ff2fe0-9dcc-4ea5-b23e-e0684ef1ed85")
+	)
+	(wire
+		(pts
 			(xy 57.15 48.26) (xy 66.04 48.26)
 		)
 		(stroke
@@ -4816,6 +5031,16 @@
 			(type default)
 		)
 		(uuid "177b646c-06de-4749-969e-e201cdc55f45")
+	)
+	(wire
+		(pts
+			(xy 204.47 49.53) (xy 203.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184bb460-fe5f-447f-bd5e-683b6dfab914")
 	)
 	(wire
 		(pts
@@ -4869,6 +5094,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 62.23) (xy 198.12 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5e2f28-c8e5-4fc8-8867-0a4f19a2b09c")
+	)
+	(wire
+		(pts
 			(xy 133.35 129.54) (xy 135.89 129.54)
 		)
 		(stroke
@@ -4889,6 +5124,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 46.99) (xy 204.47 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c28e8cf-15d1-4c91-88bf-21b42ae5e614")
+	)
+	(wire
+		(pts
 			(xy 20.32 52.07) (xy 26.67 52.07)
 		)
 		(stroke
@@ -4906,6 +5151,26 @@
 			(type default)
 		)
 		(uuid "1c7192f6-e807-4bdf-a923-d9e7582c5030")
+	)
+	(wire
+		(pts
+			(xy 191.77 57.15) (xy 198.12 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20428af0-d3a4-4825-9786-679d7eda06a7")
+	)
+	(wire
+		(pts
+			(xy 203.2 59.69) (xy 204.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2124d6ef-f61c-4ded-bf4f-d93140360a53")
 	)
 	(wire
 		(pts
@@ -5059,16 +5324,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 41.91) (xy 165.1 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2afcfc67-810a-4110-bc90-51a804997806")
-	)
-	(wire
-		(pts
 			(xy 186.69 114.3) (xy 180.34 114.3)
 		)
 		(stroke
@@ -5099,6 +5354,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 54.61) (xy 191.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3163e84d-9e4d-4011-a8d8-92ffb01ea652")
+	)
+	(wire
+		(pts
 			(xy 109.22 124.46) (xy 115.57 124.46)
 		)
 		(stroke
@@ -5116,6 +5381,16 @@
 			(type default)
 		)
 		(uuid "3358b1f4-d0df-4548-b672-bf8f889736e5")
+	)
+	(wire
+		(pts
+			(xy 191.77 57.15) (xy 191.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c78c7e-455e-4c34-b17e-1e24816f4d20")
 	)
 	(wire
 		(pts
@@ -5149,7 +5424,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 128.27) (xy 22.86 125.73)
+			(xy 21.59 128.27) (xy 21.59 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5206,6 +5481,16 @@
 			(type default)
 		)
 		(uuid "3a1edaa1-dbf9-404a-8d0d-30c62c385e2a")
+	)
+	(wire
+		(pts
+			(xy 191.77 46.99) (xy 191.77 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5fbc57-4ee1-45aa-91b7-77320e941ee9")
 	)
 	(wire
 		(pts
@@ -5349,6 +5634,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 41.91) (xy 204.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434ae654-0430-4c03-8f09-0e9b995692c3")
+	)
+	(wire
+		(pts
 			(xy 22.86 144.78) (xy 27.94 144.78)
 		)
 		(stroke
@@ -5366,6 +5661,16 @@
 			(type default)
 		)
 		(uuid "4615e28b-5408-47ef-9a5a-f0fbcb1c9d93")
+	)
+	(wire
+		(pts
+			(xy 191.77 59.69) (xy 198.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47668dff-8c47-4bb1-8b78-f279a3255b74")
 	)
 	(wire
 		(pts
@@ -5479,6 +5784,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 54.61) (xy 204.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5043faab-a007-4731-b149-0dc751a64253")
+	)
+	(wire
+		(pts
 			(xy 162.56 173.99) (xy 162.56 170.18)
 		)
 		(stroke
@@ -5486,6 +5801,16 @@
 			(type default)
 		)
 		(uuid "50f8656d-7b48-4891-98c9-3339cc97c44a")
+	)
+	(wire
+		(pts
+			(xy 198.12 46.99) (xy 191.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525b4a88-3ea5-40b2-bff5-b72ff7572902")
 	)
 	(wire
 		(pts
@@ -5569,6 +5894,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 54.61) (xy 198.12 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5816d32a-c97e-49ce-a3eb-7535925d1666")
+	)
+	(wire
+		(pts
 			(xy 57.15 77.47) (xy 66.04 77.47)
 		)
 		(stroke
@@ -5596,6 +5931,16 @@
 			(type default)
 		)
 		(uuid "5863720a-c297-40a9-8f63-965be0fe0fac")
+	)
+	(wire
+		(pts
+			(xy 204.47 62.23) (xy 204.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5890c08c-919a-424a-bd9c-0dc628d4a314")
 	)
 	(wire
 		(pts
@@ -5739,6 +6084,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 44.45) (xy 204.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "620a8e99-069d-49b8-9842-bbba4e312689")
+	)
+	(wire
+		(pts
 			(xy 64.77 86.36) (xy 57.15 86.36)
 		)
 		(stroke
@@ -5836,6 +6191,16 @@
 			(type default)
 		)
 		(uuid "6864f760-ced1-4886-af21-89a1fb4cb73b")
+	)
+	(wire
+		(pts
+			(xy 204.47 46.99) (xy 204.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695e9c63-e6b9-424e-9451-7c478a2ead1b")
 	)
 	(wire
 		(pts
@@ -5979,6 +6344,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 52.07) (xy 198.12 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b0d605-bc15-4d55-b30a-d28ac00e2161")
+	)
+	(wire
+		(pts
 			(xy 45.72 109.22) (xy 44.45 109.22)
 		)
 		(stroke
@@ -6046,6 +6421,16 @@
 			(type default)
 		)
 		(uuid "75ca8226-8c3e-457f-a8aa-e4750479ffb8")
+	)
+	(wire
+		(pts
+			(xy 204.47 54.61) (xy 204.47 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f20816-7af6-4f95-989d-c583dc45180f")
 	)
 	(wire
 		(pts
@@ -6159,6 +6544,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 123.19) (xy 27.94 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839136dc-4fba-4261-97e8-bfbd61d25ce6")
+	)
+	(wire
+		(pts
 			(xy 132.08 49.53) (xy 132.08 50.8)
 		)
 		(stroke
@@ -6176,6 +6571,16 @@
 			(type default)
 		)
 		(uuid "85d2481b-abcb-4a3d-9ece-210b99b1ff18")
+	)
+	(wire
+		(pts
+			(xy 204.47 57.15) (xy 204.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5229a3-9de6-445c-9a9a-39a12682127e")
 	)
 	(wire
 		(pts
@@ -6419,6 +6824,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 49.53) (xy 191.77 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4460c2-9ede-4432-9ef5-3cc6252aa2e8")
+	)
+	(wire
+		(pts
 			(xy 107.95 142.24) (xy 107.95 146.05)
 		)
 		(stroke
@@ -6459,13 +6874,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 41.91) (xy 132.08 41.91)
+			(xy 191.77 52.07) (xy 191.77 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a38d66a3-f314-43ac-b4ad-79e349f60bb5")
+		(uuid "a3d0f276-6329-4795-b89d-c08da616dc0d")
 	)
 	(wire
 		(pts
@@ -6639,16 +7054,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 132.08) (xy 133.35 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af1bbbc4-0e42-4032-9d52-36b1a77bdd4a")
-	)
-	(wire
-		(pts
 			(xy 58.42 172.72) (xy 67.31 172.72)
 		)
 		(stroke
@@ -6686,6 +7091,16 @@
 			(type default)
 		)
 		(uuid "b11c7d9b-14b3-4f67-8241-7a1f8814da4a")
+	)
+	(wire
+		(pts
+			(xy 203.2 62.23) (xy 204.47 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14a00ee-7236-4da6-8445-f63d870974b8")
 	)
 	(wire
 		(pts
@@ -6736,6 +7151,16 @@
 			(type default)
 		)
 		(uuid "b22a0d07-ccc7-4ae8-a24f-09fd77cf996f")
+	)
+	(wire
+		(pts
+			(xy 204.47 44.45) (xy 204.47 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ba8e6a-10de-4816-a493-515c8a14321e")
 	)
 	(wire
 		(pts
@@ -6969,6 +7394,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 52.07) (xy 204.47 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1fa2b36-acb6-44e8-9ab0-8d505d1a35f8")
+	)
+	(wire
+		(pts
 			(xy 64.77 153.67) (xy 64.77 158.75)
 		)
 		(stroke
@@ -7019,7 +7454,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 125.73) (xy 27.94 125.73)
+			(xy 21.59 125.73) (xy 27.94 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7056,6 +7491,16 @@
 			(type default)
 		)
 		(uuid "c8288b94-f3d4-499a-a2eb-f3aa77499f72")
+	)
+	(wire
+		(pts
+			(xy 191.77 59.69) (xy 191.77 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c907ff9b-cc9b-4d81-83d9-9a9410f54f74")
 	)
 	(wire
 		(pts
@@ -7339,6 +7784,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 57.15) (xy 204.47 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63928f1-e3fd-42e7-94d2-fc5cd97ffa12")
+	)
+	(wire
+		(pts
 			(xy 41.91 109.22) (xy 41.91 118.11)
 		)
 		(stroke
@@ -7366,16 +7821,6 @@
 			(type default)
 		)
 		(uuid "e7c8badf-ef12-45ff-9f9d-6495285539ff")
-	)
-	(wire
-		(pts
-			(xy 167.64 132.08) (xy 162.56 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e99a2856-678c-41c6-9388-1917e3f48ceb")
 	)
 	(wire
 		(pts
@@ -7459,6 +7904,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 44.45) (xy 191.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f63491-8515-4435-9963-34aa1b254920")
+	)
+	(wire
+		(pts
 			(xy 170.18 41.91) (xy 170.18 43.18)
 		)
 		(stroke
@@ -7499,6 +7954,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 49.53) (xy 191.77 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60a6638-6208-4a53-a651-71d11ef3a7dc")
+	)
+	(wire
+		(pts
 			(xy 64.77 165.1) (xy 64.77 170.18)
 		)
 		(stroke
@@ -7519,6 +7984,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 52.07) (xy 204.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b5950f-bfaa-4aa7-9446-fbca9a97da88")
+	)
+	(wire
+		(pts
 			(xy 123.19 68.58) (xy 129.54 68.58)
 		)
 		(stroke
@@ -7536,6 +8011,16 @@
 			(type default)
 		)
 		(uuid "f98586e3-9af1-43ff-9bea-ef2500ad3c2b")
+	)
+	(wire
+		(pts
+			(xy 198.12 44.45) (xy 191.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98ba676-55b5-4839-84e3-9890d72731b2")
 	)
 	(wire
 		(pts
@@ -7616,6 +8101,16 @@
 			(type default)
 		)
 		(uuid "fe76b5ec-082b-433d-9528-c1d36d3e7bce")
+	)
+	(wire
+		(pts
+			(xy 198.12 41.91) (xy 191.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff17625e-50ef-488c-9ed4-af9db8cd0478")
 	)
 	(wire
 		(pts
@@ -9078,6 +9573,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 162.56 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0262bd8e-4b9c-4557-aa26-1b6381af07f4")
+		(property "Reference" "NT3"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 162.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "corevus:NetTie-2_SMD_Pad0.15mm"
+			(at 162.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 162.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac930544-4873-4799-a071-686abd5e8e0e")
+		)
+		(pin "2"
+			(uuid "fb677dfa-8065-422b-9cdd-164addbedcce")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "NT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 96.52 55.88 0)
 		(mirror x)
@@ -9441,6 +10004,73 @@
 			(project "driver-dual-tmc2160"
 				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+48V")
+		(at 204.47 62.23 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05bf48d0-75ad-4707-9bcf-34754abe54d0")
+		(property "Reference" "#PWR080"
+			(at 200.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 207.01 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ed7faec-c9e4-489e-9f62-609e8daf99ca")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -10623,6 +11253,76 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 200.66 54.61 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "163eaa86-0764-4ad5-b999-aaab7f1ddd2a")
+		(property "Reference" "C45"
+			(at 201.66 55.61 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 100V"
+			(at 199.66 55.61 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_ME_passives:0402C"
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01b95b38-872a-4db2-b0dc-634d8561e4e2")
+		)
+		(pin "2"
+			(uuid "47eb8099-25c1-41fd-b78f-a8dbe89893d1")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 200.66 72.39 270)
 		(mirror x)
 		(unit 1)
@@ -11361,7 +12061,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF "
+		(property "Value" "1nF"
 			(at 122.19 134.89 90)
 			(effects
 				(font
@@ -11913,11 +12613,11 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "250de4a5-3779-46ee-9ffe-ad00d9580cf9")
 		(property "Reference" "TP6"
-			(at 143.51 126.238 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11926,7 +12626,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 143.51 128.778 0)
+			(at 142.24 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12048,6 +12748,76 @@
 				)
 				(path "/1a565782-f217-442e-b118-196625f31c53/d34aeff3-da22-4edc-92e0-1591d6117dbc"
 					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 200.66 46.99 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28e0a7ed-e1af-4c14-8682-ff808186f5d4")
+		(property "Reference" "C48"
+			(at 201.66 47.99 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 100V"
+			(at 199.66 47.99 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_ME_passives:0402C"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2953ddbb-3102-4d6d-a648-4ae8f5e05381")
+		)
+		(pin "2"
+			(uuid "4a577fb3-01cf-4e4b-88de-cd01ef3e0030")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -12291,6 +13061,70 @@
 				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
 					(reference "D4")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 241.3 148.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d93e630-1d83-43d0-a986-df4bc15ac3cb")
+		(property "Reference" "FID2"
+			(at 243.84 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 243.84 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 241.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 241.3 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "FID2")
+					(unit 1)
 				)
 			)
 		)
@@ -12607,6 +13441,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 165.1 139.7 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3132bd0e-a8ec-4828-90a8-7052afe5dd96")
+		(property "Reference" "NT8"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 165.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "corevus:NetTie-2_SMD_Pad0.15mm"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d5c185f-6c1a-4184-b15b-57b46d858c46")
+		)
+		(pin "2"
+			(uuid "a2ebfd19-0ab4-487f-a669-5aaed6743d88")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "NT8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 146.05 71.12 90)
 		(unit 1)
@@ -12772,7 +13675,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_ME_passives:0402LED"
+		(property "Footprint" "PCM_ME_passives:0603LED"
 			(at 80.01 176.53 90)
 			(effects
 				(font
@@ -13018,6 +13921,142 @@
 			(project "driver-dual-tmc2160"
 				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "389220e3-e79f-478d-bf5b-e4e5fe3346e4")
+		(property "Reference" "#PWR026"
+			(at 185.42 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c2a35ce-ec0a-4cad-8d17-5402858e5c2f")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 200.66 52.07 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39a4d98e-7469-4727-84bb-ea45757598fa")
+		(property "Reference" "C46"
+			(at 201.66 53.07 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 100V"
+			(at 199.66 53.07 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_ME_passives:0402C"
+			(at 200.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ef6757e-11a5-4989-a96e-3bb94d139948")
+		)
+		(pin "2"
+			(uuid "f2495db7-9abd-406e-99bc-61efdc50827e")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -13383,7 +14422,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 25.4 128.27 270)
+		(at 24.13 128.27 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13392,7 +14431,7 @@
 		(dnp no)
 		(uuid "43b8beb4-481e-41ee-9428-8dab0519a2a0")
 		(property "Reference" "C23"
-			(at 26.4 129.27 90)
+			(at 25.13 129.27 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13401,7 +14440,7 @@
 			)
 		)
 		(property "Value" "100nF 100V"
-			(at 24.4 129.27 90)
+			(at 23.13 129.27 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13410,7 +14449,7 @@
 			)
 		)
 		(property "Footprint" "PCM_ME_passives:0402C"
-			(at 25.4 128.27 0)
+			(at 24.13 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13419,7 +14458,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 128.27 0)
+			(at 24.13 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13428,7 +14467,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 128.27 0)
+			(at 24.13 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13967,6 +15006,140 @@
 			(project "driver-dual-tmc2160"
 				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 200.66 41.91 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "496d371f-b42e-48ff-964e-7b6f5aba6801")
+		(property "Reference" "C50"
+			(at 201.66 42.91 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 100V"
+			(at 199.66 42.91 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_ME_passives:0402C"
+			(at 200.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c3b9d2b-9bae-4f24-b176-faf24e7a4772")
+		)
+		(pin "2"
+			(uuid "1cf91169-b64a-467a-ad11-bd1c6b7d3b64")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 241.3 143.51 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a9cd06f-c0a3-4884-b7f9-7e6f7a350cca")
+		(property "Reference" "FID1"
+			(at 243.84 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 243.84 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -14825,6 +15998,76 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 200.66 59.69 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5520922f-5a51-4eda-85e2-0f1df506fb8c")
+		(property "Reference" "C43"
+			(at 201.66 60.69 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 100V"
+			(at 199.66 60.69 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_ME_passives:0402C"
+			(at 200.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d32ea89-35c7-4bef-a884-2c47e38c771d")
+		)
+		(pin "2"
+			(uuid "97153084-9d27-4690-b938-1494641ae28e")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 147.32 166.37 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15183,6 +16426,70 @@
 			(project "driver-dual-tmc2160"
 				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 241.3 153.67 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eb1a599-abe7-4567-9b43-2f49bdd9fa2f")
+		(property "Reference" "FID3"
+			(at 243.84 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 243.84 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 241.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 241.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -15628,6 +16935,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 129.54 49.53 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "61fc9134-732d-473e-b985-f785e613ad18")
+		(property "Reference" "NT2"
+			(at 129.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 129.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "corevus:NetTie-2_SMD_Pad0.15mm"
+			(at 129.54 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 129.54 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "371c4db5-615e-41d2-9c81-ef0e09137fe7")
+		)
+		(pin "2"
+			(uuid "6e8f4b07-0177-4b2d-bcbe-37f67be4c3fc")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "NT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 90.17 176.53 90)
 		(unit 1)
@@ -15654,7 +17030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_ME_passives:0402LED"
+		(property "Footprint" "PCM_ME_passives:0603LED"
 			(at 90.17 176.53 90)
 			(effects
 				(font
@@ -15829,75 +17205,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 162.56 49.53 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6aaf6615-a6f3-4a6e-a2c4-c12e157c362c")
-		(property "Reference" "NT2"
-			(at 162.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 162.56 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "corevus:NetTie-2_SMD_Pad0.1mm"
-			(at 162.56 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 162.56 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2756e1a1-11e5-4d18-af3c-89246a6a078a")
-		)
-		(pin "2"
-			(uuid "b3012f74-386a-49e3-b5ec-2110729306ca")
-		)
-		(instances
-			(project "driver-dual-tmc2160"
-				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
-					(reference "NT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+48V")
 		(at 147.32 62.23 180)
 		(unit 1)
@@ -15963,6 +17270,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 130.81 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dd580c6-fff6-490f-8002-f1f5983c18e0")
+		(property "Reference" "NT5"
+			(at 130.81 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "corevus:NetTie-2_SMD_Pad0.15mm"
+			(at 130.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 130.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13d404d9-05d0-4875-88ab-61184ed0f191")
+		)
+		(pin "2"
+			(uuid "544f1325-0148-4682-be88-955aae230fa7")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "NT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 121.92 45.72 0)
 		(mirror x)
@@ -15981,7 +17356,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF "
+		(property "Value" "1nF"
 			(at 120.92 44.72 90)
 			(effects
 				(font
@@ -16212,7 +17587,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_ME_passives:0402LED"
+		(property "Footprint" "PCM_ME_passives:0603LED"
 			(at 78.74 86.36 90)
 			(effects
 				(font
@@ -16279,6 +17654,75 @@
 				)
 				(path "/1a565782-f217-442e-b118-196625f31c53/f514cf63-1394-4014-821a-69b4627909f9"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 130.81 139.7 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "751218b5-be31-4dab-af36-35eff79946cf")
+		(property "Reference" "NT6"
+			(at 130.81 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 130.81 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "corevus:NetTie-2_SMD_Pad0.15mm"
+			(at 130.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 130.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fff58d4d-53b2-4230-8e35-3f93a740ec76")
+		)
+		(pin "2"
+			(uuid "6d5378a6-44db-4604-84f1-efa6c1e125aa")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "NT6")
 					(unit 1)
 				)
 			)
@@ -16442,75 +17886,6 @@
 			(project "driver-dual-tmc2160"
 				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 165.1 139.7 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "7733f806-3ec6-4114-aa86-8142b749a2fa")
-		(property "Reference" "NT4"
-			(at 165.1 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "corevus:NetTie-2_SMD_Pad0.1mm"
-			(at 165.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 165.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1c90f70-4277-444d-b732-2dd2a2bdeca0")
-		)
-		(pin "2"
-			(uuid "ca290586-6858-4b4b-b9d1-5d5186f2450d")
-		)
-		(instances
-			(project "driver-dual-tmc2160"
-				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
-					(reference "NT4")
 					(unit 1)
 				)
 			)
@@ -16777,6 +18152,76 @@
 			(project "driver-tmc2160"
 				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
 					(reference "T10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 200.66 44.45 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e1abccc-0f63-4d97-85c5-e9c823b8176c")
+		(property "Reference" "C49"
+			(at 201.66 45.45 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 100V"
+			(at 199.66 45.45 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_ME_passives:0402C"
+			(at 200.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c332dbb8-92ed-4c3c-9c37-2d77f16e193a")
+		)
+		(pin "2"
+			(uuid "0633e5af-9585-4968-a5fc-714e7f0640bf")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -17550,6 +18995,70 @@
 			(project "driver-tmc2160"
 				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 241.3 158.75 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86dda1f7-1c59-46e0-b77c-117230a72934")
+		(property "Reference" "FID4"
+			(at 243.84 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 243.84 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
+			(at 241.3 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 241.3 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "FID4")
 					(unit 1)
 				)
 			)
@@ -18499,8 +20008,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "97a4f43e-7853-4655-94cf-8f613e7479e0")
 		(property "Reference" "H4"
@@ -18558,77 +20067,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 130.81 139.7 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "97e635f8-5b34-4fc1-9067-173c8903d612")
-		(property "Reference" "NT3"
-			(at 130.81 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 130.81 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "corevus:NetTie-2_SMD_Pad0.1mm"
-			(at 130.81 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 130.81 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5984e49d-e923-4251-8440-a28cd98bc5a3")
-		)
-		(pin "2"
-			(uuid "45ba3668-3da9-406f-a072-35c14786ea2c")
-		)
-		(instances
-			(project "driver-dual-tmc2160"
-				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
-					(reference "NT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 25.4 123.19 270)
+		(at 24.13 123.19 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18637,7 +20077,7 @@
 		(dnp no)
 		(uuid "98103824-5a44-4102-a916-86d1f84c16d3")
 		(property "Reference" "C22"
-			(at 26.4 124.19 90)
+			(at 25.13 124.19 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18646,7 +20086,7 @@
 			)
 		)
 		(property "Value" "1μF 25V"
-			(at 24.4 124.19 90)
+			(at 23.13 124.19 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18655,7 +20095,7 @@
 			)
 		)
 		(property "Footprint" "PCM_ME_passives:0402C"
-			(at 25.4 123.19 0)
+			(at 24.13 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18664,7 +20104,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 123.19 0)
+			(at 24.13 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18673,7 +20113,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 123.19 0)
+			(at 24.13 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18961,6 +20401,76 @@
 			(project "driver-dual-tmc2160"
 				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 200.66 57.15 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b374c38-93f7-46e3-a292-95902da1af73")
+		(property "Reference" "C44"
+			(at 201.66 58.15 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 100V"
+			(at 199.66 58.15 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_ME_passives:0402C"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9395ec01-3884-4d67-9f21-5945f9c0bf5b")
+		)
+		(pin "2"
+			(uuid "5c8edd59-1b3c-4ff2-9297-cfcb0a6f43e9")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -19923,6 +21433,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 200.66 62.23 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa1001e2-3d6c-40d5-b653-fd597bba2f90")
+		(property "Reference" "C42"
+			(at 201.66 63.23 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 100V"
+			(at 199.66 63.23 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_ME_passives:0402C"
+			(at 200.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1789f16-4a13-45f6-ac3f-91095c9faef1")
+		)
+		(pin "2"
+			(uuid "4b6bdd7c-2c9c-4407-924d-55fc0b1eec52")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 17.78 175.26 0)
 		(unit 1)
@@ -20717,7 +22297,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 22.86 123.19 0)
+		(at 21.59 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20725,7 +22305,7 @@
 		(dnp no)
 		(uuid "b85b192e-a72c-4b6b-b285-e9df602d2b16")
 		(property "Reference" "#PWR046"
-			(at 22.86 127 0)
+			(at 21.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20734,7 +22314,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 22.86 119.38 0)
+			(at 21.59 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20742,7 +22322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 123.19 0)
+			(at 21.59 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20751,7 +22331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 123.19 0)
+			(at 21.59 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20760,7 +22340,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 123.19 0)
+			(at 21.59 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21076,7 +22656,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_ME_passives:0402LED"
+		(property "Footprint" "PCM_ME_passives:0603LED"
 			(at 88.9 86.36 90)
 			(effects
 				(font
@@ -22599,6 +24179,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 162.56 49.53 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3dd49b3-84d4-4906-95c2-b47b06b179b4")
+		(property "Reference" "NT4"
+			(at 162.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 162.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "corevus:NetTie-2_SMD_Pad0.15mm"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "103aed6c-4081-4fec-b528-c25540675dc8")
+		)
+		(pin "2"
+			(uuid "e7aea124-0386-4c1f-9903-aa3231d94d34")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "NT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 31.75 19.05 90)
 		(mirror x)
@@ -22766,7 +24415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF "
+		(property "Value" "1nF"
 			(at 173.72 134.89 90)
 			(effects
 				(font
@@ -22970,7 +24619,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF "
+		(property "Value" "1nF"
 			(at 171.18 44.72 90)
 			(effects
 				(font
@@ -23016,75 +24665,6 @@
 			(project "driver-tmc2160"
 				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 129.54 49.53 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9cf3625-a435-41c7-a453-1fefb04dea9f")
-		(property "Reference" "NT1"
-			(at 129.54 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 129.54 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "corevus:NetTie-2_SMD_Pad0.1mm"
-			(at 129.54 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 129.54 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1696c01d-0ebe-4555-a8e0-3dd79947cfbb")
-		)
-		(pin "2"
-			(uuid "38741347-978b-4618-a927-5aa3b5cf1b23")
-		)
-		(instances
-			(project ""
-				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
-					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -23575,6 +25155,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 129.54 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5a54935-1644-4508-aa35-a11e0ee2819d")
+		(property "Reference" "NT1"
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 129.54 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "corevus:NetTie-2_SMD_Pad0.15mm"
+			(at 129.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 129.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a01876e9-b9f1-44c7-b63f-48a6da95b9e1")
+		)
+		(pin "2"
+			(uuid "213447fe-7ccb-4c17-a637-7ace3f2ec9ca")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BAV99S")
 		(at 140.97 152.4 0)
 		(unit 1)
@@ -23782,6 +25430,74 @@
 			(project "driver-tmc2160"
 				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
 					(reference "T4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 165.1 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e93ae4f8-1dfc-40b2-ab88-8e57aa055076")
+		(property "Reference" "NT7"
+			(at 165.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 165.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "corevus:NetTie-2_SMD_Pad0.15mm"
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df456e18-fd63-49e4-a564-e9bef6f06fa4")
+		)
+		(pin "2"
+			(uuid "51b5d3fa-cb7e-4efd-b5e7-cb3f09b6973a")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "NT7")
 					(unit 1)
 				)
 			)
@@ -24280,6 +25996,76 @@
 			(project "driver-tmc2160"
 				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 200.66 49.53 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9af4059-33f8-48a3-90a8-effd6be64a81")
+		(property "Reference" "C47"
+			(at 201.66 50.53 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 100V"
+			(at 199.66 50.53 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_ME_passives:0402C"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1fb53ba-c722-4ced-b74e-39b6ba8ac92a")
+		)
+		(pin "2"
+			(uuid "7696c802-ed07-4414-8ae8-fe659ea17b3f")
+		)
+		(instances
+			(project "driver-dual-tmc2160"
+				(path "/03364e55-5655-494a-997e-0cd456c2d9b5"
+					(reference "C47")
 					(unit 1)
 				)
 			)
